@@ -1,8 +1,0 @@
-# main links
-main:
-  - title: "Home"
-    url: "/index.html"
-  - title: "Publications"
-    url: /publications-page/index.html
-  - title: "Contact"
-    url: /contact-page/index.html
