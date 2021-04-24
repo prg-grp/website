@@ -19,6 +19,12 @@ a, table.table a {
   }
 }
 
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: $grey-color;
+}
+
 // Math
 
 .equation {
@@ -43,10 +49,14 @@ a, table.table a {
   width: 100%;
 
   .address {
+    .name {
+      font-size: 1.2rem;
+    }
+    .post {
+      font-size: .8rem;
+    }
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
-    font-size: 1.2rem;
     p {
       display: inline-block;
       margin: 0;
