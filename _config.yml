@@ -87,10 +87,16 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    permalink: /news/:path
+  solutions:
+    output: true
+    permalink: /solutions/:path
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:path
+  members:
+    output: true
+    permalink: /members/:path
 
 news_limit: 5
 
@@ -123,7 +129,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
-  - jemoji
+  # - jemoji # loads emoji images from GitHubs servers (cross origin...) Rather use unicode emojis in text
   # - bootstrap
   # - material-sass
 
