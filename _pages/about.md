@@ -4,20 +4,21 @@ title: About
 permalink: /
 nav: true
 nav_rank: 1
+sitetitle: true
 description: Our group, solutions, projects and more.
 
 profile:
-  align: right
-  image: salvaneschi-welcome.jpg
-  address: >
-    <p><span class="name">Prof. Dr. Guido Salvaneschi</span><br />
-    <i>Head of the Programming Group</i><br />
-    <a href="mailto:guido.salvaneschi@unisg.ch"><i class="fas fa-envelope"></i> guido.salvaneschi@unisg.ch</a></p>
-    <p class="post">School of Computer Science 33-507<br />
-    Rosenbergstraße 51<br />
-    9000 St. Gallen, Switzerland</p>
+    name: Prof. Dr. Guido Salvaneschi
+    position: Head of the Programming Group
+    align: right
+    image: salvaneschi-profile.jpg
+    email: guido.salvaneschi@unisg.ch
+    address: >
+        School of Computer Science 33-507<br />
+        Rosenbergstraße 51<br />
+        9000 St. Gallen, Switzerland
 
-news: false  # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---

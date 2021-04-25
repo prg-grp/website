@@ -6,9 +6,9 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">
-     {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
+     {% if page.sitetitle %}{{ site.title }}{% else %}{{ page.title }}{% endif %}
     </h1>
-     <p class="post-description">{{ page.description }}</p>
+    <p class="post-description">{{ page.description }}</p>
   </header>
 
   <article>
@@ -19,7 +19,15 @@ layout: default
       {% endif %}
       {% if page.profile.address %}
         <div class="address">
-          {{ page.profile.address }}
+          <p><span class="name">{{ page.profile.name }}</span>
+            {% if page.profile.position %}<br /><i>{{ page.profile.position }}</i>{% endif %}
+            {% if page.profile.email %}<br /><a href="mailto:{{ page.profile.email }}"><i class="fas fa-envelope"></i> {{ page.profile.email }}</a>{% endif %}
+            {% if page.profile.phone %}<br /><a href="tel:{{ page.profile.phone }}"><i class="fas phone"></i> {{ page.profile.phone }}</a>{% endif %}
+            {% if page.profile.twitter %}<br /><a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank"><i class="fab fa-twitter"></i> {{ page.profile.twitter }}</a>{% endif %}
+            {% if page.profile.github %}<br /><a href="https://github.com/{{ page.profile.github }}" target="_blank"><i class="fab fa-github"></i> {{ page.profile.github }}</a>{% endif %}
+            {% if page.profile.website %}<br /><a href="{{ page.profile.website }}" target="_blank"><i class="fas fa-globe"></i> {{ page.profile.website }}</a>{% endif %}
+          </p>
+          <p class="post">{{ page.profile.address }}</p>
         </div>
       {% endif %}
     </div>
