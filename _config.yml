@@ -97,6 +97,12 @@ collections:
   members:
     output: true
     permalink: /members/:path
+  theses:
+    output: true
+    permalink: /theses/:path
+  courses:
+    output: true
+    permalink: /courses/:path
 
 news_limit: 5
 
