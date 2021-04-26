@@ -1,14 +1,14 @@
-<div class="flow-grid d-flex align-content-stretch flex-wrap">
+<div class="d-flex align-content-stretch justify-content-center flex-wrap no-gutters m-n2">
 
     {% assign contributions = site.contributions | sort: 'rank' %}
     {% for contribution in contributions %}
-        <div class="item col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4 mb-3">
             {% if contribution.external_page %}
-            <a href="{{ contribution.external_page }}" target="_blank">
+            <a href="{{ contribution.external_page }}" class="no-decoration" target="_blank">
             {% elsif contribution.inline == false %}
-            <a href="{{ contribution.url | relative_url }}">
+            <a href="{{ contribution.url | relative_url }}" class="no-decoration">
             {% endif %}
-                <div class="card {% if contribution.inline == false or contribution.external_page %}hoverable{% endif %}">
+                <div class="card h-100 m-2 {% if contribution.inline == false or contribution.external_page %}hoverable{% endif %}">
                     {% if contribution.image %}
                         <img src="/assets/img/{{ contribution.image | relative_url }}" class="card-img-top" alt="{{ contribution.title }}" />
                     {% endif %}

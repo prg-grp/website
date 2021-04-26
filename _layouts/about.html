@@ -20,7 +20,7 @@ layout: default
       {% if page.profile.address %}
         <div class="address">
           <p><span class="name">{{ page.profile.name }}</span>
-            {% if page.profile.position %}<br /><i>{{ page.profile.position }}</i>{% endif %}
+            {% if page.profile.position %}<br />{{ page.profile.position }}{% endif %}
             {% if page.profile.email %}<br /><a href="mailto:{{ page.profile.email }}"><i class="fas fa-envelope"></i> {{ page.profile.email }}</a>{% endif %}
             {% if page.profile.phone %}<br /><a href="tel:{{ page.profile.phone }}"><i class="fas phone"></i> {{ page.profile.phone }}</a>{% endif %}
             {% if page.profile.twitter %}<br /><a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank"><i class="fab fa-twitter"></i> {{ page.profile.twitter }}</a>{% endif %}
@@ -35,14 +35,14 @@ layout: default
 
     <div class="clearfix">
       {{ content }}
-    </div>
 
-    {% if page.social %}
-    <div class="social">
-      {% include social.html %}
-      <div class="contact-note">{{ site.contact_note }}</div>
+        {% if page.social %}
+        <div class="social mt-5 pt-5 mb-5 pb-5">
+            {% include social.html %}
+            <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+        {% endif %}
     </div>
-    {% endif %}
 
     {% if page.news %}
       <h2>News</h2>

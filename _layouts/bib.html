@@ -22,7 +22,7 @@
                     {% assign strippedContribution = contribution | strip %}
                     {% assign dataContrib = site.data.contributions[contribution] | first %}
                     {% if site.data.contributions[contribution] %}
-                        <abbr class="badge contribution"><a href="{{ dataContrib.url }}" target="_blank">{{ contribution }} <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                        <abbr class="badge contribution"><a href="{{ dataContrib.url }}">{{ contribution }} <i class="fas fa-external-link-alt"></i></a></abbr><br />
                     {% else %}
                         <abbr class="badge contribution">{{ contribution }}</abbr><br />
                     {% endif %}

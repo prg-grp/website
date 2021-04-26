@@ -7,6 +7,9 @@
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
+article {
+  margin-top: 2rem;
+}
 article > h2 {
   margin-top: 4rem;
 }
@@ -24,7 +27,6 @@ a, table.table a {
 
 blockquote p {
   font-size: 1.5rem;
-  font-style: italic;
   color: $grey-color;
 }
 
@@ -48,7 +50,7 @@ blockquote p {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-left: 2rem;
   width: 100%;
 
   .address {
@@ -191,9 +193,6 @@ blockquote p {
       }
     }
   }
-  .contact-note {
-    font-size: 0.8rem;
-  }
 }
 
 
@@ -288,16 +287,10 @@ footer.sticky-bottom {
 }
 
 
-// Projects
+// Contributions, projects, team overview
 
-.flow-grid {
-  margin: -10px;
-  .item {
-    padding: 10px;
-    a {
-      text-decoration: none;
-    }
-  }
+a.no-decoration:hover {
+    text-decoration: none;
 }
 
 // Team

@@ -16,7 +16,7 @@ profile:
     address: >
         School of Computer Science 33-507<br />
         Rosenbergstrasse 51<br />
-        9000 St. Gallen, Switzerland
+        9000 St. Gallen, Switzerland<br />
 
 news: false # includes a list of news items
 contributions: true # includes a tile list of contributions
@@ -33,12 +33,32 @@ social: true  # includes social icons at the bottom of the page
 Welcome to the Programming Group!
 We are located at the [University of St. Gallen (HSG)](https://www.unisg.ch/)
 and have a branch at the [Technical University of Darmstadt](https://www.tu-darmstadt.de/). 
-Together we enjoy working on **programming languages**
-and **software engineering**, including languages and architectures for
-**distributed systems**, **reactive programming**, and **secure software systems**.
+Together we enjoy working on **Programming Languages**
+and **Software Engineering**, including languages and architectures for
+**Distributed Systems**, **Reactive Programming**, and **Secure Software Systems**.
 
 [Talk to us](mailto:guido.salvaneschi@unisg.ch) or
 [join our group]({{ '/open-positions' | relative-path }})
 when you are interested in these topics or our work.
 Students at HSG or TU Darmstadt,
 please find [our courses, theses, and HiWi offerings]({{ '/for-students' | relative-path }}).
+
+<span class="clearfix"></span>
+
+{% assign members = site.members | sort: "lastname" %}
+<div class="d-flex flex-wrap align-content-stretch justify-content-center m-n2 pt-5 no-gutters">
+    {% for member in members %}
+        {% if member.group == 'Doctoral Researchers' or member.group == 'Postdoctoral Researchers' %}
+            <div class="col-6 col-sm-3 col-md-2 mb-3">
+                <a href="{{ member.url | relative_url }}" class="no-decoration">
+                    <div class="card hoverable h-100 m-2">
+                        <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img-top" alt="{{ member.profile.name }}" />
+                        <div class="card-body p-2">
+                            <div class="card-title m-0">{{ member.title }}</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
