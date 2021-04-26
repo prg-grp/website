@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /for-students
-title: For Students
+permalink: /teaching
+title: Teaching
 description: Offered courses, theses and student jobs at HSG and TU Darmstadt.
 nav: true
 nav_rank: 3
@@ -19,10 +19,8 @@ to write a [thesis](#theses) with us or to [join us as a HiWi or PhD student]({{
 
 {% include courses.html past='false' %}
 
-## Past Courses
-
-<a class="btn btn-primary" data-toggle="collapse" href="#pastCourses" role="button">
-    Show
+<a data-toggle="collapse" href="#pastCourses" role="button">
+    <i class="fas fa-chevron-down"></i> Show Past Courses
 </a>
 
 <div class="collapse" id="pastCourses">
