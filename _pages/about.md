@@ -19,7 +19,7 @@ profile:
         9000 St. Gallen, Switzerland
 
 news: false # includes a list of news items
-solutions: true # includes a tile list of solutions
+contributions: true # includes a tile list of contributions
 projects: true # includes a tile list of projects
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page

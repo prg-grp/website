@@ -88,9 +88,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path
-  solutions:
+  contributions:
     output: true
-    permalink: /solutions/:path
+    permalink: /contributions/:path
   projects:
     output: true
     permalink: /projects/:path
