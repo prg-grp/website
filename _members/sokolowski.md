@@ -1,18 +1,19 @@
 ---
 layout: about
-inline: true
+inline: false
 group: Doctoral Researchers
 group_rank: 3
 
 title: Daniel Sokolowski
 lastname: Sokolowski
+publications: 'author^=*Sokolowski'
 
 teaser: >
     I am interested in distributed systems and cloud technology
     from a Programming Languages and Software Engineering perspective.
     At the moment, I mainly focus on advanced solutions for DevOps
     leveraging Infrastructure as Code.
-    I am part of the <a href="https://www.software-factory-4-0.de/" target="_blank">Software Factory 4.0 project</a>.
+    I am part of the Software Factory 4.0 project.
 
 profile:
     name: Daniel Sokolowski

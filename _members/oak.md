@@ -1,11 +1,12 @@
 ---
 layout: about
-inline: true
+inline: false
 group: Doctoral Researchers
 group_rank: 3
 
 title: Aditya Oak
 lastname: Oak
+publications: 'author^=*Oak'
 
 teaser: >
     My research interests include Programming Languages,

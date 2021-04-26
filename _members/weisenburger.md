@@ -1,11 +1,12 @@
 ---
 layout: about
-inline: true
+inline: false
 group: Postdoctoral Researchers
 group_rank: 2
 
 title: Dr. Pascal Weisenburger
 lastname: Weisenburger
+publications: 'author^=*Weisenburger'
 
 teaser: >
     My current focus is on the design of languages for distributed systems

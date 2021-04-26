@@ -6,6 +6,7 @@ group_rank: 1
 
 title: Prof. Dr. Guido Salvaneschi
 lastname: Salvaneschi
+publications: 'author^=*Salvaneschi'
 
 teaser: >
     I’m a (tenured) Associate Professor at the University of St.Gallen from September 2020.

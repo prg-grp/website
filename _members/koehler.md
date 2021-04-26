@@ -1,15 +1,16 @@
 ---
 layout: about
-inline: true
+inline: false
 group: Doctoral Researchers
 group_rank: 3
 
 title: Mirko Köhler
 lastname: Köhler
+publications: 'author^=*K*hler'
 
 teaser: >
     I work on programming abstractions for replicated data.
-    Currently, I'm the main contributor to <a href="https://consyst-project.github.io/" target="_blank">ConSysT</a>,
+    Currently, I'm the main contributor to ConSysT,
     an object-oriented language for mixed consistency with replicated objects.
     My research interests include concurrency, mixed consistency protocols, and type systems.
 

@@ -1,11 +1,12 @@
 ---
 layout: about
-inline: true
+inline: false
 group: Doctoral Researchers
 group_rank: 3
 
 title: Benyamin Delshad Mamaghani
 lastname: Delshad Mamaghani
+publications: 'author^=*Delshad'
 
 teaser: >
     I am a PhD student in the Programming Group since October 2020 at the University of St. Gallen.

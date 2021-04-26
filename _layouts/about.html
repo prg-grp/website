@@ -65,6 +65,13 @@ layout: default
       <h2> Completed Projects</h2>
       {% include projects.html past="true" %}
     {% endif %}
+
+    {% if page.publications %}
+      <h2>Publications</h2>
+      <div class="publications">
+        {% bibliography -f papers -q @*[{{page.publications}}]* %}
+      </div>
+    {% endif %}
   </article>
 
 </div>

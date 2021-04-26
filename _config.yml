@@ -163,6 +163,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: year,month
+  order: descending
 
 # -----------------------------------------------------------------------------
 # Optional Features
