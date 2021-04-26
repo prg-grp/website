@@ -1,0 +1,26 @@
+<h2>Projects</h2>
+
+<div class="projects grid">
+
+    {% assign projects = site.projects | sort: 'rank' %}
+    {% for project in projects %}
+    <div class="grid-item">
+        {% if project.external_page %}
+        <a href="{{ project.external_page }}" target="_blank">
+        {% elsif project.inline == false %}
+        <a href="{{ project.url | relative_url }}">
+        {% endif %}
+            <div class="card {% if project.inline == false or project.external_page %}hoverable{% endif %}">
+                {% if project.image %}
+                    <img src="/assets/img/{{ project.image | relative_url }}" alt="{{ project.title }}" />
+                {% endif %}
+                <div class="card-body">
+                    <h2 class="card-title">{{ project.title }}{% if project.inline == false or project.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}</h2>
+                    <p class="card-text">{{ project.description }}</p>
+                </div>
+            </div>
+            {% if project.inline == false or project.external_page %}</a>{% endif %}
+    </div>
+    {% endfor %}
+
+</div>

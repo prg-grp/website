@@ -37,6 +37,13 @@ layout: default
       {{ content }}
     </div>
 
+    {% if page.social %}
+    <div class="social">
+      {% include social.html %}
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+    {% endif %}
+
     {% if page.news %}
       {% include news.html %}
     {% endif %}
@@ -49,11 +56,8 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
-    {% if page.social %}
-    <div class="social">
-      {% include social.html %}
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
+    {% if page.projects %}
+      {% include projects.html %}
     {% endif %}
   </article>
 
