@@ -1,6 +1,24 @@
 ---
 ---
 
+@phdthesis{tuprints13500,
+	contributions = {ScalaLoci},
+	address = {Darmstadt},
+	school = {Technische Universit{\"a}t Darmstadt},
+	year = {2020},
+	title = {A Programming Language for Distributed Systems},
+	author = {Pascal Weisenburger},
+	url = {http://tuprints.ulb.tu-darmstadt.de/13500/},
+	doi = {10.25534/tuprints-00013500},
+	abstract = {Today?s software, including many everyday services, such as online streaming, search engines and social networks, is widely distributed, running on top of a network of interconnected computers. Such distributed applications are traditionally developed as separate modules for each component in the distributed system. These modules react to events, like user input or messages from the network, and in turn produce new events for the other modules. Separation into different modules is problematic because combining modules is notoriously hard and requires extensive and time-consuming integration and manual implementation of communication forces programmers to program complex event-based communication schemes among hosts ? an activity which is often low-level and error-prone. The combination of the two results in obscure distributed data flows scattered among multiple modules, hindering reasoning about the system as a whole. For these reasons, despite most software today is distributed, the design and development of distributed systems remains surprisingly challenging.
+
+	We present the ScalaLoci distributed programming language, our approach for taming the complexity of developing distributed applications via specialized programming language support. ScalaLoci addresses the issues above with a coherent model based on placement types that enables reasoning about distributed data flows otherwise scattered across multiple modules, supporting multiple software architectures via dedicated language features and abstracting over low-level communication details and data conversions.
+
+	ScalaLoci does not force developers to modularize software along network boundaries as is traditionally the case when developing distributed systems. Instead, we propose a module system that supports encapsulating each (cross-host) functionality and defining it over abstract peer types. As a result, we disentangle modularization and distribution and we enable the definition of a distributed system as a composition of ScalaLoci modules, each representing a subsystem.
+
+	Our case studies on distributed algorithms, distributed data structures, as well as on real-world distributed streaming engines show that ScalaLoci simplifies developing distributed systems, reduces error-prone communication code and favors early detection of bugs. As we demonstrate, the ScalaLoci module system allows the definition of reusable patterns of interaction in distributed software and enables separating the modularization and distribution concerns, properly separating functionalities in distributed systems.}
+}
+
 @article{10.1145/3428256,
 	selected = {true},
 	abbr = {OOPSLA},
@@ -351,6 +369,18 @@
 	URN =		{urn:nbn:de:0030-drops-108041},
 	doi =		{10.4230/LIPIcs.ECOOP.2019.12},
 	annote =	{Keywords: P4, data plane programming, type systems}
+}
+
+@INPROCEEDINGS{9033134,
+	abbr = {GHTC},
+	author = {Baumgärtner, Lars and Höchst, Jonas and Lampe, Patrick and Mogk, Ragnar and Sterz, Artur and Weisenburger, Pascal and Mezini, Mira and Freisleben, Bernd},
+	booktitle = {2019 IEEE Global Humanitarian Technology Conference (GHTC)},
+	title = {Smart Street Lights and Mobile Citizen Apps for Resilient Communication in a Digital City},
+	year = {2019},
+	volume = {},
+	number = {},
+	pages = {1-8},
+	doi = {10.1109/GHTC46095.2019.9033134}
 }
 
 @article{10.1145/3276499,
