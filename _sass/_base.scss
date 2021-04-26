@@ -328,9 +328,9 @@ footer.sticky-bottom {
   h2.year {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
-    padding-top: 1rem;
+    padding-top: 0rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin-bottom: 0rem;
     text-align: right;
   }
   ol.bibliography {
@@ -341,11 +341,14 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
       .abbr {
+        display: inline;
+        text-align: right;
+        float: right;
         height: 2rem;
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
+          background-color: $purple-color;
           padding-left: 1rem;
           padding-right: 1rem;
           a {
@@ -353,6 +356,9 @@ footer.sticky-bottom {
             &:hover {
               text-decoration: none;
             }
+          }
+          &.contribution {
+            background-color: var(--global-theme-color);
           }
         }
         .award {
