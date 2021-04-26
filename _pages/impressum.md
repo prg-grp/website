@@ -10,7 +10,7 @@ nav: false
 
 School of Computer Science 33-507\
 c/o Prof. Dr. Guido Salvaneschi\
-Rosenbergstraße 51\
+Rosenbergstrasse 51\
 9000 St. Gallen\
 SWITZERLAND
 

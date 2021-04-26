@@ -22,7 +22,7 @@ profile:
     website: http://www.guidosalvaneschi.com
     address: >
         School of Computer Science 33-507<br />
-        Rosenbergstraße 51<br />
+        Rosenbergstrasse 51<br />
         9000 St. Gallen, Switzerland
 ---
 
