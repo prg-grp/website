@@ -1,8 +1,6 @@
-<h2>Projects</h2>
-
 <div class="projects grid">
 
-    {% assign projects = site.projects | sort: 'rank' %}
+    {% assign projects = site.projects | where: 'past', include.past | sort: 'rank' %}
     {% for project in projects %}
     <div class="grid-item">
         {% if project.external_page %}

@@ -1,0 +1,22 @@
+{% assign courses = site.courses | where: 'past', include.past | reverse %}
+<div class="table-responsive">
+    <table class="table table-sm table-borderless">
+        {% for course in courses %}
+        <tr>
+            <td>{{ course.semester }}</td>
+            <td>
+                {% if course.external_page %}
+                    <a href="{{ course.external_page }}" target="_blank">
+                {% elsif course.inline == false %}
+                    <a href="{{ course.url | relative_url }}">
+                {% endif %}
+                        {{ course.title }}{%
+                        if course.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}{%
+                        if course.inline == false or course.external_page %}</a>{% endif %}
+                    <br />
+                    <i class="fas fa-thumbtack"></i> {{ course.university }}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>

@@ -1,0 +1,16 @@
+{% assign theses = site.theses | sort: 'rank' %}
+<ul>
+    {% for thesis in theses %}
+    <li>
+        {% if thesis.external_page %}
+        <a href="{{ thesis.external_page }}" target="_blank">
+        {% elsif thesis.inline == false %}
+        <a href="{{ thesis.url | relative_url }}">
+            {% endif %}
+            {{ thesis.title }}{%
+            if thesis.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}{%
+            if thesis.inline == false or thesis.external_page %}</a>{% endif %}:
+        <a href="{{ '/members/' | append: thesis.contact.member | relative_url }}">{{ thesis.contact.name }}</a>
+    </li>
+    {% endfor %}
+</ul>

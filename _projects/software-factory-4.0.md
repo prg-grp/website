@@ -6,4 +6,5 @@ description: 'LOEWE project. Engineering software systems for high performance c
 rank: 2
 image: projects/software-factory-4.0.png
 external_page: https://www.emergencity.de/
+past: false
 ---

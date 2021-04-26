@@ -6,4 +6,5 @@ description: 'LOEWE project. Emergency Responsive Digital Cities: Resilient soft
 rank: 1
 image: projects/emergencity.svg
 external_page: https://www.emergencity.de/
+past: false
 ---

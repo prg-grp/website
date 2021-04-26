@@ -45,19 +45,25 @@ layout: default
     {% endif %}
 
     {% if page.news %}
+      <h2>News</h2>
       {% include news.html %}
     {% endif %}
 
     {% if page.solutions %}
+      <h2>Solutions</h2>
       {% include solutions.html %}
     {% endif %}
 
     {% if page.selected_papers %}
+      <h2>Selected Papers</h2>
       {% include selected_papers.html %}
     {% endif %}
 
     {% if page.projects %}
-      {% include projects.html %}
+      <h2> Projects</h2>
+      {% include projects.html past="false" %}
+      <h2> Completed Projects</h2>
+      {% include projects.html past="true" %}
     {% endif %}
   </article>
 

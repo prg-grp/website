@@ -17,26 +17,7 @@ to write a [thesis](#theses) with us or to [join us as a HiWi or PhD student]({{
 
 ## Courses
 
-{% assign courses = site.courses | where: 'past', false | reverse %}
-<div class="table-responsive">
-      <table class="table table-sm table-borderless">
-{% for course in courses %}
-    <tr>
-        <td>{{ course.semester }}</td>
-        <td>
-            {% if course.external_page %}
-            <a href="{{ course.external_page }}" target="_blank">
-            {% elsif course.inline == false %}
-            <a href="{{ course.url | relative_url }}">
-            {% endif %}
-            {{ course.title }}{% 
-                if course.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}{% 
-                if course.inline == false or course.external_page %}</a>{% endif %}
-            <br />
-            <i class="fas fa-thumbtack"></i> {{ course.university }}
-        </td>
-    </tr>
-{% endfor %}</table></div>
+{% include courses.html past='false' %}
 
 ## Past Courses
 
@@ -44,26 +25,9 @@ to write a [thesis](#theses) with us or to [join us as a HiWi or PhD student]({{
     Show
 </a>
 
-{% assign courses = site.courses | where: 'past', true | reverse %}
-<div class="collapse table-responsive" id="pastCourses">
-      <table class="table table-sm table-borderless">
-{% for course in courses %}
-    <tr>
-        <td>{{ course.semester }}</td>
-        <td>
-            {% if course.external_page %}
-            <a href="{{ course.external_page }}" target="_blank">
-            {% elsif course.inline == false %}
-            <a href="{{ course.url | relative_url }}">
-            {% endif %}
-            {{ course.title }}{% 
-                if course.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}{% 
-                if course.inline == false or course.external_page %}</a>{% endif %}
-            <br />
-            <i class="fas fa-thumbtack"></i> {{ course.university }}
-        </td>
-    </tr>
-{% endfor %}</table></div>
+<div class="collapse" id="pastCourses">
+      {% include courses.html past='true' %}
+</div>
 
 ## Theses
 
@@ -76,21 +40,7 @@ As our work evolves, the topics change continuously.
 If you want to know more about our currently available topics,
 please get in touch with us:
 
-{% assign theses = site.theses | sort: 'rank' %}
-<ul>{% for thesis in theses %}
-    <li>
-        {% if thesis.external_page %}
-        <a href="{{ thesis.external_page }}" target="_blank">
-        {% elsif thesis.inline == false %}
-        <a href="{{ thesis.url | relative_url }}">
-        {% endif %}
-        {{ thesis.title }}{% 
-            if thesis.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}{% 
-            if thesis.inline == false or thesis.external_page %}</a>{% endif %}:
-        <a href="{{ '/members/' | append: thesis.contact.member | relative_url }}">{{ thesis.contact.name }}</a>
-    </li>
-{% endfor %}</ul>
-
+{% include theses.html %}
 
 Please enclose in your mail your research interests and experiences so far.
 Knowing about your favorite courses, projects, and personal experience
