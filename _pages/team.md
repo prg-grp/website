@@ -13,13 +13,13 @@ nav_rank: 2
 
     {% assign members = site.members | sort: "lastname" | where: "group", group %}
     {% for member in members %}
-<p class="team">
+<p>
     <div class="card {% if member.inline == false %}hoverable{% endif %}">
         <div class="row no-gutters">
             <div class="col-sm-4 col-md-3">
                 <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="img-fluid" alt="{{ member.profile.name }}" />
             </div>
-            <div class="col-sm-8 col-md-9">
+            <div class="team col-sm-8 col-md-9">
                 <div class="card-body">
                     {% if member.inline == false %}<a href="{{ member.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ member.profile.name }}{% if member.inline == false %} <i class="fas fa-external-link-alt"></i>{% endif %}</h5>

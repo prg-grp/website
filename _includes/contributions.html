@@ -1,24 +1,24 @@
-<div class="projects grid">
+<div class="flow-grid d-flex align-content-stretch flex-wrap">
 
     {% assign contributions = site.contributions | sort: 'rank' %}
     {% for contribution in contributions %}
-    <div class="grid-item">
-        {% if contribution.external_page %}
-        <a href="{{ contribution.external_page }}" target="_blank">
-        {% elsif contribution.inline == false %}
-        <a href="{{ contribution.url | relative_url }}">
-        {% endif %}
-            <div class="card {% if contribution.inline == false or contribution.external_page %}hoverable{% endif %}">
-                {% if contribution.image %}
-                    <img src="/assets/img/{{ contribution.image | relative_url }}" alt="{{ contribution.title }}" />
-                {% endif %}
-                <div class="card-body">
-                    <h2 class="card-title">{{ contribution.title }}{% if contribution.inline == false or contribution.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}</h2>
-                    <p class="card-text">{{ contribution.description }}</p>
+        <div class="item col-sm-6 col-md-4">
+            {% if contribution.external_page %}
+            <a href="{{ contribution.external_page }}" target="_blank">
+            {% elsif contribution.inline == false %}
+            <a href="{{ contribution.url | relative_url }}">
+            {% endif %}
+                <div class="card {% if contribution.inline == false or contribution.external_page %}hoverable{% endif %}">
+                    {% if contribution.image %}
+                        <img src="/assets/img/{{ contribution.image | relative_url }}" class="card-img-top" alt="{{ contribution.title }}" />
+                    {% endif %}
+                    <div class="card-body">
+                        <h2 class="card-title">{{ contribution.title }}{% if contribution.inline == false or contribution.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}</h2>
+                        <p class="card-text">{{ contribution.description }}</p>
+                    </div>
                 </div>
-            </div>
-            {% if contribution.inline == false or contribution.external_page %}</a>{% endif %}
-    </div>
+                {% if contribution.inline == false or contribution.external_page %}</a>{% endif %}
+        </div>
     {% endfor %}
 
 </div>

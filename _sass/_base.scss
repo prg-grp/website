@@ -290,20 +290,13 @@ footer.sticky-bottom {
 
 // Projects
 
-.projects {
-  .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
+.flow-grid {
+  margin: -10px;
+  .item {
+    padding: 10px;
     a {
-      color: black;
       text-decoration: none;
-      &:hover {
-        color: var(--global-theme-color);
-      }
     }
-  }
-  .card img {
-    width: 100%;
   }
 }
 

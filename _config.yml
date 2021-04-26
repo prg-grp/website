@@ -27,7 +27,7 @@ navbar_fixed: true
 footer_fixed: false
 
 # Dimensions
-max_width: 800px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -172,11 +172,11 @@ scholar:
 
 enable_google_analytics:    false
 enable_panelbear_analytics: false
-enable_mansory:             true
-enable_math:                true
+enable_mansory:             false
+enable_math:                false
 enable_tooltips:            false
 enable_darkmode:            false
-show_social_icons:          true
+show_social_icons:          false
 
 # -----------------------------------------------------------------------------
 # Library versions
