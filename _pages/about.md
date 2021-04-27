@@ -41,7 +41,7 @@ and **Software Engineering**, including languages and architectures for
 [join our group]({{ '/open-positions' | relative-path }})
 when you are interested in these topics or our work.
 Students at HSG or TU Darmstadt,
-please find [our courses, theses, and HiWi offerings]({{ '/for-students' | relative-path }}).
+please find [our courses, theses, and HiWi offerings]({{ '/teaching' | relative-path }}).
 
 <span class="clearfix"></span>
 

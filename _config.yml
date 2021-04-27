@@ -135,9 +135,17 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
+  - jekyll-sitemap
   # - jemoji # loads emoji images from GitHubs servers (cross origin...) Rather use unicode emojis in text
   # - bootstrap
   # - material-sass
+
+defaults:
+  -
+    scope:
+      path: "assets/lib/**"
+    values:
+      sitemap: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
