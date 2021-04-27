@@ -1,4 +1,4 @@
-<div class="d-flex align-content-stretch justify-content-center flex-wrap no-gutters m-n2">
+<div class="d-flex align-content-stretch justify-content-center flex-wrap no-gutters mx-n2">
 
     {% assign projects = site.projects | sort: 'rank' %}
     {% for project in projects %}
@@ -8,7 +8,7 @@
             {% elsif project.inline == false %}
             <a href="{{ project.url | relative_url }}" class="no-decoration">
             {% endif %}
-                <div class="card h-100 m-2 {% if project.inline == false or project.external_page %}hoverable{% endif %}">
+                <div class="card h-100 mx-2 {% if project.inline == false or project.external_page %}hoverable{% endif %}">
                     {% if project.image %}
                         <div class="card-header">
                             <img src="/assets/img/{{ project.image | relative_url }}" alt="{{ project.title }}" />

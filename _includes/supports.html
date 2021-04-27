@@ -1,4 +1,4 @@
-<div class="d-flex align-content-stretch justify-content-center flex-wrap no-gutters m-n2">
+<div class="d-flex align-content-stretch justify-content-center flex-wrap no-gutters mx-n2">
 
     {% assign supports = site.supports | sort: 'rank' %}
     {% for support in supports %}
@@ -8,7 +8,7 @@
             {% elsif support.inline == false %}
             <a href="{{ support.url | relative_url }}" class="no-decoration">
             {% endif %}
-                <div class="card h-100 m-2 {% if support.inline == false or support.external_page %}hoverable{% endif %}">
+                <div class="card h-100 mx-2 {% if support.inline == false or support.external_page %}hoverable{% endif %}">
                     {% if support.past %}
                         <span class="badge badge-primary float-right">completed</span>
                     {% endif %}
