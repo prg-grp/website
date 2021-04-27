@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 nav: true
 nav_rank: 1
@@ -18,17 +18,17 @@ profile:
         Rosenbergstrasse 51<br />
         9000 St. Gallen, Switzerland<br />
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 contributions: true # includes a tile list of contributions
 projects: true # includes a tile list of projects
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 > <i class="fas fa-quote-left"></i>
-> Imaging a future,
-> where connecting systems is just easy. And safe. And secure. And …
-> <i class="fas fa-quote-right"></i>
+> “Where should I go?” - Alice. “That depends on where you want to end up.” - The Cheshire Cat.
+> <i class="fas fa-quote-right"></i><br />
+> — Lewis Carroll
 
 Welcome to the Programming Group!
 We are located at the [University of St. Gallen (HSG)](https://www.unisg.ch/)

@@ -4,7 +4,7 @@ inline: false
 group: Doctoral Researchers
 group_rank: 3
 
-title: Daniel Sokolowski
+title: MSc Daniel Sokolowski
 lastname: Sokolowski
 publications: 'author^=*Sokolowski'
 
@@ -16,7 +16,7 @@ teaser: >
     I am part of the Software Factory 4.0 project.
 
 profile:
-    name: Daniel Sokolowski
+    name: MSc Daniel Sokolowski
     align: right
     image: sokolowski-profile.jpg
     role: Doctoral Researcher

@@ -4,7 +4,7 @@ inline: false
 group: Doctoral Researchers
 group_rank: 3
 
-title: Mirko Köhler
+title: MSc Mirko Köhler
 lastname: Köhler
 publications: 'author^=*K*hler'
 
@@ -15,7 +15,7 @@ teaser: >
     My research interests include concurrency, mixed consistency protocols, and type systems.
 
 profile:
-    name: Mirko Köhler
+    name: MSc Mirko Köhler
     align: right
     image: koehler-profile.jpg
     role: Doctoral Researcher

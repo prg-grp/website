@@ -26,7 +26,8 @@ a, table.table a {
 }
 
 blockquote p {
-  font-size: 1.5rem;
+  text-align: right;
+  font-size: 1.3rem;
   color: $grey-color;
 }
 
@@ -353,7 +354,7 @@ a.no-decoration:hover {
               text-decoration: none;
             }
           }
-          &.contribution {
+          &.project {
             background-color: var(--global-theme-color);
           }
         }

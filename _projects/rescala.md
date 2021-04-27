@@ -7,7 +7,7 @@ rank: 3
 
 image: solutions/rescala.svg
 external_page: https://www.rescala-lang.com/
-publications: 'contributions^=*REScala'
+publications: 'projects^=*REScala'
 
 profile:
     name: REScala

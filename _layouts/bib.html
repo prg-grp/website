@@ -16,15 +16,15 @@
                 <abbr class="badge">{{entry.abbr}}</abbr><br />
               {% endif %}
           {% endif %}
-          {% if entry.contributions %}
-                {% assign contributions = entry.contributions | split: ',' %}
-                {% for contribution in contributions %}
-                    {% assign strippedContribution = contribution | strip %}
-                    {% assign dataContrib = site.data.contributions[contribution] | first %}
-                    {% if site.data.contributions[contribution] %}
-                        <abbr class="badge contribution"><a href="{{ dataContrib.url }}">{{ contribution }} <i class="fas fa-external-link-alt"></i></a></abbr><br />
+          {% if entry.projects %}
+                {% assign projects = entry.projects | split: ',' %}
+                {% for project in projects %}
+                    {% assign strippedproject = project | strip %}
+                    {% assign dataContrib = site.data.projects[project] | first %}
+                    {% if site.data.projects[project] %}
+                        <abbr class="badge project"><a href="{{ dataContrib.url }}">{{ project }} <i class="fas fa-external-link-alt"></i></a></abbr><br />
                     {% else %}
-                        <abbr class="badge contribution">{{ contribution }}</abbr><br />
+                        <abbr class="badge project">{{ project }}</abbr><br />
                     {% endif %}
                 {% endfor %}
           {% endif %}
@@ -70,7 +70,7 @@
       {% elsif entry.type == "incollection" %}
         <em>In {{entry.booktitle}}</em>
       {% elsif entry.type == "phdthesis" %}
-        Doctoral dissertation. {{ entry.school }}
+          Doctoral dissertation. <em>{{ entry.school }}</em>
       {% endif %}
       {% if entry.year %}
         {{entry.year}}

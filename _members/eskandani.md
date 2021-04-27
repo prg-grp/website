@@ -4,17 +4,17 @@ inline: false
 group: Doctoral Researchers
 group_rank: 3
 
-title: Nafise Eskandani
+title: MSc Nafise Eskandani
 lastname: Eskandani
 publications: 'author^=*Eskandani'
 
 teaser: >
     I am a PhD student in the Programming Group since May 2019.
     My research interests include Cloud Computing, Software Engineering, and Programming Languages.
-    Currently, I am working on programming models for decentralized and resilient systems under the emergenCITY project.
+    Currently, I am working on programming models for decentralized and resilient systems under the cemergenCITY project.
 
 profile:
-    name: Nafise Eskandani
+    name: MSc Nafise Eskandani
     align: right
     image: eskandani-profile.jpg
     role: Doctoral Researcher

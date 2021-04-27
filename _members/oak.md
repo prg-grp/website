@@ -4,7 +4,7 @@ inline: false
 group: Doctoral Researchers
 group_rank: 3
 
-title: Aditya Oak
+title: MSc Aditya Oak
 lastname: Oak
 publications: 'author^=*Oak'
 
@@ -14,7 +14,7 @@ teaser: >
     I am currently working on language abstractions for secure programming with trusted execution environments.
 
 profile:
-    name: Aditya Oak
+    name: MSc Aditya Oak
     align: right
     image: oak-profile.jpg
     role: Doctoral Researcher

@@ -7,7 +7,7 @@ rank: 2
 
 image: solutions/consyst.jpg
 external_page: https://consyst-project.github.io/
-publications: 'contributions^=*ConSysT'
+publications: 'projects^=*ConSysT'
 
 profile:
     name: ConSysT

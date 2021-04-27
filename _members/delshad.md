@@ -4,7 +4,7 @@ inline: false
 group: Doctoral Researchers
 group_rank: 3
 
-title: Benyamin Delshad Mamaghani
+title: MSc Benyamin Delshad Mamaghani
 lastname: Delshad Mamaghani
 publications: 'author^=*Delshad'
 
@@ -14,7 +14,7 @@ teaser: >
     I currently work on consistency problems in programming.
 
 profile:
-    name: Benyamin Delshad Mamaghani
+    name: MSc Benyamin Delshad Mamaghani
     align: right
     image: delshad-profile.jpg
     role: Doctoral Researcher

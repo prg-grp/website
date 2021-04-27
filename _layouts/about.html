@@ -49,21 +49,19 @@ layout: default
       {% include news.html %}
     {% endif %}
 
-    {% if page.contributions %}
-      <h2>Contributions</h2>
-      {% include contributions.html %}
-    {% endif %}
-
     {% if page.selected_papers %}
-      <h2>Selected Papers</h2>
+      <h2>Recent Publications</h2>
       {% include selected_papers.html %}
     {% endif %}
 
+    {% if page.contributions %}
+      <h2>Projects</h2>
+      {% include projects.html %}
+    {% endif %}
+
     {% if page.projects %}
-      <h2> Projects</h2>
-      {% include projects.html past="false" %}
-      <h2> Completed Projects</h2>
-      {% include projects.html past="true" %}
+      <h2>Support</h2>
+      {% include supports.html %}
     {% endif %}
 
     {% if page.publications %}

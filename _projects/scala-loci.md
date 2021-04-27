@@ -7,7 +7,7 @@ rank: 1
 
 image: solutions/scala-loci.jpg
 external_page: https://scala-loci.github.io/
-publications: 'contributions^=*ScalaLoci'
+publications: 'projects^=*ScalaLoci'
 
 profile:
     name: ScalaLoci

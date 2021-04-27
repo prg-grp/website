@@ -88,12 +88,12 @@ collections:
       layout: post
     output: true
     permalink: /news/:path
-  contributions:
-    output: true
-    permalink: /contributions/:path
   projects:
     output: true
     permalink: /projects/:path
+  supports:
+    output: true
+    permalink: /supports/:path
   members:
     output: true
     permalink: /members/:path

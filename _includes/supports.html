@@ -1,0 +1,24 @@
+<div class="d-flex align-content-stretch justify-content-center flex-wrap no-gutters m-n2">
+
+    {% assign supports = site.supports | sort: 'rank' %}
+    {% for support in supports %}
+        <div class="col-sm-6 col-md-4 mb-3">
+            {% if support.external_page %}
+            <a href="{{ support.external_page }}" class="no-decoration" target="_blank">
+            {% elsif support.inline == false %}
+            <a href="{{ support.url | relative_url }}" class="no-decoration">
+            {% endif %}
+                <div class="card h-100 m-2 {% if support.inline == false or support.external_page %}hoverable{% endif %}">
+                    {% if support.image %}
+                        <img src="/assets/img/{{ support.image | relative_url }}" class="card-img-top" alt="{{ support.title }}" />
+                    {% endif %}
+                    <div class="card-body">
+                        <h2 class="card-title">{{ support.title }}{% if support.inline == false or support.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}</h2>
+                        <p class="card-text">{{ support.description }}</p>
+                    </div>
+                </div>
+                {% if support.inline == false or support.external_page %}</a>{% endif %}
+        </div>
+    {% endfor %}
+
+</div>
