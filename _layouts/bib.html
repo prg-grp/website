@@ -47,35 +47,15 @@
               {% endif %}
             {% endfor %}
           {% endif %}
-          
-          {% if forloop.length == 1 %}
-            {% if author_is_self %}
-              <em>{{author.first}} {{author.last}}</em>
-            {% else %}
-              {{author.first}} {{author.last}}
-            {% endif %}
+
+          {% if author_is_self %}
+            <em>{{author.first}} {{author.last}}</em>,
           {% else %}
-            {% unless forloop.last %}
-              {% if author_is_self %}
-                <em>{{author.first}} {{author.last}}</em>,
-              {% else %}
-                {% if coauthor_url %}
-                  <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,
-                {% else %}
-                  {{author.first}} {{author.last}},
-                {% endif %}
-              {% endif %}
+            {% if coauthor_url %}
+              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>{% unless forloop.last %},{% endunless %}
             {% else %}
-              {% if author_is_self %}
-                and <em>{{author.first}} {{author.last}}</em>
-              {% else %}
-                {% if coauthor_url %}
-                  and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
-                {% else %}
-                  and {{author.first}} {{author.last}}
-                {% endif %}
-              {% endif %}
-            {% endunless %}
+              {{author.first}} {{author.last}}{% unless forloop.last %}, {% endunless %}
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>
@@ -85,6 +65,12 @@
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
+      {% elsif entry.type == "unpublished" %}
+        <em>{{entry.note}}</em>
+      {% elsif entry.type == "incollection" %}
+        <em>In {{entry.booktitle}}</em>
+      {% elsif entry.type == "phdthesis" %}
+        Doctoral dissertation. {{ entry.school }}
       {% endif %}
       {% if entry.year %}
         {{entry.year}}
