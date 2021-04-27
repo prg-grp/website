@@ -5,13 +5,13 @@ title: ConSysT
 description: Safe mixing of consistency levels for replicated objects.
 rank: 2
 
-image: solutions/consyst.jpg
+image: projects/consyst.jpg
 external_page: https://consyst-project.github.io/
 publications: 'projects^=*ConSysT'
 
 profile:
     name: ConSysT
-    image: solutions/consyst.jpg
+    image: projects/consyst.jpg
     website: https://consyst-project.github.io/
     address: >
 ---
