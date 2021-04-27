@@ -323,15 +323,25 @@ footer.sticky-bottom {
 
 // Projects, support, team overview
 
-#projects + div .card-header {
-  height: 8rem;
-  line-height: 8rem;
-  box-sizing: content-box;
-  text-align: center;
+#projects + div {
+  .card-header {
+    height: 8rem;
+    line-height: 8rem;
+    box-sizing: content-box;
+    text-align: center;
 
-  img {
-    width: 100%;
-    max-height: 100%;
+    img {
+      width: 100%;
+      max-height: 100%;
+    }
+
+    + .card-body h2 {
+      display: none;
+    }
+  }
+
+  .fa-external-link-alt {
+    display: none;
   }
 }
 
