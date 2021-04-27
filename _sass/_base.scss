@@ -99,11 +99,34 @@ blockquote p {
 // Navbar customization
 
 .navbar {
+  padding: 0 1rem;
   box-shadow: none;
   border-bottom: 1px solid $grey-color-light;
   opacity: 0.95;
   background-color: var(--global-bg-color);
+
+  .container > a {
+    margin-right: 0.5rem;
+  }
+
+  img {
+    height: 3.5rem;
+  }
+
+  .active {
+    pointer-events: none;
+  }
 }
+
+@supports (backdrop-filter: blur(10px)) {
+  header {
+    backdrop-filter: blur(10px);
+  }
+  .navbar {
+    opacity: 0.85;
+  }
+}
+
 .navbar.navbar-light {
   // Remove link decoration
   a {

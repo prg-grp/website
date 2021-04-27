@@ -1,10 +1,10 @@
 <header>
 
     <!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+    <nav id="navbar" class="navbar navbar-light navbar-expand">
     <div class="container">
-      <a href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/img/pg-logo.svg' | relative_url }}" style="margin-top: -8px; margin-bottom: -8px; height: 3.5rem;" alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"/>
+      <a href="{{ '/' | relative_url }}" class="{% if page.title == 'Home' %}active{% endif %}">
+        <img src="{{ '/assets/img/pg-logo.svg' | relative_url }}" alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"/>
       </a>
       {% comment %}
       {% if page.title != "about" %}
@@ -25,8 +25,8 @@
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-wrap">
           <!-- About -->
           {% comment %}
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
