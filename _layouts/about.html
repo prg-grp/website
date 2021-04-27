@@ -46,27 +46,27 @@ layout: default
     </div>
 
     {% if page.news %}
-      <h2>News</h2>
+      <h2 id="news">News</h2>
       {% include news.html %}
     {% endif %}
 
     {% if page.selected_papers %}
-      <h2>Recent Publications</h2>
+      <h2 id="recent-publications">Recent Publications</h2>
       {% include selected_papers.html %}
     {% endif %}
 
     {% if page.contributions %}
-      <h2>Projects</h2>
+      <h2 id="projects">Projects</h2>
       {% include projects.html %}
     {% endif %}
 
     {% if page.projects %}
-      <h2>Support</h2>
+      <h2 id="support">Support</h2>
       {% include supports.html %}
     {% endif %}
 
     {% if page.publications %}
-      <h2>Publications</h2>
+      <h2 id="üublications">Publications</h2>
       <div class="publications">
         {% bibliography -f papers -q @*[{{page.publications}}]* %}
       </div>
