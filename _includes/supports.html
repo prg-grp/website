@@ -9,6 +9,9 @@
             <a href="{{ support.url | relative_url }}" class="no-decoration">
             {% endif %}
                 <div class="card h-100 m-2 {% if support.inline == false or support.external_page %}hoverable{% endif %}">
+                    {% if support.past %}
+                        <span class="badge badge-primary float-right">completed</span>
+                    {% endif %}
                     {% if support.image %}
                         <img src="/assets/img/{{ support.image | relative_url }}" class="card-img-top" alt="{{ support.title }}" />
                     {% endif %}

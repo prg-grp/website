@@ -1,6 +1,6 @@
 <div class="d-flex align-content-stretch justify-content-center flex-wrap no-gutters m-n2">
 
-    {% assign projects = site.projects | where: 'past', include.past | sort: 'rank' %}
+    {% assign projects = site.projects | sort: 'rank' %}
     {% for project in projects %}
         <div class="col-sm-6 col-md-4 mb-3">
             {% if project.external_page %}
