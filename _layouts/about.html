@@ -5,6 +5,7 @@ layout: default
 <div class="post">
 
   <header class="post-header">
+    {% include social_header.html %}
     <h1 class="post-title">
      {% if page.sitetitle %}{{ site.title }}{% else %}{{ page.title }}{% endif %}
     </h1>
