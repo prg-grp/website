@@ -6,6 +6,7 @@ description: Advanced functional reactive programming for the JVM and the Web.
 rank: 3
 
 image: projects/rescala.svg
+image_contains_title: true
 external_page: https://www.rescala-lang.com/
 publications: 'projects^=*REScala'
 

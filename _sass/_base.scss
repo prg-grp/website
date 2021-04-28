@@ -323,7 +323,7 @@ footer.sticky-bottom {
 
 // Projects, support, team overview
 
-#projects + div {
+.about-tiles + div {
   .card-header {
     height: 8rem;
     line-height: 8rem;
@@ -331,17 +331,18 @@ footer.sticky-bottom {
     text-align: center;
 
     img {
-      width: 100%;
+      max-width: 100%;
       max-height: 100%;
-    }
-
-    + .card-body h2 {
-      display: none;
     }
   }
 
-  .fa-external-link-alt {
-    display: none;
+  .completed {
+    height: 1rem;
+  }
+
+  .completed + .card-header {
+    height: 7rem;
+    line-height: 7rem;
   }
 }
 

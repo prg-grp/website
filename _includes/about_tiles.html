@@ -1,0 +1,31 @@
+<div class="d-flex align-content-stretch justify-content-center flex-wrap no-gutters mx-n2">
+
+    {% assign items = include.items | sort: 'rank' %}
+    {% for item in items %}
+    <div class="col-sm-6 col-md-4 mb-3">
+        {% if item.external_page %}
+        <a href="{{ item.external_page }}" class="no-decoration" target="_blank">
+            {% elsif item.inline == false %}
+            <a href="{{ item.url | relative_url }}" class="no-decoration">
+                {% endif %}
+                <div class="card h-100 mx-2 {% if item.inline == false or item.external_page %}hoverable{% endif %}">
+                    {% if item.past %}
+                        <span class="badge badge-primary completed">completed</span>
+                    {% endif %}
+                    {% if item.image %}
+                    <div class="card-header">
+                        <img src="/assets/img/{{ item.image | relative_url }}" alt="{{ item.title }}" />
+                    </div>
+                    {% endif %}
+                    <div class="card-body">
+                        {% if item.image_contains_title != true %}
+                        <h2 class="card-title">{{ item.title }}</h2>
+                        {% endif %}
+                        <p class="card-text">{{ item.description }}</p>
+                    </div>
+                </div>
+                {% if item.inline == false or item.external_page %}</a>{% endif %}
+    </div>
+    {% endfor %}
+
+</div>

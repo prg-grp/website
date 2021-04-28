@@ -55,18 +55,18 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
-    {% if page.contributions %}
-      <h2 id="projects">Projects</h2>
-      {% include projects.html %}
+    {% if page.projects %}
+      <h2 id="projects" class="about-tiles">Projects</h2>
+      {% include about_tiles.html items=site.projects %}
     {% endif %}
 
-    {% if page.projects %}
-      <h2 id="support">Support</h2>
-      {% include supports.html %}
+    {% if page.supports %}
+      <h2 id="support" class="about-tiles">Support</h2>
+      {% include about_tiles.html items=site.supports %}
     {% endif %}
 
     {% if page.publications %}
-      <h2 id="üublications">Publications</h2>
+      <h2 id="publications">Publications</h2>
       <div class="publications">
         {% bibliography -f papers -q @*[{{page.publications}}]* %}
       </div>
