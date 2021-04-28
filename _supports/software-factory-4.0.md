@@ -4,7 +4,7 @@ inline: true
 title: Software-Factory 4.0
 description: 'LOEWE project. Engineering software systems for high performance computing (HPC) using modern smart technology.'
 rank: 3
-image: support/software-factory-4.0.png
+image: support/software-factory-4.0.svg
 external_page: https://www.software-factory-4-0.de/
 past: false
 ---
