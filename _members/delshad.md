@@ -5,6 +5,7 @@ group: Doctoral Researchers
 group_rank: 3
 
 title: MSc Benyamin Delshad Mamaghani
+description: Profile of MSc Benyamin Delshad Mamaghani, Doctoral Researcher at the Programming Group.
 lastname: Delshad Mamaghani
 publications: 'author^=*Delshad'
 

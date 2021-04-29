@@ -5,6 +5,7 @@ group: Doctoral Researchers
 group_rank: 3
 
 title: MSc Daniel Sokolowski
+description: Profile of MSc Daniel Sokolowski, Doctoral Researcher at the Programming Group.
 lastname: Sokolowski
 publications: 'author^=*Sokolowski'
 

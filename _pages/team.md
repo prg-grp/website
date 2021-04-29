@@ -2,7 +2,7 @@
 layout: page
 permalink: /team
 title: Team
-description: Members and close collaborators of our group.
+description: Members and close collaborators of the group.
 nav: true
 nav_rank: 2
 ---

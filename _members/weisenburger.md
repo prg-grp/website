@@ -5,6 +5,7 @@ group: Postdoctoral Researchers
 group_rank: 2
 
 title: Dr. Pascal Weisenburger
+description: Profile of Dr. Pascal Weisenburger, Postdoctoral Researcher at the Programming Group.
 lastname: Weisenburger
 publications: 'author^=*Weisenburger'
 

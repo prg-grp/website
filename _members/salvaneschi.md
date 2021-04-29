@@ -5,6 +5,7 @@ group: Faculty
 group_rank: 1
 
 title: Prof. Dr. Guido Salvaneschi
+description: Profile of Prof. Dr. Guido Salvaneschi, Head of the Programming Group.
 lastname: Salvaneschi
 publications: 'author^=*Salvaneschi'
 

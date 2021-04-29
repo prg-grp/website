@@ -5,6 +5,7 @@ group: Doctoral Researchers
 group_rank: 3
 
 title: MSc Nafise Eskandani
+description: Profile of MSc Nafise Eskandani, Doctoral Researcher at the Programming Group.
 lastname: Eskandani
 publications: 'author^=*Eskandani'
 

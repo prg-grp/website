@@ -5,6 +5,7 @@ group: Doctoral Researchers
 group_rank: 3
 
 title: MSc Mirko Köhler
+description: Profile of MSc Mirko Köhler, Doctoral Researcher at the Programming Group.
 lastname: Köhler
 publications: 'author^=*K*hler'
 

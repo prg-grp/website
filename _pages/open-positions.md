@@ -2,7 +2,7 @@
 layout: page
 permalink: /open-positions
 title: Open Positions
-description: HiWi, PhD and postdoc job openings.
+description: HiWi, PhD and Postdoc job openings.
 nav_rank: 5
 nav: true
 ---

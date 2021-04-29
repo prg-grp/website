@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>{% if site.title != "blank" %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% endif %}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
-<meta name="description" content="{{ site.description }}">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
@@ -14,6 +14,8 @@
 <meta property="og:description" content="{{ page.description }}" />
 <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image | prepend: site.baseurl | prepend: site.url }}{%- else -%}{{ site.og_image | prepend: site.baseurl | prepend: site.url }}{%- endif -%}" />
 {% endif %}
+
+<meta name="google-site-verification" content="RMUCoHAseeFv2jAdfyJb4XLx4e1J8XpU1l8fvwAxk1g" />
 
 <!-- Bootstrap & MDB -->
 <link href="{{ '/assets/lib/bootstrap/' | append: site.bootstrap.version | append: '/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" />
