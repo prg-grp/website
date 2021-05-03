@@ -48,7 +48,7 @@ PROGRAMMING’19 conference (PC)
 ## Reviewer for journals
 
 • IEEE Transactions on Software Engineering (TSE)  
-• ACM Transactions on Software Engineering and Methodology (TOSEM) 
+• ACM Transactions on Software Engineering and Methodology (TOSEM)  
 • Springer International Journal on Very Large Data Bases (VLDB)  
 • Elsevier Journal of Systems and Software (JSS)  
 • Elsevier Science of Computer Programming  
