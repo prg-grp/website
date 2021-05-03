@@ -31,7 +31,39 @@ I’m a (tenured) Associate Professor at the University of St.Gallen from Septem
 Before, I have been an assistant professor at TU Darmstadt, where I led the Reactive Software Systems group.
 
 
-## Service
+## Committees (Selected)
 
-* ICSE'22
-* ...
+ICSE’22 conference (PC)  
+ESOP’21 conference (PC)  
+ECOOP’20 conference (PC)  
+ICFP’20 conference (ERC)  
+PROGRAMMING’20 conference (PC)  
+CCGrid’20 conference (PC)  
+FORTE’19 conference (PC)  
+MPLR’19 conference (PC)  
+PROGRAMMING’19 conference (PC) 
+
+
+
+## Reviewer for journals
+
+• IEEE Transactions on Software Engineering (TSE)  
+• ACM Transactions on Software Engineering and Methodology (TOSEM) 
+• Springer International Journal on Very Large Data Bases (VLDB)  
+• Elsevier Journal of Systems and Software (JSS)  
+• Elsevier Science of Computer Programming  
+• IEEE Transactions on Computers  
+• Elsevier Journal of Computer Languages  
+• Elsevier Knowledge-based Engineering  
+• IEEE Internet Computing  
+• ACM Transactions on Autonomous and Adaptive Systems (TAAS)  
+• Springer Empirical Software Engineering  
+• Elsevier Information and Software Technology  
+• Elsevier Pervasive and Mobile Computing  
+• LNCS Transactions on Aspect-Oriented Software Development  
+
+
+## Short bio
+
+I got my PhD from Dipartimento di Elettronica e Informazione at Politecnico di Milano, under the supervision of Prof. Carlo Ghezzi. My doctoral dissertation focuses on context-oriented programming and language-level techniques for adaptive software.Visiting Ph.D. student, Fall 2011, Massachusetts Institute of Technology, Computer Science and Artificial Intelligence Laboratory, Supervisor: Prof. Barbara Liskov. Visiting Ph.D. student, Spring 2011, Technical University of Darmstadt, Computer Engineering Department, Supervisor: Prof. Mira Mezini. I’ve been an assistant professor at TU Darmstadt until fall 2020.
+
