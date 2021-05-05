@@ -12,6 +12,7 @@ profile:
     position: Head of the Programming Group
     align: right
     image: salvaneschi-profile.jpg
+    href: '/members/salvaneschi'
     email: guido.salvaneschi@unisg.ch
     address: >
         School of Computer Science 33-507<br />

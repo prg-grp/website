@@ -16,11 +16,16 @@ layout: default
     {% if page.profile %}
     <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
       {% if page.profile.image %}
-        <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.name }}">
+        {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
+          <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.name }}">
+        {% if page.profile.href %}</a>{% endif %}
       {% endif %}
       {% if page.profile.address %}
         <div class="address">
-          <p><span class="name">{{ page.profile.name }}</span>
+          <p>
+            {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
+              <span class="name">{{ page.profile.name }}</span>
+            {% if page.profile.href %}</a>{% endif %}
             {% if page.profile.position %}<br />{{ page.profile.position }}{% endif %}
             {% if page.profile.email %}<br /><a href="mailto:{{ page.profile.email }}"><i class="fas fa-envelope"></i> {{ page.profile.email }}</a>{% endif %}
             {% if page.profile.phone %}<br /><a href="tel:{{ page.profile.phone }}"><i class="fas phone"></i> {{ page.profile.phone }}</a>{% endif %}
