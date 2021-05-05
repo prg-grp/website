@@ -81,7 +81,8 @@
 	month = sep,
 	articleno = {81},
 	numpages = {35},
-	keywords = {distributed programming, Multitier languages, tierless languages}
+	keywords = {distributed programming, Multitier languages, tierless languages},
+    pdf = {papers/2020_A-Survey-of-Multitier-Programming.pdf}
 }
 
 @inproceedings{10.1145/3427761.3428346,
@@ -133,6 +134,7 @@
 	volume = {},
 	number = {},
 	pages = {27-32},
+    abstract = {The advent of cloud computing has enabled large-scale availability of on-demand computing and storage resources. However, these benefits are not yet at the fingertips of HPC developers: Typical HPC applications use on-premise computing resources and rely on static deployment setups, reliable hardware, and rather homogeneous resources. This hinders (partial) execution in the cloud, even though applications could benefit from scaling beyond on-premise resources and from the variety of hardware available in the cloud to speed up execution. To address this issue, we orchestrate computationally intensive kernels using a high-level programming language that ensures advanced optimization and improves execution flexibility-enabling hybrid cloud/on-premise HPC deployments. Our approach is based on multitier reactive programming, where distributed code is defined within the same compilation unit and computations are placed explicitly using placement types. We adjust placement based on performance characteristics measured before execution, apply our approach to a shortest vector problem (SVP) solver from cryptanalysis, and evaluate it to be effective.},
 	doi = {10.1109/SuperCompCloud51944.2020.00010}
 }
 
@@ -151,8 +153,10 @@
 	abstract = {Multitier programming languages reduce the complexity of developing distributed systems by developing the distributed system in a single coherent code base. The compiler or the runtime separate the code for the components of the distributed system, enabling abstraction over low level implementation details such as data representation, serialization and network protocols. Our ScalaLoci language allows developers to declare the different components and their architectural relation at the type level, allowing static reasoning about about distribution and remote communication and guaranteeing static type safety across components. The compiler splits the multitier program into the component-specific code and automatically generates the communication boilerplate. Communication between components can be modeled by declaratively specifying data flows between components using reactive programming.
 
 	In this paper, we report on the implementation of our design and our experience with embedding our language features into Scala as a host language. We show how a combination of Scala?s advanced type level programming and its macro system can be used to enrich the language with new abstractions. We comment on the challenges we encountered and the solutions we developed for our current implementation and outline suggestions for an improved macro system to support the such use cases of embedding of domain-specific abstractions.},
-	url = {http://tubiblio.ulb.tu-darmstadt.de/120224/},
-	keywords = {emergenCITY\_INF; Engineering; E5}
+	url = {https://doi.org/10.22152/programming-journal.org/2020/4/17},
+	keywords = {emergenCITY\_INF; Engineering; E5},
+    doi = {10.22152/programming-journal.org/2020/4/17},
+    pdf = {papers/2020_Implementing-a-Language-for-Distributed-Systems.pdf},
 }
 @inproceedings{10.1109/ASE.2019.00082,
 	abbr = {ASE},
@@ -286,7 +290,8 @@
 	numpages = {2},
 	keywords = {Scala, Placement Types, Reactive Programming, Multitier Programming, Distributed Programming},
 	location = {Darmstadt, Germany},
-	series = {DEBS '19}
+	series = {DEBS '19},
+    pdf = {papers/2019_Developing-Distributed-Systems-with-Multitier-Programming.pdf}
 }
 
 @inproceedings{10.1145/3328433.3328446,
@@ -329,6 +334,7 @@
 	note = {6th Workshop on Reactive and Event-based Languages \& Systems},
 	url = {https://2019.splashcon.org/details/rebls-2019-papers/2/Multitier-Reactive-Programming-in-High-Performance-Computing},
 	year = {2019},
+    pdf = {papers/2019_Multitier-Reactive-Programming-in-High-Performance-Computing.pdf}
 }
 
 @InProceedings{weisenburger_et_al:LIPIcs:2019:10795,
@@ -349,7 +355,8 @@
 	URL =		{http://drops.dagstuhl.de/opus/volltexte/2019/10795},
 	URN =		{urn:nbn:de:0030-drops-107957},
 	doi =		{10.4230/LIPIcs.ECOOP.2019.3},
-	annote =	{Keywords: Distributed Programming, Multitier Programming, Abstract Peer Types, Placement Types, Module Systems, Scala}
+	annote =	{Keywords: Distributed Programming, Multitier Programming, Abstract Peer Types, Placement Types, Module Systems, Scala},
+    pdf = {papers/2019_Multitier-Modules.pdf}
 }
 
 @InProceedings{eichholz_et_al:LIPIcs:2019:10804,
@@ -416,7 +423,7 @@
 	articleno = {129},
 	numpages = {30},
 	keywords = {Reactive Programming, Placement Types, Distributed Programming, Scala, Multitier Programming},
-    pdf = {papers/2018-Distributed-System-Development-with-ScalaLoci.pdf}
+    pdf = {papers/2018_Distributed-System-Development-with-ScalaLoci.pdf}
 }
 
 @article{10.1145/3276477,
@@ -497,7 +504,8 @@
 	pages = {34–36},
 	numpages = {3},
 	location = {Amsterdam, Netherlands},
-	series = {ISSTA '18}
+	series = {ISSTA '18},
+    pdf = {papers/2018_Static-Latency-Tracking-with-Placement-Types.pdf}
 }
 
 @inproceedings{10.1145/3210284.3210292,
