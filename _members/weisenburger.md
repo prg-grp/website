@@ -10,23 +10,46 @@ lastname: Weisenburger
 publications: 'author^=*Weisenburger'
 
 teaser: >
-    My current focus is on the design of languages for distributed systems
+    My current research focuses on the design of languages for distributed systems
     with a wide range of software architectures – e.g., peer-to-peer, cloud, edge, serverless, IoT –
-    regarding areas such as sound programming models for the interaction between components,
-    their composition, privacy protection issues, placement of data and computation.
+    regarding sound programming models for the interaction between components,
+    their composition, privacy protection issues,
+    type systems for reasoning about the placement of data and computation.
 
 profile:
     name: Dr. Pascal Weisenburger
     align: right
     image: weisenburger-profile.jpg
     role: Postdoc
-    email: weisenburger@cs.tu-darmstadt.de
+    email: pascal.weisenburger@unisg.ch
     address: >
-        Hochschulstr. 10<br />
-        64289 Darmstadt, Germany
+        School of Computer Science 33-507<br />
+        Rosenbergstrasse 51<br />
+        9000 St. Gallen, Switzerland
 ---
 
-My current focus is on the design of languages for distributed systems
+My current research focuses on the design of languages for distributed systems
 with a wide range of software architectures – e.g., peer-to-peer, cloud, edge, serverless, IoT –
 regarding areas such as sound programming models for the interaction between components,
-their composition, privacy protection issues, placement of data and computation.
+their composition, privacy protection issues,
+type systems for reasoning about the placement of data and computation.
+
+Within the [MAKI](https://www.maki.tu-darmstadt.de/) project,
+I worked on complex event processing (CEP)
+and multitier languages for developing modular distributed applications.
+I’m the main developer of the [ScalaLoci]({{ '/projects/scala-loci' | relative-path }})
+multitier programming language.
+
+I served in the program committee of ProWeb 2020
+(Workshop on Programming Technology for the Future Web)
+at ‹Programming› ’20.
+
+
+## Short Bio
+
+I got my PhD from the Departement of Computer Science at the Technical University of Darmstadt
+under the supervision of Prof. Guido Salvaneschi in 2020.
+My doctoral dissertation focuses on multitier programming
+for developing distributed software systems.
+I worked as a postdoc with Prof. Mira Mezini at the Technical University of Darmstadt until spring 2021.
+I joined the Programming Group at the University of St. Gallen in May 2021.
