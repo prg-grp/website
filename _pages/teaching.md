@@ -13,7 +13,7 @@ we value the insights and view of the continuously renewing student body on our 
 Further, we enjoy close research collaboration with motivated students,
 often performed as a thesis or in a HiWi position.
 We invite you to join our [courses](#courses),
-to write a [thesis](#theses) with us or to [join us as a HiWi or PhD student]({{ '/open-positions' | relative-path }}).
+to write a [thesis](#theses) with us or to [join us as a HiWi or PhD student]({{ '/open-positions' | relative_url }}).
 
 ## Courses
 

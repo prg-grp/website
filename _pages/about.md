@@ -39,10 +39,10 @@ and **Software Engineering**, including languages and architectures for
 **Distributed Systems**, **Reactive Programming**, and **Secure Software Systems**.
 
 [Talk to us](mailto:guido.salvaneschi@unisg.ch) or
-[join our group]({{ '/open-positions' | relative-path }})
+[join our group]({{ '/open-positions' | relative_url }})
 when you are interested in these topics or our work.
 Students at HSG or TU Darmstadt,
-please find [our courses, theses, and HiWi offerings]({{ '/teaching' | relative-path }}).
+please find [our courses, theses, and HiWi offerings]({{ '/teaching' | relative_url }}).
 
 <span class="clearfix"></span>
 

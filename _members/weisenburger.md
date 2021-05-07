@@ -37,7 +37,7 @@ type systems for reasoning about the placement of data and computation.
 Within the [MAKI](https://www.maki.tu-darmstadt.de/) project,
 I worked on complex event processing (CEP)
 and multitier languages for developing modular distributed applications.
-I’m the main developer of the [ScalaLoci]({{ '/projects/scala-loci' | relative-path }})
+I’m the main developer of the [ScalaLoci]({{ '/projects/scala-loci' | relative_url }})
 multitier programming language.
 
 I served in the program committee of ProWeb 2020
