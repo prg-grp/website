@@ -33,15 +33,15 @@ Before, I have been an assistant professor at TU Darmstadt, where I led the Reac
 
 ## Committees (Selected)
 
-* ICSE’22 (PC)
-* ESOP’21 (PC)
-* ECOOP’20 (PC)
-* ICFP’20 (ERC)
-* PROGRAMMING’20 (PC)
-* CCGrid’20 (PC)
-* FORTE’19 (PC)
-* MPLR’19 (PC)
-* PROGRAMMING’19 (PC)
+* [ICSE’22](https://conf.researchr.org/home/icse-2022) (PC)
+* [ESOP’21](https://etaps.org/2021/esop) (PC)
+* [ECOOP’20](https://2020.ecoop.org/) (PC)
+* [ICFP’20](https://icfp20.sigplan.org/) (ERC)
+* [PROGRAMMING’20](https://2020.programming-conference.org/) (PC)
+* [CCGrid’20](http://cloudbus.org/ccgrid2020/) (PC)
+* [FORTE’19](http://www.discotec.org/2019/forte.html) (PC)
+* [MPLR’19](https://conf.researchr.org/home/mplr-2019) (PC)
+* [PROGRAMMING’19](https://2019.programming-conference.org/) (PC)
 
 
 
