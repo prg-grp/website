@@ -1,8 +1,8 @@
 <header>
 
     <!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-light navbar-expand">
-    <div class="container">
+    <nav id="navbar" class="navbar navbar-light navbar-expand {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+    <div class="container px-md-3">
       <a href="{{ '/' | relative_url }}" class="{% if page.title == 'Home' %}active{% endif %}">
         <img src="{{ '/assets/img/pg-logo.svg' | relative_url }}" alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"/>
       </a>
@@ -25,12 +25,12 @@
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-wrap">
           <!-- About -->
           {% comment %}
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+            <a class="nav-link text-nowrap" href="{{ '/' | relative_url }}">
               about
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
@@ -41,7 +41,7 @@
           {% if site.blog_name %}
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
+            <a class="nav-link text-nowrap" href="{{ '/blog/' | relative_url }}">
               blog
               {% if page.title == "blog" %}
               <span class="sr-only">(current)</span>
@@ -54,7 +54,7 @@
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-              <a class="nav-link" href="{{ p.url | relative_url }}">
+              <a class="nav-link text-nowrap" href="{{ p.url | relative_url }}">
                 {{ p.title }}
                 {% if page.title == p.title %}
                 <span class="sr-only">(current)</span>
