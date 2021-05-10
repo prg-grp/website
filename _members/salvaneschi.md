@@ -34,7 +34,8 @@ Before, I have been an assistant professor at TU Darmstadt, where I led the Reac
 ## Committees (Selected)
 
 * [ICSE’22](https://conf.researchr.org/home/icse-2022) (PC)
-* [ESOP’21](https://etaps.org/2021/esop) (PC)
+* [ESOP’21](https://etaps.org/2021/esop) (PC)  
+* [ACSOS'21](https://conf.researchr.org/home/acsos-2021) (PC)
 * [ECOOP’20](https://2020.ecoop.org/) (PC)
 * [ICFP’20](https://icfp20.sigplan.org/) (ERC)
 * [PROGRAMMING’20](https://2020.programming-conference.org/) (PC)
