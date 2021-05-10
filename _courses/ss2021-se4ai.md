@@ -6,4 +6,5 @@ title: Software Engineering for Artificial Intelligence (PhD Course)
 university: University of St. Gallen
 semester: SS&nbsp;2021
 past: false
+external_page: https://tools.unisg.ch/Url/csqhcx
 ---

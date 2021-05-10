@@ -6,4 +6,5 @@ title: Fundamentals and Methods of Computer Science for Business Studies, Module
 university: University of St. Gallen
 semester: WS 2020/21
 past: true
+external_page: https://tools.unisg.ch/Url/csg6n6
 ---
