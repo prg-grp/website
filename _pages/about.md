@@ -43,8 +43,7 @@ and **Software Engineering**, including languages and architectures for
 when you are interested in these topics or our work.
 Students at HSG or TU Darmstadt,
 please find [our courses, theses, and HiWi offerings]({{ '/teaching' | relative_url }}).
-
-<span class="clearfix"></span>
+{: class="clearfix"}
 
 {% assign members = site.members | sort: "lastname" %}
 <div class="d-flex flex-wrap align-content-stretch justify-content-center m-n2 pt-5 no-gutters">
