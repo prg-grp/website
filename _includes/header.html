@@ -1,7 +1,7 @@
-<header>
+<header class="{% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
 
     <!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-light navbar-expand {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+    <nav id="navbar" class="navbar navbar-light navbar-expand">
     <div class="container px-md-3">
       <a href="{{ '/' | relative_url }}" class="{% if page.title == 'Home' %}active{% endif %}">
         <img src="{{ '/assets/img/pg-logo.svg' | relative_url }}" alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"/>
