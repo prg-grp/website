@@ -125,7 +125,7 @@ blockquote p {
 }
 
 @supports (backdrop-filter: blur(10px)) {
-  header {
+  body > header {
     backdrop-filter: blur(10px);
   }
   .navbar {
