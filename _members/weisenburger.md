@@ -22,6 +22,7 @@ profile:
     image: weisenburger-profile.jpg
     role: Postdoc
     email: pascal.weisenburger@unisg.ch
+    github: pweisenburger
     address: >
         School of Computer Science 33-507<br />
         Rosenbergstrasse 51<br />
@@ -40,7 +41,7 @@ and multitier languages for developing modular distributed applications.
 I’m the main developer of the [ScalaLoci]({{ '/projects/scala-loci' | relative_url }})
 multitier programming language.
 
-I served in the program committee of ProWeb 2020
+I served in the program committee of [ProWeb 2020](https://2020.programming-conference.org/home/proweb-2020)
 (Workshop on Programming Technology for the Future Web)
 at ‹Programming› ’20.
 
