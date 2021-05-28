@@ -22,6 +22,7 @@ profile:
     email: benyamin.delshad@unisg.ch
     twitter: BenyaminDM
     github: BenyaminDelshad
+    orcid: 0000-0003-3277-2999
     address: >
         School of Computer Science 33-507<br />
         Rosenbergstrasse 51<br />
