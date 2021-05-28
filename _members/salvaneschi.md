@@ -20,7 +20,7 @@ profile:
     image: salvaneschi-profile.jpg
     email: guido.salvaneschi@unisg.ch
     twitter: guidosalva
-    website: http://www.guidosalvaneschi.com
+    orcid: 0000-0002-9324-8894
     address: >
         School of Computer Science 33-507<br />
         Rosenbergstrasse 51<br />

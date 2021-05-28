@@ -21,6 +21,7 @@ profile:
     role: Doctoral Researcher
     email: n.eskandani@cs.tu-darmstadt.de
     twitter: NEskandani
+    orcid: 0000-0001-9761-6319
     address: >
         Hochschulstr. 10<br />
         64289 Darmstadt, Germany

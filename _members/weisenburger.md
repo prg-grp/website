@@ -23,6 +23,7 @@ profile:
     role: Postdoc
     email: pascal.weisenburger@unisg.ch
     github: pweisenburger
+    orcid: 0000-0003-1288-1485
     address: >
         School of Computer Science 33-507<br />
         Rosenbergstrasse 51<br />

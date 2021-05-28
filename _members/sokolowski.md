@@ -26,6 +26,7 @@ profile:
     phone: +49 163 6949690
     twitter: Soko2D
     github: DSoko2
+    orcid: 0000-0003-2911-8304
     address: >
         Hochschulstr. 10<br />
         64289 Darmstadt, Germany
