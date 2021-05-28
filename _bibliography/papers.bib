@@ -238,13 +238,16 @@
 	address = {New York, NY, USA},
 	url = {https://doi.org/10.1145/3358503.3361274},
 	doi = {10.1145/3358503.3361274},
-	abstract = {High resource utilization is important to operate compute infrastructures and data centers efficiently. High utilization is achieved by multiplexing several applications over the same physical infrastructure. Yet, with this approach, the different requirements of each application have to be taken into account when scheduling resources. We propose GRASS, a reactive domain-specific abstraction that allows specifying application-tailored resource scheduling policies. We demonstrate how the declarative approach of GRASS enables extension and composition of scheduling policies. Our evaluation shows the performance benefits of considering application-specific information in a composition of scheduling policies that adapt at run time.},
+	abstract = {High resource utilization is important to operate compute infrastructures and data centers efficiently. High utilization is achieved by multiplexing several applications over the same physical infrastructure. Yet, with this approach, the different requirements of each application have to be taken into account when scheduling resources.
+
+	We propose GRASS, a reactive domain-specific abstraction that allows specifying application-tailored resource scheduling policies. We demonstrate how the declarative approach of GRASS enables extension and composition of scheduling policies. Our evaluation shows the performance benefits of considering application-specific information in a composition of scheduling policies that adapt at run time.},
 	booktitle = {Proceedings of the 6th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems},
 	pages = {21–30},
 	numpages = {10},
 	keywords = {Reactive Programming, Data Center Resource Scheduling},
 	location = {Athens, Greece},
-	series = {REBLS 2019}
+	series = {REBLS 2019},
+	pdf = {papers/2019_GRASS-Generic-Reactive-Application-Specific-Scheduling.pdf}
 }
 
 @article{DBLP:journals/corr/abs-1907-02990,
@@ -408,7 +411,10 @@
 	URN =		{urn:nbn:de:0030-drops-107957},
 	doi =		{10.4230/LIPIcs.ECOOP.2019.3},
 	annote =	{Keywords: Distributed Programming, Multitier Programming, Abstract Peer Types, Placement Types, Module Systems, Scala},
-    pdf = {papers/2019_Multitier-Modules.pdf}
+	pdf = {papers/2019_Multitier-Modules.pdf},
+	abstract = {Multitier programming languages address the complexity of developing distributed systems abstracting over low level implementation details such as data representation, serialization and network protocols. Since the functionalities of different peers can be defined in the same compilation unit, multitier languages do not force developers to modularize software along network boundaries. Unfortunately, combining the code for all tiers into the same compilation unit poses a scalability challenge or forces developers to resort to traditional modularization abstractions that are agnostic to the multitier nature of the language.
+
+	In this paper, we address this issue with a module system for multitier languages. Our module system supports encapsulating each (cross-peer) functionality and defining it over abstract peer types. As a result, we disentangle modularization and distribution and we enable the definition of a distributed system as a composition of multitier modules, each representing a subsystem. Our case studies on distributed algorithms, distributed data structures, as well as on the Apache Flink task distribution system, show that multitier modules allow the definition of reusable (abstract) patterns of interaction in distributed software and enable separating the modularization and distribution concerns, properly separating functionalities in distributed systems.}
 }
 
 @InProceedings{eichholz_et_al:LIPIcs:2019:10804,
@@ -440,7 +446,9 @@
 	volume = {},
 	number = {},
 	pages = {1-8},
-	doi = {10.1109/GHTC46095.2019.9033134}
+	doi = {10.1109/GHTC46095.2019.9033134},
+	pdf = {papers/2019_Smart-Street-Lights-and-Mobile-Citizen-Apps-for-Resilient-Communication-in-a-Digital-City.pdf},
+	abstract = {While information and communication technology is crucial for the operation of urban infrastructures and the well-being of its inhabitants, current technology is quite vulnerable to disruptions of various kinds. In future smart cities, a more resilient urban infrastructure is imperative to handle the increasing number of hazardous situations. We present a novel resilient communication approach based on smart street lights as part of the public infrastructure. It supports people in their everyday life and adapts its functionality to the challenges of emergency situations. Our approach relies on various environmental sensors and in-situ processing for automatic situation assessment, and a range of communication mechanisms for maintaining a communication network. Furthermore, resilience is not only achieved based on infrastructure deployed by a digital city’s municipality, but also based on integrating citizens through software that runs on their mobile devices. Web-based zero-installation and platform-agnostic apps can switch to device-to-device communication to continue benefiting people even during a disaster situation. Our approach, featuring a covert channel for professional responders and a zero-installation app, is evaluated through a prototypical implementation based on a commercially available street light.},
 }
 
 @InProceedings{10.1007/978-3-030-34405-4_7,
@@ -573,13 +581,14 @@
 	address = {New York, NY, USA},
 	url = {https://doi.org/10.1145/3210284.3210292},
 	doi = {10.1145/3210284.3210292},
-	abstract = {Operator placement has a profound impact on the performance of a distributed complex event processing system (DCEP). Since the behavior of a placement mechanism strongly depends on its environment; a single placement mechanism is often not enough to fulfill stringent performance requirements under environmental changes. In this paper, we show how DCEP can benefit from the adaptive use of multiple placement mechanisms. We propose Tcep, a DCEP system to integrate multiple placement mechanisms. By enabling transitions, Tcep can seamlessly exchange distinct operator mechanisms at runtime. We make two main contributions that are highly important for a cost-efficient transition: i) a transition strategy for efficiently scheduling state migrations and ii) a lightweight learning algorithm to adaptively select an appropriate placement mechanism as a consequence of a transition. Our evaluations for important decentralized placement mechanisms in the context of an IoT scenario show that transitions can better fulfill QoS demands in a dynamic environment. Thereby efficient scheduling of state migrations can help to faster complete transitions by up to 94 %.},
+	abstract = {Operator placement has a profound impact on the performance of a distributed complex event processing system (DCEP). Since the behavior of a placement mechanism strongly depends on its environment; a single placement mechanism is often not enough to fulfill stringent performance requirements under environmental changes. In this paper, we show how DCEP can benefit from the adaptive use of multiple placement mechanisms. We propose TCEP, a DCEP system to integrate multiple placement mechanisms. By enabling transitions, TCEP can seamlessly exchange distinct operator mechanisms at runtime. We make two main contributions that are highly important for a cost-efficient transition: i) a transition strategy for efficiently scheduling state migrations and ii) a lightweight learning algorithm to adaptively select an appropriate placement mechanism as a consequence of a transition. Our evaluations for important decentralized placement mechanisms in the context of an IoT scenario show that transitions can better fulfill QoS demands in a dynamic environment. Thereby efficient scheduling of state migrations can help to faster complete transitions by up to 94~%.},
 	booktitle = {Proceedings of the 12th ACM International Conference on Distributed and Event-Based Systems},
 	pages = {136–147},
 	numpages = {12},
 	keywords = {Stream Processing, Adaptation, Operator Placement, Migration, Internet of Things, Complex Event Processing, Transitions},
 	location = {Hamilton, New Zealand},
-	series = {DEBS '18}
+	series = {DEBS '18},
+	pdf = {papers/2018_TCEP-Adapting-to-Dynamic-User-Environments-by-Enabling-Transitions-between-Operator-Placement-Mechanisms.pdf}
 }
 
 @inproceedings{10.1145/3210284.3210289,
@@ -891,7 +900,8 @@
 	numpages = {3},
 	keywords = {Distributed Programming, Reactive Programming},
 	location = {Amsterdam, Netherlands},
-	series = {SPLASH Companion 2016}
+	series = {SPLASH Companion 2016},
+	pdf = {papers/2016_Multitier-Reactive-Abstractions.pdf}
 }
 
 @inproceedings{10.1145/2737924.2738008,
