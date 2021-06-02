@@ -186,8 +186,11 @@
 	volume = {},
 	number = {},
 	pages = {27-32},
-    abstract = {The advent of cloud computing has enabled large-scale availability of on-demand computing and storage resources. However, these benefits are not yet at the fingertips of HPC developers: Typical HPC applications use on-premise computing resources and rely on static deployment setups, reliable hardware, and rather homogeneous resources. This hinders (partial) execution in the cloud, even though applications could benefit from scaling beyond on-premise resources and from the variety of hardware available in the cloud to speed up execution. To address this issue, we orchestrate computationally intensive kernels using a high-level programming language that ensures advanced optimization and improves execution flexibility-enabling hybrid cloud/on-premise HPC deployments. Our approach is based on multitier reactive programming, where distributed code is defined within the same compilation unit and computations are placed explicitly using placement types. We adjust placement based on performance characteristics measured before execution, apply our approach to a shortest vector problem (SVP) solver from cryptanalysis, and evaluate it to be effective.},
-	doi = {10.1109/SuperCompCloud51944.2020.00010}
+    abstract = {The advent of cloud computing has enabled large-scale availability of on-demand computing and storage resources. However, these benefits are not yet at the fingertips of HPC developers: Typical HPC applications use on-premise computing resources and rely on static deployment setups, reliable hardware, and rather homogeneous resources. This hinders (partial) execution in the cloud, even though applications could benefit from scaling beyond on-premise resources and from the variety of hardware available in the cloud to speed up execution.
+
+    To address this issue, we orchestrate computationally intensive kernels using a high-level programming language that ensures advanced optimization and improves execution flexibility-enabling hybrid cloud/on-premise HPC deployments. Our approach is based on multitier reactive programming, where distributed code is defined within the same compilation unit and computations are placed explicitly using placement types. We adjust placement based on performance characteristics measured before execution, apply our approach to a shortest vector problem (SVP) solver from cryptanalysis, and evaluate it to be effective.},
+	doi = {10.1109/SuperCompCloud51944.2020.00010},
+	pdf = {papers/2020_Leveraging-Hybrid-Cloud-HPC-with-Multitier-Reactive-Programming.pdf}
 }
 
 @article{tubiblio120224,
@@ -390,6 +393,9 @@
 	note = {6th Workshop on Reactive and Event-based Languages \& Systems},
 	url = {https://2019.splashcon.org/details/rebls-2019-papers/2/Multitier-Reactive-Programming-in-High-Performance-Computing},
 	year = {2019},
+	abstract = {High Performance Computing (HPC) is crucial in a number of sectors, including weather forecasts, particle simulations and fluid dynamics. Existing programming frameworks for HPC expose developers to low-level details such as message passing and explicit memory management, which are hard to program and error-prone.
+
+	In this paper, we present ongoing work on increasing the level of abstraction for HPC. We tackle this problem with an approach based on a combination of multitier programming and reactive programming which enables the development of complex processor configurations in a uniform way using event streams as communication pattern. We report our experience with LULESH, a well known HPC benchmark, and we outline our research roadmap.},
     pdf = {papers/2019_Multitier-Reactive-Programming-in-High-Performance-Computing.pdf}
 }
 
