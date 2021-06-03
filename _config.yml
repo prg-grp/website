@@ -136,6 +136,7 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jekyll-sitemap
+  - jekyll-regex-replace
   # - jemoji # loads emoji images from GitHubs servers (cross origin...) Rather use unicode emojis in text
   # - bootstrap
   # - material-sass

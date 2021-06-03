@@ -1,19 +1,20 @@
 ---
 ---
 
-@InProceedings{multiparty-languages,
+@inproceedings{multiparty-languages,
 	abbr = {ECOOP},
 	projects = {ScalaLoci},
-	author = {Saverio Giallorenzo and Fabrizio Montesi and Marco Peressotti and David Richter and Guido Salvaneschi and Pascal Weisenburger},
-	title = {Multiparty Languages: The Choreographic and Multitier Cases},
-	booktitle = {35th European Conference on Object-Oriented Programming (ECOOP 2021)},
-	series = {Leibniz International Proceedings in Informatics (LIPIcs)},
-	ISSN = {1868-8969},
-	year = {2021},
-	publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
-	address = {Dagstuhl, Germany},
-	annote = {Keywords: Distributed Programming, Choreography Programming, Multitier Programming},
 	pdf = {papers/2021_Multiparty-Languages-The-Choreographic-and-Multitier-Cases.pdf},
+	author = {Giallorenzo, Saverio and Montesi, Fabrizio and Peressotti, Marco and Richter, David and Salvaneschi, Guido and Weisenburger, Pascal},
+	title = {Multiparty Languages: The Choreographic and Multitier Cases},
+	booktitle = {Proceedings of the 35th European Conference on Object-Oriented Programming (ECOOP '21)},
+	series = {Leibniz International Proceedings in Informatics (LIPIcs)},
+	issn = {1868-8969},
+	year = {2021},
+	publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum für Informatik},
+	address = {Dagstuhl, Germany},
+	location = {Aarhus, Denmark},
+	keywords = {Distributed Programming, Choreography Programming, Multitier Programming},
 	abstract = {Choreographic languages aim to express multiparty communication protocols, by providing primitives that make interaction manifest. Multitier languages enable programming computation that spans across several tiers of a distributed system, by supporting primitives that allow computation to change the location of execution. Rooted into different theoretical underpinnings---respectively process calculi and lambda calculus---the two paradigms have been investigated independently by different research communities with little or no contact. As a result, the link between the two paradigms has remained hidden for long.
 
 	In this paper, we show that choreographic languages and multitier languages are surprisingly similar. We substantiate our claim by isolating the core abstractions that differentiate the two approaches and by providing algorithms that translate one into the other in a straightforward way. We believe that this work paves the way for joint research and cross-fertilisation among the two communities.}
@@ -23,7 +24,8 @@
 	abbr = {MSR},
 	title = {The Wonderless Dataset for Serverless Computing},
 	author = {Eskandani, Nafise and Salvaneschi, Guido},
-	booktitle = {IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)},
+	booktitle = {Proceedings of the IEEE/ACM 18th International Conference on Mining Software Repositories},
+	series = {MSR '21},
 	pages = {565--569},
 	year = {2021},
 	abstract = {Function as a Service (FaaS) has grown in popularity in recent years, with an increasing number of applications following the Serverless computing model. Serverless computing supports out of the box autoscaling in a pay-as-you-go manner, letting developers focus on the application logic rather than worrying about resource management. With the increasing adoption of the this model, researchers have started studying a wide variety of aspects of Serverless computing, including communication, security, performance, and cost optimization. Yet, we still know very little of how Serverless computing is used in practice.
@@ -44,7 +46,7 @@
                Musard Balliu and
                Guido Salvaneschi},
   title     = {Language Support for Secure Software Development with Enclaves},
-  booktitle = {34th {IEEE} Computer Security Foundations Symposium, {CSF}},
+  booktitle = {Proceedings of the 34th {IEEE} Computer Security Foundations Symposium, {CSF}},
   pages     = {},
   publisher = {IEEE},
   year      = {2021},
@@ -56,13 +58,13 @@
 @phdthesis{tuprints13500,
 	projects = {ScalaLoci},
 	address = {Darmstadt},
-	school = {Technische Universit{\"a}t Darmstadt},
+	school = {Technische Universität Darmstadt},
 	year = {2020},
 	title = {A Programming Language for Distributed Systems},
 	author = {Pascal Weisenburger},
 	url = {http://tuprints.ulb.tu-darmstadt.de/13500/},
 	doi = {10.25534/tuprints-00013500},
-	abstract = {Today?s software, including many everyday services, such as online streaming, search engines and social networks, is widely distributed, running on top of a network of interconnected computers. Such distributed applications are traditionally developed as separate modules for each component in the distributed system. These modules react to events, like user input or messages from the network, and in turn produce new events for the other modules. Separation into different modules is problematic because combining modules is notoriously hard and requires extensive and time-consuming integration and manual implementation of communication forces programmers to program complex event-based communication schemes among hosts ? an activity which is often low-level and error-prone. The combination of the two results in obscure distributed data flows scattered among multiple modules, hindering reasoning about the system as a whole. For these reasons, despite most software today is distributed, the design and development of distributed systems remains surprisingly challenging.
+	abstract = {Today's software, including many everyday services, such as online streaming, search engines and social networks, is widely distributed, running on top of a network of interconnected computers. Such distributed applications are traditionally developed as separate modules for each component in the distributed system. These modules react to events, like user input or messages from the network, and in turn produce new events for the other modules. Separation into different modules is problematic because combining modules is notoriously hard and requires extensive and time-consuming integration and manual implementation of communication forces programmers to program complex event-based communication schemes among hosts ? an activity which is often low-level and error-prone. The combination of the two results in obscure distributed data flows scattered among multiple modules, hindering reasoning about the system as a whole. For these reasons, despite most software today is distributed, the design and development of distributed systems remains surprisingly challenging.
 
 	We present the ScalaLoci distributed programming language, our approach for taming the complexity of developing distributed applications via specialized programming language support. ScalaLoci addresses the issues above with a coherent model based on placement types that enables reasoning about distributed data flows otherwise scattered across multiple modules, supporting multiple software architectures via dedicated language features and abstracting over low-level communication details and data conversions.
 
@@ -72,26 +74,29 @@
 }
 
 @article{10.1145/3428256,
-	selected = {true},
 	abbr = {OOPSLA},
 	projects = {ConSysT},
-	author = {K\"{o}hler, Mirko and Eskandani, Nafise and Weisenburger, Pascal and Margara, Alessandro and Salvaneschi, Guido},
+	pdf = {papers/2020_Rethinking-Safe-Consistency-In-Distributed-Object-Oriented-Programming.pdf},
+	author = {Köhler, Mirko and Eskandani, Nafise and Weisenburger, Pascal and Margara, Alessandro and Salvaneschi, Guido},
 	title = {Rethinking Safe Consistency in Distributed Object-Oriented Programming},
 	year = {2020},
 	issue_date = {November 2020},
 	publisher = {Association for Computing Machinery},
+	issn = {2475-1421},
 	address = {New York, NY, USA},
 	volume = {4},
 	number = {OOPSLA},
-	url = {https://doi.org/10.1145/3428256},
+	journal = {Proceedings of the ACM on Programming Languages},
 	doi = {10.1145/3428256},
-	abstract = {Large scale distributed systems require to embrace the trade off between consistency and availability, accepting lower levels of consistency to guarantee higher availability. Existing programming languages are, however, agnostic to this compromise, resulting in consistency guarantees that are the same for the whole application and are implicitly adopted from the middleware or hardcoded in configuration files. In this paper, we propose to integrate availability in the design of an object-oriented language, allowing developers to specify different consistency and isolation constraints in the same application at the granularity of single objects. We investigate how availability levels interact with object structure and define a type system that preserves correct program behavior. Our evaluation shows that our solution performs efficiently and improves the design of distributed applications.},
-	journal = {Proc. ACM Program. Lang.},
 	month = nov,
 	articleno = {188},
 	numpages = {30},
+	pages = {188:1--188:30},
+	location = {Chicago, IL, USA},
 	keywords = {consistency, replication, Java, type systems},
-    pdf = {papers/2020_Rethinking-Safe-Consistency-In-Distributed-Object-Oriented-Programming.pdf}
+	abstract = {Large scale distributed systems require to embrace the trade off between consistency and availability, accepting lower levels of consistency to guarantee higher availability. Existing programming languages are, however, agnostic to this compromise, resulting in consistency guarantees that are the same for the whole application and are implicitly adopted from the middleware or hardcoded in configuration files.
+
+	In this paper, we propose to integrate availability in the design of an object-oriented language, allowing developers to specify different consistency and isolation constraints in the same application at the granularity of single objects. We investigate how availability levels interact with object structure and define a type system that preserves correct program behavior. Our evaluation shows that our solution performs efficiently and improves the design of distributed applications.}
 }
 
 @article{10.1145/3428207,
@@ -104,19 +109,25 @@
 	address = {New York, NY, USA},
 	volume = {4},
 	number = {OOPSLA},
-	url = {https://doi.org/10.1145/3428207},
-	doi = {10.1145/3428207},
-	abstract = {Pressed by the difficulty of writing asynchronous, event-driven code, mainstream languages have recently been building in support for a variety of advanced control-flow features. Meanwhile, experimental language designs have suggested effect handlers as a unifying solution to programmer-defined control effects, subsuming exceptions, generators, and async–await. However, despite these trends, complex control flow—in particular, control flow that exhibits a bidirectional pattern—remains challenging to manage.  We introduce bidirectional algebraic effects, a new programming abstraction that supports bidirectional control transfer in a more natural way. Handlers of bidirectional effects can raise further effects to transfer control back to the site where the initiating effect was raised, and can use themselves to handle their own effects. We present applications of this expressive power, which falls out naturally as we push toward the unification of effectful programming with object-oriented programming. We pin down the mechanism and the unification formally using a core language that makes generalizations to effect operations and effect handlers.  The usual propagation semantics of control effects such as exceptions conflicts with modular reasoning in the presence of effect polymorphism—it breaks parametricity. Bidirectionality exacerbates the problem. Hence, we set out to show the core language, which builds on the existing tunneling semantics for algebraic effects, is not only type-safe (no effects go unhandled), but also abstraction-safe (no effects are accidentally handled). We devise a step-indexed logical-relations model, and construct its parametricity and soundness proofs. These core results are fully mechanized in Coq. While a full-featured compiler is left to future work, experiments show that as a first-class language feature, bidirectional handlers can be implemented efficiently.},
-	journal = {Proc. ACM Program. Lang.},
+	journal = {Proceedings of the ACM on Programming Languages},
 	month = nov,
 	articleno = {139},
 	numpages = {30},
-	keywords = {type systems, iterators, exceptions, Effect handlers, promises, parametricity}
+	pages = {139:1--139:30},
+	doi = {10.1145/3428207},
+	location = {Chicago, IL, USA},
+	keywords = {type systems, iterators, exceptions, Effect handlers, promises, parametricity},
+	abstract = {Pressed by the difficulty of writing asynchronous, event-driven code, mainstream languages have recently been building in support for a variety of advanced control-flow features. Meanwhile, experimental language designs have suggested effect handlers as a unifying solution to programmer-defined control effects, subsuming exceptions, generators, and async--await. However, despite these trends, complex control flow---in particular, control flow that exhibits a bidirectional pattern---remains challenging to manage.  
+
+	We introduce \emph{bidirectional algebraic effects}, a new programming abstraction that supports bidirectional control transfer in a more natural way. Handlers of bidirectional effects can raise further effects to transfer control back to the site where the initiating effect was raised, and can use themselves to handle their own effects. We present applications of this expressive power, which falls out naturally as we push toward the unification of effectful programming with object-oriented programming. We pin down the mechanism and the unification formally using a core language that makes generalizations to effect operations and effect handlers.
+
+	The usual propagation semantics of control effects such as exceptions conflicts with modular reasoning in the presence of effect polymorphism---it breaks parametricity. Bidirectionality exacerbates the problem. Hence, we set out to show the core language, which builds on the existing tunneling semantics for algebraic effects, is not only type-safe (no effects go unhandled), but also abstraction-safe (no effects are accidentally handled). We devise a step-indexed logical-relations model, and construct its parametricity and soundness proofs. These core results are fully mechanized in Coq. While a full-featured compiler is left to future work, experiments show that as a first-class language feature, bidirectional handlers can be implemented efficiently.}
 }
 
 @article{10.1145/3397495,
-	abbr = {ACM Comp. Surv.},
+	abbr = {CSUR},
 	projects = {ScalaLoci},
+	pdf = {papers/2020_A-Survey-of-Multitier-Programming.pdf},
 	author = {Weisenburger, Pascal and Wirth, Johannes and Salvaneschi, Guido},
 	title = {A Survey of Multitier Programming},
 	year = {2020},
@@ -126,21 +137,21 @@
 	volume = {53},
 	number = {4},
 	issn = {0360-0300},
-	url = {https://doi.org/10.1145/3397495},
 	doi = {10.1145/3397495},
-	abstract = {Multitier programming deals with developing the components that pertain to different tiers in the system (e.g., client and server), mixing them in the same compilation unit. In this paradigm, the code for different tiers is then either generated at run time or it results from the compiler splitting the codebase into components that belong to different tiers based on user annotations, static analysis, types, or a combination of these. In the Web context, multitier languages aim at reducing the distinction between client and server code, by translating the code that is to be executed on the clients to JavaScript or by executing JavaScript on the server, too. Ultimately, the goal of the multitier approach is to improve program comprehension, simplify maintenance and enable formal reasoning about the properties of the whole distributed application.A number of multitier research languages have been proposed over the last decade, which support various degrees of multitier programming and explore different design tradeoffs. In this article, we provide an overview of the existing solutions, discuss their positioning in the design space, and outline open research problems.},
-	journal = {ACM Comput. Surv.},
+	journal = {ACM Computing Surveys},
 	month = sep,
 	articleno = {81},
 	numpages = {35},
-	keywords = {distributed programming, Multitier languages, tierless languages},
-    pdf = {papers/2020_A-Survey-of-Multitier-Programming.pdf}
+	keywords = {distributed programming, multitier languages, tierless languages},
+	abstract = {Multitier programming deals with developing the components that pertain to different tiers in the system (e.g., client and server), mixing them in the same compilation unit. In this paradigm, the code for different tiers is then either generated at run time or it results from the compiler splitting the codebase into components that belong to different tiers based on user annotations, static analysis, types, or a combination of these. In the Web context, multitier languages aim at reducing the distinction between client and server code, by translating the code that is to be executed on the clients to JavaScript or by executing JavaScript on the server, too. Ultimately, the goal of the multitier approach is to improve program comprehension, simplify maintenance and enable formal reasoning about the properties of the whole distributed application.
+
+	A number of multitier research languages have been proposed over the last decade, which support various degrees of multitier programming and explore different design tradeoffs. In this article, we provide an overview of the existing solutions, discuss their positioning in the design space, and outline open research problems.}
 }
 
 @inproceedings{10.1145/3427761.3428346,
 	abbr = {FTfJP},
 	projects = {ConSysT},
-	author = {K\"{o}hler, Mirko and Eskandani, Nafise and Margara, Alessandro and Salvaneschi, Guido},
+	author = {Köhler, Mirko and Eskandani, Nafise and Margara, Alessandro and Salvaneschi, Guido},
 	title = {ConSysT: Tunable, Safe Consistency Meets Object-Oriented Programming},
 	year = {2020},
 	isbn = {9781450381864},
@@ -150,7 +161,7 @@
 	doi = {10.1145/3427761.3428346},
 	abstract = {Data replication is essential in scenarios like geo-distributed datacenters, but poses challenges for data consistency. Developers adopt Strong consistency at the cost of performance or embrace Weak consistency and face a higher programming complexity. We argue that languages should associate consistency to data types. We present , a programming language and middleware that provides abstractions to specify consistency types, enabling mixing different consistency levels in the same application. Such mechanism is fully integrated with object-oriented programming and type system guarantees that different levels can only be mixed correctly.},
 	booktitle = {Proceedings of the 22nd ACM SIGPLAN International Workshop on Formal Techniques for Java-Like Programs},
-	pages = {15–17},
+	pages = {15--17},
 	numpages = {3},
 	keywords = {Java, consistency, replication, type systems},
 	location = {Virtual, USA},
@@ -159,7 +170,7 @@
 
 @inproceedings{10.1145/3395363.3397367,
 	abbr = {ISSTA},
-	author = {Helm, Dominik and K\"{u}bler, Florian and K\"{o}lzer, Jan Thomas and Haller, Philipp and Eichberg, Michael and Salvaneschi, Guido and Mezini, Mira},
+	author = {Helm, Dominik and Kübler, Florian and Kölzer, Jan Thomas and Haller, Philipp and Eichberg, Michael and Salvaneschi, Guido and Mezini, Mira},
 	title = {A Programming Model for Semi-Implicit Parallelization of Static Analyses},
 	year = {2020},
 	isbn = {9781450380089},
@@ -169,7 +180,7 @@
 	doi = {10.1145/3395363.3397367},
 	abstract = {Parallelization of static analyses is necessary to scale to real-world programs, but it is a complex and difficult task and, therefore, often only done manually for selected high-profile analyses. In this paper, we propose a programming model for semi-implicit parallelization of static analyses which is inspired by reactive programming. Reusing the domain-expert knowledge on how to parallelize anal- yses encoded in the programming framework, developers do not need to think about parallelization and concurrency issues on their own. The programming model supports stateful computations, only requires monotonic computations over lattices, and is independent of specific analyses. Our evaluation shows the applicability of the programming model to different analyses and the importance of user-selected scheduling strategies. We implemented an IFDS solver that was able to outperform a state-of-the-art, specialized parallel IFDS solver both in absolute performance and scalability.},
 	booktitle = {Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis},
-	pages = {428–439},
+	pages = {428--439},
 	numpages = {12},
 	keywords = {static analysis, parallelization, concurrency},
 	location = {Virtual Event, USA},
@@ -180,12 +191,12 @@
 	abbr = {SuperCompCloud},
 	projects = {ScalaLoci},
 	author = {Sokolowski, Daniel and Lehr, Jan-Patrick and Bischof, Christian and Salvaneschi, Guido},
-	booktitle = {2020 IEEE/ACM International Workshop on Interoperability of Supercomputing and Cloud Technologies (SuperCompCloud)},
+	booktitle = {Proceedings of the 2020 IEEE/ACM International Workshop on Interoperability of Supercomputing and Cloud Technologies (SuperCompCloud)},
 	title = {Leveraging Hybrid Cloud HPC with Multitier Reactive Programming},
 	year = {2020},
 	volume = {},
 	number = {},
-	pages = {27-32},
+	pages = {27--32},
     abstract = {The advent of cloud computing has enabled large-scale availability of on-demand computing and storage resources. However, these benefits are not yet at the fingertips of HPC developers: Typical HPC applications use on-premise computing resources and rely on static deployment setups, reliable hardware, and rather homogeneous resources. This hinders (partial) execution in the cloud, even though applications could benefit from scaling beyond on-premise resources and from the variety of hardware available in the cloud to speed up execution.
 
     To address this issue, we orchestrate computationally intensive kernels using a high-level programming language that ensures advanced optimization and improves execution flexibility-enabling hybrid cloud/on-premise HPC deployments. Our approach is based on multitier reactive programming, where distributed code is defined within the same compilation unit and computations are placed explicitly using placement types. We adjust placement based on performance characteristics measured before execution, apply our approach to a shortest vector problem (SVP) solver from cryptanalysis, and evaluate it to be effective.},
@@ -194,9 +205,11 @@
 }
 
 @article{tubiblio120224,
-	abbr = {Art Sci. Eng. Program.},
+	abbr = {‹Programming›},
 	projects = {ScalaLoci},
+	volume = {4},
 	number = {3},
+	articleno = {17},
 	journal = {The Art, Science, and Engineering of Programming},
 	author = {Pascal Weisenburger and Guido Salvaneschi},
 	issn = {2473-7321},
@@ -215,7 +228,7 @@
 }
 @inproceedings{10.1109/ASE.2019.00082,
 	abbr = {ASE},
-	author = {K\"{o}hler, Mirko and Salvaneschi, Guido},
+	author = {Köhler, Mirko and Salvaneschi, Guido},
 	title = {Automated Refactoring to Reactive Programming},
 	year = {2019},
 	isbn = {9781728125084},
@@ -224,7 +237,7 @@
 	doi = {10.1109/ASE.2019.00082},
 	abstract = {Reactive programming languages and libraries, such as ReactiveX, have been shown to significantly improve software design and have seen important industrial adoption over the last years. Asynchronous applications - which are notoriously error-prone to implement and to maintain - greatly benefit from reactive programming because they can be defined in a declarative style, which improves code clarity and extensibility.In this paper, we tackle the problem of refactoring existing software that has been designed with traditional abstractions for asynchronous programming. We propose 2Rx, a refactoring approach to automatically convert asynchronous code to reactive programming. Our evaluation on top-starred GitHub projects shows that 2Rx is effective with common asynchronous constructs and it can provide a refactoring for 91.7% of their occurrences.},
 	booktitle = {Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering},
-	pages = {835–846},
+	pages = {835--846},
 	numpages = {12},
 	keywords = {refactoring, reactive programming, asynchronous programming, Java},
 	location = {San Diego, California},
@@ -234,7 +247,7 @@
 
 @inproceedings{10.1145/3358503.3361274,
 	abbr = {REBLS},
-	author = {Bl\"{o}cher, Marcel and Eichholz, Matthias and Weisenburger, Pascal and Eugster, Patrick and Mezini, Mira and Salvaneschi, Guido},
+	author = {Blöcher, Marcel and Eichholz, Matthias and Weisenburger, Pascal and Eugster, Patrick and Mezini, Mira and Salvaneschi, Guido},
 	title = {GRASS: Generic Reactive Application-Specific Scheduling},
 	year = {2019},
 	isbn = {9781450369862},
@@ -246,7 +259,7 @@
 
 	We propose GRASS, a reactive domain-specific abstraction that allows specifying application-tailored resource scheduling policies. We demonstrate how the declarative approach of GRASS enables extension and composition of scheduling policies. Our evaluation shows the performance benefits of considering application-specific information in a composition of scheduling policies that adapt at run time.},
 	booktitle = {Proceedings of the 6th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems},
-	pages = {21–30},
+	pages = {21--30},
 	numpages = {10},
 	keywords = {Reactive Programming, Data Center Resource Scheduling},
 	location = {Athens, Greece},
@@ -254,27 +267,23 @@
 	pdf = {papers/2019_GRASS-Generic-Reactive-Application-Specific-Scheduling.pdf}
 }
 
-@article{DBLP:journals/corr/abs-1907-02990,
+@misc{DBLP:journals/corr/abs-1907-02990,
 	abbr = {CoRR},
-	author    = {Oliver Bracevac and
-	           Guido Salvaneschi and
-	           Sebastian Erdweg and
-	           Mira Mezini},
-	title     = {Type-safe, Polyvariadic Event Correlation},
-	journal   = {CoRR},
-	volume    = {abs/1907.02990},
-	year      = {2019},
-	url       = {http://arxiv.org/abs/1907.02990},
+	author = {Oliver Bračevac and Guido Salvaneschi and Sebastian Erdweg and Mira Mezini},
+	title = {Type-safe, Polyvariadic Event Correlation},
+	year = {2019},
 	archivePrefix = {arXiv},
-	eprint    = {1907.02990},
-	timestamp = {Wed, 17 Jul 2019 10:27:36 +0200},
-	biburl    = {https://dblp.org/rec/journals/corr/abs-1907-02990.bib},
-	bibsource = {dblp computer science bibliography, https://dblp.org}
+	eprint = {1907.02990},
+	abstract = {The pivotal role that event correlation technology plays in todays applications has lead to the emergence of different families of event correlation approaches with a multitude of specialized correlation semantics, including computation models that support the composition and extension of different semantics.
+
+	However, type-safe embeddings of extensible and composable event patterns into statically-typed generalpurpose programming languages have not been systematically explored so far. This is unfortunate, as typesafe embedding of event patterns is important to enable increased correctness of event correlation computations as well as domain-specific optimizations. Event correlation technology has often adopted well-known and intuitive notations from database queries, for which approaches to type-safe embedding do exist. However, we argue in the paper that these approaches, which are essentially descendants of the work on monadic comprehensions, are not well-suited for event correlations and, thus, cannot without further ado be reused/repurposed for embedding event patterns.
+
+	To close this gap we propose PolyJoin, a novel approach to type-safe embedding for fully polyvariadic event patterns with polymorphic correlation semantics. Our approach is based on a tagless final encoding with uncurried higher-order abstract syntax (HOAS) representation of event patterns withn variables, for arbitrary $n \in{} \mathbb{N}$. Thus, our embedding is defined in terms of the host language without code generation and exploits the host language type system to model and type check the type system of the pattern language. Hence, by construction it impossible to define ill-typed patterns. We show that it is possible to have a purely \emph{library-level} embedding of event patterns, in the familiar join query notation, which is not restricted to monads. PolyJoin is practical, type-safe and extensible. An implementation of it in pure multicore OCaml is readily usable.}
 }
 
 @inproceedings{10.1145/3359061.3362779,
 	projects = {ConSysT},
-	author = {Eskandani, Nafise and K\"{o}hler, Mirko and Margara, Alessandro and Salvaneschi, Guido},
+	author = {Eskandani, Nafise and Köhler, Mirko and Margara, Alessandro and Salvaneschi, Guido},
 	title = {Distributed Object-Oriented Programming with Multiple Consistency Levels in ConSysT},
 	year = {2019},
 	isbn = {9781450369923},
@@ -284,7 +293,7 @@
 	doi = {10.1145/3359061.3362779},
 	abstract = {Data replication is essential in scenarios like geo-distributed datacenters and edge computing. Yet, it poses a challenge for data consistency. Developers either adopt high consistency at the detriment of performance or they embrace low consistency and face a much higher programming complexity. We argue that language abstractions should support associating the level of consistency to data types. We present ConSysT, a programming language and middleware that provides abstractions to specify consistency types, enabling mixing different consistency levels in the same application. Such mechanism is fully integrated with object-oriented programming and type system guarantees that different levels can be mixed only in a correct way.},
 	booktitle = {Proceedings Companion of the 2019 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity},
-	pages = {13–14},
+	pages = {13--14},
 	numpages = {2},
 	keywords = {distributed systems, Java, replication, type systems, consistency},
 	location = {Athens, Greece},
@@ -293,7 +302,7 @@
 
 @article{10.1145/3360593,
 	abbr = {OOPSLA},
-	author = {Salvaneschi, Guido and K\"{o}hler, Mirko and Sokolowski, Daniel and Haller, Philipp and Erdweg, Sebastian and Mezini, Mira},
+	author = {Salvaneschi, Guido and Köhler, Mirko and Sokolowski, Daniel and Haller, Philipp and Erdweg, Sebastian and Mezini, Mira},
 	title = {Language-Integrated Privacy-Aware Distributed Queries},
 	year = {2019},
 	issue_date = {October 2019},
@@ -301,14 +310,17 @@
 	address = {New York, NY, USA},
 	volume = {3},
 	number = {OOPSLA},
-	url = {https://doi.org/10.1145/3360593},
-	doi = {10.1145/3360593},
-	abstract = {Distributed query processing is an effective means for processing large amounts of data. To abstract from the technicalities of distributed systems, algorithms for operator placement automatically distribute sequential data queries over the available processing units. However, current algorithms for operator placement focus on performance and ignore privacy concerns that arise when handling sensitive data.  We present a new methodology for privacy-aware operator placement that both prevents leakage of sensitive information and improves performance. Crucially, our approach is based on an information-flow type system for data queries to reason about the sensitivity of query subcomputations. Our solution unfolds in two phases. First, placement space reduction generates deployment candidates based on privacy constraints using a syntax-directed transformation driven by the information-flow type system. Second, constraint solving selects the best placement among the candidates based on a cost model that maximizes performance. We verify that our algorithm preserves the sequential behavior of queries and prevents leakage of sensitive data. We implemented the type system and placement algorithm for a new query language SecQL and demonstrate significant performance improvements in benchmarks.},
-	journal = {Proc. ACM Program. Lang.},
+	journal = {Proceedings of the ACM on Programming Languages},
 	month = oct,
 	articleno = {167},
 	numpages = {30},
-	keywords = {Information-Flow Type System, Scala, Operator Placement, SQL, Data Privacy}
+	pages = {167:1--167:30},
+	keywords = {Information-Flow Type System, Scala, Operator Placement, SQL, Data Privacy},
+	doi = {10.1145/3360593},
+	location = {Athens, Greece},
+	abstract = {Distributed query processing is an effective means for processing large amounts of data. To abstract from the technicalities of distributed systems, algorithms for operator placement automatically distribute sequential data queries over the available processing units. However, current algorithms for operator placement focus on performance and ignore privacy concerns that arise when handling sensitive data.
+
+	We present a new methodology for privacy-aware operator placement that both prevents leakage of sensitive information and improves performance. Crucially, our approach is based on an information-flow type system for data queries to reason about the sensitivity of query subcomputations. Our solution unfolds in two phases. First, placement space reduction generates deployment candidates based on privacy constraints using a syntax-directed transformation driven by the information-flow type system. Second, constraint solving selects the best placement among the candidates based on a cost model that maximizes performance. We verify that our algorithm preserves the sequential behavior of queries and prevents leakage of sensitive data. We implemented the type system and placement algorithm for a new query language SecQL and demonstrate significant performance improvements in benchmarks.}
 }
 
 @article{10.1145/3360570,
@@ -322,14 +334,17 @@
 	address = {New York, NY, USA},
 	volume = {3},
 	number = {OOPSLA},
-	url = {https://doi.org/10.1145/3360570},
 	doi = {10.1145/3360570},
-	abstract = {Ubiquitous connectivity of web, mobile, and IoT computing platforms has fostered a variety of distributed applications with decentralized state. These applications execute across multiple devices with varying reliability and connectivity. Unfortunately, there is no declarative fault-tolerant programming model for distributed interactive applications with an inherently decentralized system model.  We present a novel approach to automating fault tolerance using high-level programming abstractions tailored to the needs of distributed interactive applications. Specifically, we propose a calculus that enables formal reasoning about applications' dataflow within and across individual devices. Our calculus reinterprets the functional reactive programming model to seamlessly integrate its automated state change propagation with automated crash recovery of device-local dataflow and disconnection-tolerant distribution with guaranteed automated eventual consistency semantics based on conflict-free replicated datatypes. As a result, programmers are relieved of handling intricate details of distributing change propagation and coping with distribution failures in the presence of interactivity. We also provides proofs of our claims, an implementation of our calculus, and an empirical evaluation using a common interactive application.},
-	journal = {Proc. ACM Program. Lang.},
+	journal = {Proceedings of the ACM on Programming Languages},
 	month = oct,
 	articleno = {144},
 	numpages = {29},
-	keywords = {distributed systems, fault tolerance, interactive applications}
+	pages = {144:1--144:19},
+	location = {Athens, Greece},
+	keywords = {distributed systems, fault tolerance, interactive applications},
+	abstract = {Ubiquitous connectivity of web, mobile, and IoT computing platforms has fostered a variety of distributed applications with decentralized state. These applications execute across multiple devices with varying reliability and connectivity. Unfortunately, there is no declarative fault-tolerant programming model for distributed interactive applications with an inherently decentralized system model.
+
+	We present a novel approach to automating fault tolerance using high-level programming abstractions tailored to the needs of distributed interactive applications. Specifically, we propose a calculus that enables formal reasoning about applications' dataflow within and across individual devices. Our calculus reinterprets the functional reactive programming model to seamlessly integrate its automated state change propagation with automated crash recovery of device-local dataflow and disconnection-tolerant distribution with guaranteed automated eventual consistency semantics based on conflict-free replicated datatypes. As a result, programmers are relieved of handling intricate details of distributing change propagation and coping with distribution failures in the presence of interactivity. We also provides proofs of our claims, an implementation of our calculus, and an empirical evaluation using a common interactive application.}
 }
 
 @inproceedings{10.1145/3328905.3332465,
@@ -345,7 +360,7 @@
 	doi = {10.1145/3328905.3332465},
 	abstract = {Developing distributed systems is a complex task that requires to program different peers, often using several languages on different platforms, writing communication code and handling data serialization and conversion.We show how the multitier programming paradigm can alleviate these issues, supporting a development model where all peers in the system can be written in the same language and coexist in the same compilation units, communication code is automatically inserted by the compiler and the language abstracts over data conversion and serialization. We present multitier programming abstractions, discuss their applicability step by step for the development of small applications and discuss larger case studies on distributed stream processing, like Apache Flink and Apache Gearpump.},
 	booktitle = {Proceedings of the 13th ACM International Conference on Distributed and Event-Based Systems},
-	pages = {203–204},
+	pages = {203--204},
 	numpages = {2},
 	keywords = {Scala, Placement Types, Reactive Programming, Multitier Programming, Distributed Programming},
 	location = {Darmstadt, Germany},
@@ -354,7 +369,7 @@
 }
 
 @inproceedings{10.1145/3328433.3328446,
-	abbr = {Programming},
+	abbr = {PASS},
 	projects = {J<sub>E</sub>},
 	author = {Oak, Aditya and Mezini, Mira and Salvaneschi, Guido},
 	title = {Language Support for Multiple Privacy Enhancing Technologies},
@@ -370,18 +385,19 @@
 	numpages = {2},
 	keywords = {programming languages, information flow control},
 	location = {Genova, Italy},
-	series = {Programming '19}
+	series = {Programming Companion '19}
 }
 
 @INPROCEEDINGS{8792001,
 	abbr = {FAS*W},
 	author = {Casadei, Roberto and Pianini, Danilo and Salvaneschi, Guido and Viroli, Mirko},
-	booktitle = {2019 IEEE 4th International Workshops on Foundations and Applications of Self* Systems (FAS*W)},
+	booktitle = {Proceedings of the 2019 IEEE 4th International Workshops on Foundations and Applications of Self* Systems},
+	series = {FAS*W '19},
 	title = {On Context-Orientation in Aggregate Programming},
 	year = {2019},
 	volume = {},
 	number = {},
-	pages = {92-97},
+	pages = {92--97},
 	doi = {10.1109/FAS-W.2019.00035}
 }
 
@@ -399,71 +415,80 @@
     pdf = {papers/2019_Multitier-Reactive-Programming-in-High-Performance-Computing.pdf}
 }
 
-@InProceedings{weisenburger_et_al:LIPIcs:2019:10795,
+@inproceedings{weisenburger_et_al:LIPIcs:2019:10795,
 	abbr = {ECOOP},
 	projects = {ScalaLoci},
-	author =	{Pascal Weisenburger and Guido Salvaneschi},
-	title =	{{Multitier Modules}},
-	booktitle =	{33rd European Conference on Object-Oriented Programming (ECOOP 2019)},
-	pages =	{3:1--3:29},
-	series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
-	ISBN =	{978-3-95977-111-5},
-	ISSN =	{1868-8969},
-	year =	{2019},
-	volume =	{134},
-	editor =	{Alastair F. Donaldson},
-	publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
-	address =	{Dagstuhl, Germany},
-	URL =		{http://drops.dagstuhl.de/opus/volltexte/2019/10795},
-	URN =		{urn:nbn:de:0030-drops-107957},
-	doi =		{10.4230/LIPIcs.ECOOP.2019.3},
-	annote =	{Keywords: Distributed Programming, Multitier Programming, Abstract Peer Types, Placement Types, Module Systems, Scala},
 	pdf = {papers/2019_Multitier-Modules.pdf},
+	author = {Weisenburger, Pascal and Salvaneschi, Guido},
+	title = {Multitier Modules},
+	booktitle = {Proceedings of the 33rd European Conference on Object-Oriented Programming (ECOOP '19)},
+	articleno = {3},
+	numpages = {29},
+	pages = {3:1--3:29},
+	series = {Leibniz International Proceedings in Informatics (LIPIcs)},
+	isbn = {978-3-95977-111-5},
+	issn = {1868-8969},
+	year = {2019},
+	volume = {134},
+	editor = {Donaldson, Alastair F.},
+	publisher = {Schloss Dagstuhl -- Leibniz-Zentrum für Informatik},
+	address = {Dagstuhl, Germany},
+	url = {http://drops.dagstuhl.de/opus/volltexte/2019/10795},
+	urn = {urn:nbn:de:0030-drops-107957},
+	doi = {10.4230/LIPIcs.ECOOP.2019.3},
+	location = {London, UK},
+	keywords = {Distributed Programming, Multitier Programming, Abstract Peer Types, Placement Types, Module Systems, Scala},
 	abstract = {Multitier programming languages address the complexity of developing distributed systems abstracting over low level implementation details such as data representation, serialization and network protocols. Since the functionalities of different peers can be defined in the same compilation unit, multitier languages do not force developers to modularize software along network boundaries. Unfortunately, combining the code for all tiers into the same compilation unit poses a scalability challenge or forces developers to resort to traditional modularization abstractions that are agnostic to the multitier nature of the language.
 
 	In this paper, we address this issue with a module system for multitier languages. Our module system supports encapsulating each (cross-peer) functionality and defining it over abstract peer types. As a result, we disentangle modularization and distribution and we enable the definition of a distributed system as a composition of multitier modules, each representing a subsystem. Our case studies on distributed algorithms, distributed data structures, as well as on the Apache Flink task distribution system, show that multitier modules allow the definition of reusable (abstract) patterns of interaction in distributed software and enable separating the modularization and distribution concerns, properly separating functionalities in distributed systems.}
 }
 
-@InProceedings{eichholz_et_al:LIPIcs:2019:10804,
+@inproceedings{eichholz_et_al:LIPIcs:2019:10804,
 	abbr = {ECOOP},
-	author =	{Matthias Eichholz and Eric Campbell and Nate Foster and Guido Salvaneschi and Mira Mezini},
-	title =	{{How to Avoid Making a Billion-Dollar Mistake: Type-Safe Data Plane Programming with SafeP4}},
-	booktitle =	{33rd European Conference on Object-Oriented Programming (ECOOP 2019)},
-	pages =	{12:1--12:28},
-	series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
-	ISBN =	{978-3-95977-111-5},
-	ISSN =	{1868-8969},
-	year =	{2019},
-	volume =	{134},
-	editor =	{Alastair F. Donaldson},
-	publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
-	address =	{Dagstuhl, Germany},
-	URL =		{http://drops.dagstuhl.de/opus/volltexte/2019/10804},
-	URN =		{urn:nbn:de:0030-drops-108041},
-	doi =		{10.4230/LIPIcs.ECOOP.2019.12},
-	annote =	{Keywords: P4, data plane programming, type systems}
+	author = {Eichholz, Matthias and Campbell, Eric and Foster, Nate and Salvaneschi, Guido and Mezini, Mira},
+	title = {How to Avoid Making a Billion-Dollar Mistake: Type-Safe Data Plane Programming with {SafeP4}},
+	booktitle = {Proceedings of the 33rd European Conference on Object-Oriented Programming (ECOOP '19)},
+	articleno = {12},
+	numpages = {28},
+	pages = {12:1--12:28},
+	series = {Leibniz International Proceedings in Informatics (LIPIcs)},
+	isbn = {978-3-95977-111-5},
+	issn = {1868-8969},
+	year = {2019},
+	volume = {134},
+	editor = {Donaldson, Alastair F.},
+	publisher = {Schloss Dagstuhl -- Leibniz-Zentrum für Informatik},
+	address = {Dagstuhl, Germany},
+	url = {http://drops.dagstuhl.de/opus/volltexte/2019/10804},
+	urn = {urn:nbn:de:0030-drops-108041},
+	doi = {10.4230/LIPIcs.ECOOP.2019.12},
+	location = {London, UK},
+	keywords = {P4, data plane programming, type systems},
+	abstract = {The P4 programming language offers high-level, declarative abstractions that bring the flexibility of software to the domain of networking. Unfortunately, the main abstraction used to represent packet data in P4, namely header types, lacks basic safety guarantees. Over the last few years, experience with an increasing number of programs has shown the risks of the unsafe approach, which often leads to subtle software bugs.
+
+	This paper proposes SafeP4, a domain-specific language for programmable data planes in which all packet data is guaranteed to have a well-defined meaning and satisfy essential safety guarantees. We equip SafeP4 with a formal semantics and a static type system that statically guarantees header validity -- a common source of safety bugs according to our analysis of real-world P4 programs. Statically ensuring header validity is challenging because the set of valid headers can be modified at runtime, making it a dynamic program property. Our type system achieves static safety by using a form of path-sensitive reasoning that tracks dynamic information from conditional statements, routing tables, and the control plane. Our evaluation shows that SafeP4's type system can effectively eliminate common failures in many real-world programs.},
 }
 
-@INPROCEEDINGS{9033134,
+@inproceedings{9033134,
 	abbr = {GHTC},
+	pdf = {papers/2019_Smart-Street-Lights-and-Mobile-Citizen-Apps-for-Resilient-Communication-in-a-Digital-City.pdf},
 	author = {Baumgärtner, Lars and Höchst, Jonas and Lampe, Patrick and Mogk, Ragnar and Sterz, Artur and Weisenburger, Pascal and Mezini, Mira and Freisleben, Bernd},
-	booktitle = {2019 IEEE Global Humanitarian Technology Conference (GHTC)},
+	booktitle = {Proceedings of the 2019 IEEE Global Humanitarian Technology Conference},
 	title = {Smart Street Lights and Mobile Citizen Apps for Resilient Communication in a Digital City},
 	year = {2019},
-	volume = {},
-	number = {},
-	pages = {1-8},
+	numpages = {8},
 	doi = {10.1109/GHTC46095.2019.9033134},
-	pdf = {papers/2019_Smart-Street-Lights-and-Mobile-Citizen-Apps-for-Resilient-Communication-in-a-Digital-City.pdf},
-	abstract = {While information and communication technology is crucial for the operation of urban infrastructures and the well-being of its inhabitants, current technology is quite vulnerable to disruptions of various kinds. In future smart cities, a more resilient urban infrastructure is imperative to handle the increasing number of hazardous situations. We present a novel resilient communication approach based on smart street lights as part of the public infrastructure. It supports people in their everyday life and adapts its functionality to the challenges of emergency situations. Our approach relies on various environmental sensors and in-situ processing for automatic situation assessment, and a range of communication mechanisms for maintaining a communication network. Furthermore, resilience is not only achieved based on infrastructure deployed by a digital city’s municipality, but also based on integrating citizens through software that runs on their mobile devices. Web-based zero-installation and platform-agnostic apps can switch to device-to-device communication to continue benefiting people even during a disaster situation. Our approach, featuring a covert channel for professional responders and a zero-installation app, is evaluated through a prototypical implementation based on a commercially available street light.},
+	series = {GHTC '19},
+	location = {Seattle, WA, USA},
+	abstract = {While information and communication technology is crucial for the operation of urban infrastructures and the well-being of its inhabitants, current technology is quite vulnerable to disruptions of various kinds. In future smart cities, a more resilient urban infrastructure is imperative to handle the increasing number of hazardous situations. We present a novel resilient communication approach based on smart street lights as part of the public infrastructure. It supports people in their everyday life and adapts its functionality to the challenges of emergency situations. Our approach relies on various environmental sensors and in-situ processing for automatic situation assessment, and a range of communication mechanisms for maintaining a communication network. Furthermore, resilience is not only achieved based on infrastructure deployed by a digital city's municipality, but also based on integrating citizens through software that runs on their mobile devices. Web-based zero-installation and platform-agnostic apps can switch to device-to-device communication to continue benefiting people even during a disaster situation. Our approach, featuring a covert channel for professional responders and a zero-installation app, is evaluated through a prototypical implementation based on a commercially available street light.},
 }
 
 @InProceedings{10.1007/978-3-030-34405-4_7,
     abbr = {ALGOSENSORS},
     author="Schindelhauer, Christian and Oak, Aditya and Janson, Thomas",
     editor="Dressler, Falko and Scheideler, Christian",
-    title="Collaborative Broadcast in O(log log n) Rounds",
-    booktitle="Algorithms for Sensor Systems",
+    title="Collaborative Broadcast in \mathcal{O}(\log{} \log{} n) Rounds",
+    booktitle="Proceedings of the International Symposium on Algorithms and Experiments for Sensor Systems, Wireless Networks and Distributed Robotics",
     year="2019",
     publisher="Springer International Publishing",
     address="Cham",
@@ -477,28 +502,31 @@
 @article{10.1145/3276499,
 	abbr = {OOPSLA},
 	projects = {ScalaLoci},
-	author = {Weisenburger, Pascal and K\"{o}hler, Mirko and Salvaneschi, Guido},
-	title = {Distributed System Development with ScalaLoci},
+	pdf = {papers/2018_Distributed-System-Development-with-ScalaLoci.pdf},
+	author = {Weisenburger, Pascal and Köhler, Mirko and Salvaneschi, Guido},
+	title = {Distributed System Development with {ScalaLoci}},
 	year = {2018},
-	issue_date = {November 2018},
+	issue_date = {October 2018},
 	publisher = {Association for Computing Machinery},
+	issn = {2475-1421},
 	address = {New York, NY, USA},
 	volume = {2},
 	number = {OOPSLA},
-	url = {https://doi.org/10.1145/3276499},
-	doi = {10.1145/3276499},
-	abstract = {Distributed applications are traditionally developed as separate modules, often in different languages, which react to events, like user input, and in turn produce new events for the other modules. Separation into components requires time-consuming integration. Manual implementation of communication forces programmers to deal with low-level details. The combination of the two results in obscure distributed data flows scattered among multiple modules, hindering reasoning about the system as a whole.  The ScalaLoci distributed programming language addresses these issues with a coherent model based on placement types that enables reasoning about distributed data flows, supporting multiple software architectures via dedicated language features and abstracting over low-level communication details and data conversions. As we show, ScalaLoci simplifies developing distributed systems, reduces error-prone communication code and favors early detection of bugs.},
-	journal = {Proc. ACM Program. Lang.},
+	journal = {Proceedings of the ACM on Programming Languages},
 	month = oct,
 	articleno = {129},
 	numpages = {30},
+	pages = {129:1--129:30},
+	doi = {10.1145/3276499},
+	location = {Boston, MA, USA},
 	keywords = {Reactive Programming, Placement Types, Distributed Programming, Scala, Multitier Programming},
-    pdf = {papers/2018_Distributed-System-Development-with-ScalaLoci.pdf}
+	abstract = {Distributed applications are traditionally developed as separate modules, often in different languages, which react to events, like user input, and in turn produce new events for the other modules. Separation into components requires time-consuming integration. Manual implementation of communication forces programmers to deal with low-level details. The combination of the two results in obscure distributed data flows scattered among multiple modules, hindering reasoning about the system as a whole.  The ScalaLoci distributed programming language addresses these issues with a coherent model based on placement types that enables reasoning about distributed data flows, supporting multiple software architectures via dedicated language features and abstracting over low-level communication details and data conversions. As we show, ScalaLoci simplifies developing distributed systems, reduces error-prone communication code and favors early detection of bugs.}
 }
 
 @article{10.1145/3276477,
 	abbr = {OOPSLA},
 	projects = {REScala},
+	pdf = {papers/2018-Thread-safe-reactive-programming.pdf},
 	author = {Drechsler, Joscha and Mogk, Ragnar and Salvaneschi, Guido and Mezini, Mira},
 	title = {Thread-Safe Reactive Programming},
 	year = {2018},
@@ -507,20 +535,23 @@
 	address = {New York, NY, USA},
 	volume = {2},
 	number = {OOPSLA},
-	url = {https://doi.org/10.1145/3276477},
-	doi = {10.1145/3276477},
-	abstract = {The execution of an application written in a reactive language involves transfer of data and control flow between imperative and reactive abstractions at well-defined points. In a multi-threaded environment, multiple such interactions may execute concurrently, potentially causing data races and event ordering ambiguities. Existing RP languages either disable multi-threading or handle it at the cost of reducing expressiveness or weakening consistency. This paper proposes a model for thread-safe reactive programming (RP) that ensures abort-free strict serializability under concurrency while sacrificing neither expressiveness nor consistency. We also propose an architecture for integrating a corresponding scheduler into the RP language runtime, such that thread-safety is provided "out-of-the-box" to the applications.  We show the feasibility of our proposal by providing and evaluating a ready-to-use implementation integrated into the REScala programming language. The scheduling algorithm is formally proven correct. A thorough empirical evaluation shows that reactive applications build on top of it scale with multiple threads, while the scheduler incurs acceptable performance overhead in a single-threaded configuration. The scalability enabled by our scheduler is roughly on-par with that of hand-crafted application-specific locking and better than the scalability enabled by a scheduler using an off-the-shelf software transactional memory library.},
-	journal = {Proc. ACM Program. Lang.},
+	journal = {Proceedings of the ACM on Programming Languages},
 	month = oct,
 	articleno = {107},
 	numpages = {30},
+	pages = {107:1--107:30},
 	keywords = {Reactive Programming, Concurrency, Transactions},
-    pdf = {papers/2018-Thread-safe-reactive-programming.pdf}
+	doi = {10.1145/3276477},
+	location = {Boston, MA, USA},
+	abstract = {The execution of an application written in a reactive language involves transfer of data and control flow between imperative and reactive abstractions at well-defined points. In a multi-threaded environment, multiple such interactions may execute concurrently, potentially causing data races and event ordering ambiguities. Existing RP languages either disable multi-threading or handle it at the cost of reducing expressiveness or weakening consistency. This paper proposes a model for thread-safe reactive programming (RP) that ensures abort-free strict serializability under concurrency while sacrificing neither expressiveness nor consistency. We also propose an architecture for integrating a corresponding scheduler into the RP language runtime, such that thread-safety is provided "out-of-the-box" to the applications.
+
+	We show the feasibility of our proposal by providing and evaluating a ready-to-use implementation integrated into the REScala programming language. The scheduling algorithm is formally proven correct. A thorough empirical evaluation shows that reactive applications build on top of it scale with multiple threads, while the scheduler incurs acceptable performance overhead in a single-threaded configuration. The scalability enabled by our scheduler is roughly on-par with that of hand-crafted application-specific locking and better than the scalability enabled by a scheduler using an off-the-shelf software transactional memory library.}
 }
 
 @article{10.1145/3236762,
 	abbr = {ICFP},
-	author = {Bra\v{c}evac, Oliver and Amin, Nada and Salvaneschi, Guido and Erdweg, Sebastian and Eugster, Patrick and Mezini, Mira},
+	pdf = {papers/2018-Versatile-event-correlation-with-algebraic-effects.pdf},
+	author = {Bračevac, Oliver and Amin, Nada and Salvaneschi, Guido and Erdweg, Sebastian and Eugster, Patrick and Mezini, Mira},
 	title = {Versatile Event Correlation with Algebraic Effects},
 	year = {2018},
 	issue_date = {September 2018},
@@ -528,20 +559,20 @@
 	address = {New York, NY, USA},
 	volume = {2},
 	number = {ICFP},
-	url = {https://doi.org/10.1145/3236762},
-	doi = {10.1145/3236762},
-	abstract = {We present the first language design to uniformly express variants of n-way joins over asynchronous event streams from different domains, e.g., stream-relational algebra, event processing, reactive and concurrent programming. We model asynchronous reactive programs and joins in direct style, on top of algebraic effects and handlers. Effect handlers act as modular interpreters of event notifications, enabling fine-grained control abstractions and customizable event matching. Join variants can be considered as cartesian product computations with ”degenerate” control flow, such that unnecessary tuples are not materialized a priori. Based on this computational interpretation, we decompose joins into a generic, naive enumeration procedure of the cartesian product, plus variant-specific extensions, represented in terms of user-supplied effect handlers. Our microbenchmarks validate that this extensible design avoids needless materialization. Alongside a formal semantics for joining and prototypes in Koka and multicore OCaml, we contribute a systematic comparison of the covered domains and features.},
-	journal = {Proc. ACM Program. Lang.},
+	journal = {Proceedings of the ACM on Programming Languages},
 	month = jul,
 	articleno = {67},
 	numpages = {31},
+	pages = {67:1--67:31},
 	keywords = {joins, Koka, complex event processing, asynchrony, algebraic effect handlers, event correlation, multicore OCaml},
-    pdf = {papers/2018-Versatile-event-correlation-with-algebraic-effects.pdf}
+	doi = {10.1145/3236762},
+	location = {St. Louis, MO, USA},
+	abstract = {We present the first language design to uniformly express variants of n-way joins over asynchronous event streams from different domains, e.g., stream-relational algebra, event processing, reactive and concurrent programming. We model asynchronous reactive programs and joins in direct style, on top of algebraic effects and handlers. Effect handlers act as modular interpreters of event notifications, enabling fine-grained control abstractions and customizable event matching. Join variants can be considered as cartesian product computations with ``degenerate'' control flow, such that unnecessary tuples are not materialized a priori. Based on this computational interpretation, we decompose joins into a generic, naïve enumeration procedure of the cartesian product, plus variant-specific extensions, represented in terms of user-supplied effect handlers. Our microbenchmarks validate that this extensible design avoids needless materialization. Alongside a formal semantics for joining and prototypes in Koka and multicore OCaml, we contribute a systematic comparison of the covered domains and features.}
 }
 
 @inproceedings{10.1145/3236454.3236509,
 	abbr = {SOAP},
-	author = {Eichberg, M. and K\"{u}bler, F. and Helm, D. and Reif, M. and Salvaneschi, G. and Mezini, M.},
+	author = {Eichberg, M. and Kübler, F. and Helm, D. and Reif, M. and Salvaneschi, G. and Mezini, M.},
 	title = {Lattice Based Modularization of Static Analyses},
 	year = {2018},
 	isbn = {9781450359399},
@@ -551,7 +582,7 @@
 	doi = {10.1145/3236454.3236509},
 	abstract = {Static analyses which compute conceptually independent information, e.g., class immutability or method purity are typically developed as standalone, closed analyses. Complementary information that could improve the analyses is either ignored by making a sound over-approximation or it is also computed by the analyses, but at a rudimentary level. For example, an immutability analysis requires field mutability information, alias/escape information, and information about the concurrent behavior of methods to correctly classify classes like java.lang.String or java.util.BigDecimal. As a result, without properly supporting the integration of independently developed, mutually benefiting analysis, many analyses will not correctly classify relevant entities.We propose to use explicitly reified lattices that encode the information about a source code element's properties (e.g., a method's purity or a class' immutability) as the sole interface between mutually dependent analyses. This enables the composition of multiple analyses. Our case study shows that using such an approach enables highly scalable, lightweight implementations of modularized static analyses.},
 	booktitle = {Companion Proceedings for the ISSTA/ECOOP 2018 Workshops},
-	pages = {113–118},
+	pages = {113--118},
 	numpages = {6},
 	keywords = {modularization, static analysis framework, lattice, abstract interpretation},
 	location = {Amsterdam, Netherlands},
@@ -571,7 +602,7 @@
 	doi = {10.1145/3236454.3236486},
 	abstract = {Large-scale distributed applications, e.g., in geodistributed data centers, pose a performance challenge to developers which need to take high cross-data-center latency communication cost into account. We present a preliminary investigation of a type system that tracks latency and makes the cost of remote calls explicit, raising developers' awareness of communication overhead.},
 	booktitle = {Companion Proceedings for the ISSTA/ECOOP 2018 Workshops},
-	pages = {34–36},
+	pages = {34--36},
 	numpages = {3},
 	location = {Amsterdam, Netherlands},
 	series = {ISSTA '18},
@@ -590,7 +621,7 @@
 	doi = {10.1145/3210284.3210292},
 	abstract = {Operator placement has a profound impact on the performance of a distributed complex event processing system (DCEP). Since the behavior of a placement mechanism strongly depends on its environment; a single placement mechanism is often not enough to fulfill stringent performance requirements under environmental changes. In this paper, we show how DCEP can benefit from the adaptive use of multiple placement mechanisms. We propose TCEP, a DCEP system to integrate multiple placement mechanisms. By enabling transitions, TCEP can seamlessly exchange distinct operator mechanisms at runtime. We make two main contributions that are highly important for a cost-efficient transition: i) a transition strategy for efficiently scheduling state migrations and ii) a lightweight learning algorithm to adaptively select an appropriate placement mechanism as a consequence of a transition. Our evaluations for important decentralized placement mechanisms in the context of an IoT scenario show that transitions can better fulfill QoS demands in a dynamic environment. Thereby efficient scheduling of state migrations can help to faster complete transitions by up to 94~%.},
 	booktitle = {Proceedings of the 12th ACM International Conference on Distributed and Event-Based Systems},
-	pages = {136–147},
+	pages = {136--147},
 	numpages = {12},
 	keywords = {Stream Processing, Adaptation, Operator Placement, Migration, Internet of Things, Complex Event Processing, Transitions},
 	location = {Hamilton, New Zealand},
@@ -600,7 +631,7 @@
 
 @inproceedings{10.1145/3210284.3210289,
 	abbr = {DEBS},
-	author = {Graubner, Pablo and Thelen, Christoph and K\"{o}rber, Michael and Sterz, Artur and Salvaneschi, Guido and Mezini, Mira and Seeger, Bernhard and Freisleben, Bernd},
+	author = {Graubner, Pablo and Thelen, Christoph and Körber, Michael and Sterz, Artur and Salvaneschi, Guido and Mezini, Mira and Seeger, Bernhard and Freisleben, Bernd},
 	title = {Multimodal Complex Event Processing on Mobile Devices},
 	year = {2018},
 	isbn = {9781450357821},
@@ -610,7 +641,7 @@
 	doi = {10.1145/3210284.3210289},
 	abstract = {Mobile devices are increasingly being used in edge and fog computing environments to process contextual data collected by sensors. Although complex event processing (CEP) is a suitable approach for realizing context-aware services on mobile devices in these environments, existing mobile CEP engines do not leverage the full potential of modern mobile hardware/software architectures. In this paper, we present multimodal CEP, a novel approach to process streams of events on-device in user space (user mode), in the operating system (kernel mode), on the Wi-Fi chip (Wi-Fi mode), and/or on a sensor hub (hub mode), providing significant improvements in terms of power consumption and throughput. Multimodal CEP automatically breaks up CEP queries and selects the most adequate execution mode for the involved CEP operators. Filter, aggregation, and correlation operators can be expressed in a high-level language without requiring system-level domain-specific knowledge. Multimodal CEP enables developers to efficiently detect user activities, collect environmental conditions, or interpret operating system and network events. Furthermore, it facilitates novel context-aware services, demonstrated by a use case for gathering and analyzing mobility data by Wi-Fi probe request tracking.},
 	booktitle = {Proceedings of the 12th ACM International Conference on Distributed and Event-Based Systems},
-	pages = {112–123},
+	pages = {112--123},
 	numpages = {12},
 	keywords = {Edge/Fog Computing, Mobile Device, Complex Event Processing},
 	location = {Hamilton, New Zealand},
@@ -629,12 +660,12 @@
 	url = {https://doi.org/10.1145/3191697.3214337},
 	doi = {10.1145/3191697.3214337},
 	abstract = {Reactive programming is a recent programming paradigm that specifically targets reactive applications. Over the years, a number of reactive languages have been proposed, with different combinations of features, and various target domains.  Unfortunately, there is a lack of knowledge about the experience of developing software applications with reactive languages. As a result, a number of design choices in reactive programming languages remain disconnected from experience and the applicability of reactive programming to various domains remains unclear.  To bridge this gap, we report on our experience of developing reactive applications as well as teaching reactive programming in REScala, which we collected over several years of research and practice.},
-	booktitle = {Conference Companion of the 2nd International Conference on Art, Science, and Engineering of Programming},
-	pages = {105–112},
+	booktitle = {Companion Proceedings for the 2nd International Conference on Art, Science, and Engineering of Programming},
+	pages = {105--112},
 	numpages = {8},
 	keywords = {Programming Experience, Reactive Programming, Language Design, Case Studies, Programming Paradigms},
 	location = {Nice, France},
-	series = {Programming'18 Companion}
+	series = {Programming Companion '18}
 }
 
 @inproceedings{10.1145/3191697.3213804,
@@ -648,50 +679,54 @@
 	url = {https://doi.org/10.1145/3191697.3213804},
 	doi = {10.1145/3191697.3213804},
 	abstract = {Network Function Virtualization (NFV) aims to overcome the limitations of hardware middleboxes by moving network functions to software. Ultimately, this approach enables deployment into virtualized environments with higher flexibility, reducing deployment time and costs. In common industrial practice, multiple smaller network functions are often chained together into service function chains. Yet, service function chains are extremely fragile, lacking basic guarantees on correct composition and dependency reasoning. In this position paper, we propose a roadmap towards language abstractions that address this issue. We introduce the problems with current service function chaining technology and present the research program we envision.},
-	booktitle = {Conference Companion of the 2nd International Conference on Art, Science, and Engineering of Programming},
-	pages = {81–86},
+	booktitle = {Companion Proceedings for the 2nd International Conference on Art, Science, and Engineering of Programming},
+	pages = {81--86},
 	numpages = {6},
 	keywords = {Network-functions, modularity, software-defined networks},
 	location = {Nice, France},
-	series = {Programming'18 Companion}
+	series = {Programming Companion '18}
 }
 
 @ARTICLE{8354906,
-	abbr = {IEEE Trans. Softw. Eng.},
+	abbr = {TSE},
 	author = {Margara, Alessandro and Salvaneschi, Guido},
 	journal = {IEEE Transactions on Software Engineering},
 	title = {On the Semantics of Distributed Reactive Programming: The Cost of Consistency},
 	year = {2018},
 	volume = {44},
 	number = {7},
-	pages = {689-711},
+	pages = {689--711},
 	doi = {10.1109/TSE.2018.2833109}
 }
 
-@InProceedings{mogk_et_al:LIPIcs:2018:9206,
+@inproceedings{mogk_et_al:LIPIcs:2018:9206,
 	abbr = {ECOOP},
 	projects = {REScala},
-	author =	{Ragnar Mogk and Lars Baumg{\"a}rtner and Guido Salvaneschi and Bernd Freisleben and Mira Mezini},
-	title =	{{Fault-tolerant Distributed Reactive Programming}},
-	booktitle =	{32nd European Conference on Object-Oriented Programming  (ECOOP 2018)},
-	pages =	{1:1--1:26},
-	series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
-	ISBN =	{978-3-95977-079-8},
-	ISSN =	{1868-8969},
-	year =	{2018},
-	volume =	{109},
-	editor =	{Todd Millstein},
-	publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
-	address =	{Dagstuhl, Germany},
-	URL =		{http://drops.dagstuhl.de/opus/volltexte/2018/9206},
-	URN =		{urn:nbn:de:0030-drops-92064},
-	doi =		{10.4230/LIPIcs.ECOOP.2018.1},
-	annote =	{Keywords: reactive programming, distributed systems, CRDTs, snapshots, restoration, error handling, fault tolerance},
-	pdf = {papers/2018_Fault-tolerant-Distributed-Reactive-Programming.pdf}
+	pdf = {papers/2018_Fault-tolerant-Distributed-Reactive-Programming.pdf},
+	author = {Mogk, Ragnar and Baumgärtner, Lars and Salvaneschi, Guido and Freisleben, Bernd and Mezini, Mira},
+	title = {Fault-tolerant Distributed Reactive Programming},
+	booktitle = {Proceedings of the 32nd European Conference on Object-Oriented Programming  (ECOOP '18)},
+	articleno = {1},
+	numpages = {26},
+	pages = {1:1--1:26},
+	series = {Leibniz International Proceedings in Informatics (LIPIcs)},
+	isbn = {978-3-95977-079-8},
+	issn = {1868-8969},
+	year = {2018},
+	volume = {109},
+	editor = {Todd Millstein},
+	publisher = {Schloss Dagstuhl -- Leibniz-Zentrum für Informatik},
+	address = {Dagstuhl, Germany},
+	url = {http://drops.dagstuhl.de/opus/volltexte/2018/9206},
+	urn = {urn:nbn:de:0030-drops-92064},
+	doi = {10.4230/LIPIcs.ECOOP.2018.1},
+	location = {Amsterdam, Netherlands},
+	keywords = {reactive programming, distributed systems, CRDTs, snapshots, restoration, error handling, fault tolerance},
+	abstract = {In this paper, we present a holistic approach to provide fault tolerance for distributed reactive programming. Our solution automatically stores and recovers program state to handle crashes, automatically updates and shares distributed parts of the state to provide eventual consistency, and handles errors in a fine-grained manner to allow precise manual control when necessary. By making use of the reactive programming paradigm, we provide these mechanisms without changing the behavior of existing programs and with reasonable performance, as indicated by our experimental evaluation.},
 }
 
 @article{10.1109/TSE.2017.2655524,
-	abbr = {IEEE Trans. Softw. Eng.},
+	abbr = {TSE},
 	projects = {REScala},
 	author = {Salvaneschi, Guido and Proksch, Sebastian and Amann, Sven and Nadi, Sarah and Mezini, Mira},
 	title = {On the Positive Effect of Reactive Programming on Software Comprehension: An Empirical Study},
@@ -703,10 +738,10 @@
 	issn = {0098-5589},
 	url = {https://doi.org/10.1109/TSE.2017.2655524},
 	doi = {10.1109/TSE.2017.2655524},
-	abstract = {Starting from the first investigations with strictly functional languages, reactive programming has been proposed as the programming paradigm for reactive applications. Over the years, researchers have enriched reactive languages with more powerful abstractions, embedded these abstractions into mainstream languages—including object-oriented languages—and applied reactive programming to several domains, such as GUIs, animations, Web applications, robotics, and sensor networks. However, an important assumption behind this line of research is that, beside other claimed advantages, reactive programming makes a wide class of otherwise cumbersome applications more comprehensible. This claim has never been evaluated. In this paper, we present the first empirical study that evaluates the effect of reactive programming on comprehension. The study involves&nbsp;127 subjects and compares reactive programming to the traditional object-oriented style with the Observer design pattern. Our findings show that program comprehension is significantly enhanced by the reactive-programming paradigm—a result that suggests to further develop research in this field.},
-	journal = {IEEE Trans. Softw. Eng.},
+	abstract = {Starting from the first investigations with strictly functional languages, reactive programming has been proposed as the programming paradigm for reactive applications. Over the years, researchers have enriched reactive languages with more powerful abstractions, embedded these abstractions into mainstream languages---including object-oriented languages---and applied reactive programming to several domains, such as GUIs, animations, Web applications, robotics, and sensor networks. However, an important assumption behind this line of research is that, beside other claimed advantages, reactive programming makes a wide class of otherwise cumbersome applications more comprehensible. This claim has never been evaluated. In this paper, we present the first empirical study that evaluates the effect of reactive programming on comprehension. The study involves&nbsp;127 subjects and compares reactive programming to the traditional object-oriented style with the Observer design pattern. Our findings show that program comprehension is significantly enhanced by the reactive-programming paradigm---a result that suggests to further develop research in this field.},
+	journal = {EEE Transactions on Software Engineering},
 	month = dec,
-	pages = {1125–1143},
+	pages = {1125--1143},
 	numpages = {19},
 	pdf = {papers/2017_On-the-Positive-Effect-of-Reactive-Programming-on-Software-Comprehension-An-Empirical-Study.pdf}
 }
@@ -727,7 +762,7 @@
 	articleno = {8},
 	numpages = {2},
 	location = {Barcelona, Spain},
-	series = {FTFJP'17},
+	series = {FTFJP '17},
 	pdf = {papers/2017_Consistency-Types-for-Safe-and-Efficient-Distributed-Programming.pdf}
 }
 
@@ -742,7 +777,7 @@
 	doi = {10.1109/SEAMS.2017.10},
 	abstract = {Complex event processing (CEP) is a fundamental paradigm for a software system to self-adapt to environmental changes. CEP provides efficient means to detect (complex) events corresponding to environmental changes by performing a real-time analysis on many, possibly heterogeneous, data sources. The way current CEP systems detect events is determined at design time without accounting for dynamic changes of the environment monitored by the CEP system. This can lead to situations where the performance, quality and reliability of event detection significantly drop (e.g., due to mobility) since initial assumptions of the environment are violated or stated too general. In this paper, we propose AdaptiveCEP, a CEP system that is able to self-adapt to detected changes in environmental conditions. We propose a CEP query language that allows specifying changes in the behavior of the CEP system and its mechanisms in detecting events dependent on environmental conditions. This way, AdaptiveCEP can select the best-suited configurations for given quality demands. In our evaluation, we show by means of a reference concept how the flexibility exposed by the query language helps to achieve significant performance gains.},
 	booktitle = {Proceedings of the 12th International Symposium on Software Engineering for Adaptive and Self-Managing Systems},
-	pages = {140–151},
+	pages = {140--151},
 	numpages = {12},
 	location = {Buenos Aires, Argentina},
 	series = {SEAMS '17},
@@ -762,7 +797,7 @@
 	doi = {10.1145/3001878.3001884},
 	abstract = { Over the last years, a number of languages based on data flow abstractions have been proposed in different important areas including Big Data, stream processing, reactive programming, real time analytics. While there is a general agreement that the data flow style simplifies the access to such complex systems compared to low level imperative APIs, this design has been substantiated by little evidence. In this paper, we advocate a systematic investigation of the design principles of data flow languages and suggest important research questions that urge to be addressed. },
 	booktitle = {Proceedings of the 7th International Workshop on Evaluation and Usability of Programming Languages and Tools},
-	pages = {30–31},
+	pages = {30--31},
 	numpages = {2},
 	keywords = {controlled experiment, reactive programming, data flow languages},
 	location = {Amsterdam, Netherlands},
@@ -782,7 +817,7 @@
 	doi = {10.1145/2998392.2998403},
 	abstract = { Cloud computing offers an attractive and cost-efficient computing platform and hence it has been widely adopted by the industry and the government. At the same time, cloud computing poses a serious security challenge because sensitive data must often be outsourced to third party entities that can access the data and perform computations on them. Partial homomorphic encryption is promising for secure computation, since it allows programs to be executed over encrypted data. Despite advances in cryptographic techniques have improved the expressivity of such programs, integration with mainstream languages has seen little progress. To this end, we present SecureScala, a domain-specific language in Scala that allows expressing secure programs without requiring any cryptographic knowledge. SecureScala is based on a novel combination of free monads and free applicative functors and supports parallel execution and static analyzability. We evaluate our approach through several case studies, demonstrate its expressivity, and show that it incurs in limited performance overhead. },
 	booktitle = {Proceedings of the 2016 7th ACM SIGPLAN Symposium on Scala},
-	pages = {75–84},
+	pages = {75--84},
 	numpages = {10},
 	keywords = {Secure computation, Domain-specific language},
 	location = {Amsterdam, Netherlands},
@@ -802,7 +837,7 @@
 	doi = {10.1145/2998392.2998396},
 	abstract = { Concurrent programming is infamous for its difficulty. An important source of difficulty is non-determinism, stemming from unpredictable interleavings of concurrent activities. Futures and promises are widely-used abstractions that help designing deterministic concurrent programs, although this property cannot be guaranteed statically in mainstream programming languages. Deterministic-by-construction concurrent programming models avoid this issue, but they typically restrict expressiveness in important ways.  This paper introduces a concurrent programming model, Reactive Async, which decouples concurrent computations using so-called cells, shared locations which generalize futures as well as recent deterministic abstractions such as LVars. Compared to previously proposed programming models Reactive Async provides (a) a fallback mechanism for the case where no computation ever computes the value of a given cell, and (b) explicit and optimized handling of cyclic dependencies. We present a complete implementation of the Reactive Async programming model as a library in Scala. Finally, the paper reports on a case study applying Reactive Async to static analyses of JVM bytecode based on the Opal framework. },
 	booktitle = {Proceedings of the 2016 7th ACM SIGPLAN Symposium on Scala},
-	pages = {11–20},
+	pages = {11--20},
 	numpages = {10},
 	keywords = {concurrent programming, asynchronous programming, static analysis, deterministic concurrency, Scala},
 	location = {Amsterdam, Netherlands},
@@ -822,7 +857,7 @@
 	doi = {10.1145/2908080.2908086},
 	abstract = { Unhandled exceptions crash programs, so a compile-time check that exceptions are handled should in principle make software more reliable. But designers of some recent languages have argued that the benefits of statically checked exceptions are not worth the costs. We introduce a new statically checked exception mechanism that addresses the problems with existing checked-exception mechanisms. In particular, it interacts well with higher-order functions and other design patterns. The key insight is that whether an exception should be treated as a "checked" exception is not a property of its type but rather of the context in which the exception propagates. Statically checked exceptions can "tunnel" through code that is oblivious to their presence, but the type system nevertheless checks that these exceptions are handled. Further, exceptions can be tunneled without being accidentally caught, by expanding the space of exception identifiers to identify the exception-handling context. The resulting mechanism is expressive and syntactically light, and can be implemented efficiently. We demonstrate the expressiveness of the mechanism using significant codebases and evaluate its performance. We have implemented this new exception mechanism as part of the new Genus programming language, but the mechanism could equally well be applied to other programming languages. },
 	booktitle = {Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation},
-	pages = {281–295},
+	pages = {281--295},
 	numpages = {15},
 	keywords = {Genus, Exception tunneling, exception handling},
 	location = {Santa Barbara, CA, USA},
@@ -842,7 +877,7 @@
 	doi = {10.1145/2889160.2893174},
 	abstract = {Reactive programming provides dedicated language abstractions for reactive software, relieving developers from manually updating outputs when the inputs of a computation change. Unfortunately, complementing the new paradigm with proper tools that support coding activities is a vastly unexplored area.We investigate a primary issue in the field: debugging programs in the reactive style. We propose RP Debugging, a methodology for effectively debugging reactive programs. These ideas are implemented in Reactive Inspector, a debugger for reactive programs integrated with the Eclipse Scala development environment.},
 	booktitle = {Proceedings of the 38th International Conference on Software Engineering Companion},
-	pages = {728–730},
+	pages = {728--730},
 	numpages = {3},
 	keywords = {debugging, functional-reactive programming},
 	location = {Austin, Texas},
@@ -863,7 +898,7 @@
 	doi = {10.1145/2884781.2884815},
 	abstract = {Reactive programming is a recent programming technique that provides dedicated language abstractions for reactive software. Reactive programming relieves developers from manually updating outputs when the inputs of a computation change, it overcomes a number of well-know issues of the Observer design pattern, and it makes programs more comprehensible. Unfortunately, complementing the new paradigm with proper tools is a vastly unexplored area. Hence, as of now, developers can embrace reactive programming only at the cost of a more challenging development process.In this paper, we investigate a primary issue in the field: debugging programs in the reactive style. We analyze the problem of debugging reactive programs, show that the reactive style requires a paradigm shift in the concepts needed for debugging, and propose RP Debugging, a methodology for effectively debugging reactive programs. These ideas are implemented in Reactive Inspector, a debugger for reactive programs integrated with the Eclipse Scala IDE. Evaluation based on a controlled experiment shows that RP Debugging outperforms traditional debugging techniques.},
 	booktitle = {Proceedings of the 38th International Conference on Software Engineering},
-	pages = {796–807},
+	pages = {796--807},
 	numpages = {12},
 	keywords = {functional-reactive programming, debugging},
 	location = {Austin, Texas},
@@ -873,7 +908,7 @@
 
 @inproceedings{10.1145/2889443.2889452,
 	abbr = {MODULARITY},
-	author = {Bra\v{c}evac, Oliver and Erdweg, Sebastian and Salvaneschi, Guido and Mezini, Mira},
+	author = {Bračevac, Oliver and Erdweg, Sebastian and Salvaneschi, Guido and Mezini, Mira},
 	title = {CPL: A Core Language for Cloud Computing},
 	year = {2016},
 	isbn = {9781450339957},
@@ -883,7 +918,7 @@
 	doi = {10.1145/2889443.2889452},
 	abstract = { Running distributed applications in the cloud involves deployment. That is, distribution and configuration of application services and middleware infrastructure. The considerable complexity of these tasks resulted in the emergence of declarative JSON-based domain-specific deployment languages to develop deployment programs. However, existing deployment programs unsafely compose artifacts written in different languages, leading to bugs that are hard to detect before run time. Furthermore, deployment languages do not provide extension points for custom implementations of existing cloud services such as application-specific load balancing policies. To address these shortcomings, we propose CPL (Cloud Platform Language), a statically-typed core language for programming both distributed applications as well as their deployment on a cloud platform. In CPL, application services and deployment programs interact through statically typed, extensible interfaces, and an application can trigger further deployment at run time. We provide a formal semantics of CPL and demonstrate that it enables type-safe, composable and extensible libraries of service combinators, such as load balancing and fault tolerance. },
 	booktitle = {Proceedings of the 15th International Conference on Modularity},
-	pages = {94–105},
+	pages = {94--105},
 	numpages = {12},
 	keywords = {cloud computing, join calculus, computation patterns, Cloud deployment},
 	location = {M\'{a}laga, Spain},
@@ -903,7 +938,7 @@
 	doi = {10.1145/2984043.2984051},
 	abstract = { Distributed applications are traditionally developed using separate modules for each component in the distributed system, which can even be written in different programming languages. Those modules react on events such as user input, which are produced by other modules, and may in turn produce new events to be handled by different modules. Thus, most distributed applications are reactive in nature. Distributed event-based data flow makes it is hard to reason about the system and therefore makes the development of distributed systems challenging.  In this paper, we present language abstractions for distributed reactive programming easing the development of such applications and supporting various distributed architectures. },
 	booktitle = {Companion Proceedings of the 2016 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity},
-	pages = {18–20},
+	pages = {18--20},
 	numpages = {3},
 	keywords = {Distributed Programming, Reactive Programming},
 	location = {Amsterdam, Netherlands},
@@ -923,7 +958,7 @@
 	doi = {10.1145/2737924.2738008},
 	abstract = { The support for generic programming in modern object-oriented programming languages is awkward and lacks desirable expressive power. We introduce an expressive genericity mechanism that adds expressive power and strengthens static checking, while remaining lightweight and simple in common use cases. Like type classes and concepts, the mechanism allows existing types to model type constraints retroactively. For expressive power, we expose models as named constructs that can be defined and selected explicitly to witness constraints; in common uses of genericity, however, types implicitly witness constraints without additional programmer effort. Models are integrated into the object-oriented style, with features like model generics, model-dependent types, model enrichment, model multimethods, constraint entailment, model inheritance, and existential quantification further extending expressive power in an object-oriented setting. We introduce the new genericity features and show that common generic programming idioms, including current generic libraries, can be expressed more precisely and concisely. The static semantics of the mechanism and a proof of a key decidability property can be found in an associated technical report. },
 	booktitle = {Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation},
-	pages = {436–445},
+	pages = {436--445},
 	numpages = {10},
 	keywords = {generic programming, constraints, models, Genus},
 	location = {Portland, OR, USA},
@@ -939,11 +974,12 @@
 	year = {2015},
 	publisher = {IEEE Press},
 	abstract = {Over the last few years, Reactive Programming has emerged as the trend to support the development of reactive software through dedicated programming abstractions. Reactive Programming has been increasingly investigated in the programming languages community and it is now gaining the interest of practitioners. Conversely, it has received so far less attention from the software engineering community.This technical briefing bridges this gap through an accurate overview of Reactive Programming, discussing the available frameworks and outlining open research challenges with an emphasis on cross-field research opportunities.},
-	booktitle = {Proceedings of the 37th International Conference on Software Engineering - Volume 2},
-	pages = {953–954},
+	booktitle = {Proceedings of the 37th International Conference on Software Engineering},
+	pages = {953--954},
 	numpages = {2},
 	location = {Florence, Italy},
-	series = {ICSE '15}
+	series = {ICSE '15},
+	doi={10.1109/ICSE.2015.303}
 }
 
 @article{10.1016/j.scico.2014.11.016,
@@ -960,9 +996,9 @@
 	url = {https://doi.org/10.1016/j.scico.2014.11.016},
 	doi = {10.1016/j.scico.2014.11.016},
 	abstract = {Self-adaptive software modifies its behavior at run time to satisfy changing requirements in a dynamic environment. Context-oriented programming (COP) has been recently proposed as a specialized programming paradigm for context-aware and adaptive systems. COP mostly focuses on run time adaptation of the application's behavior by supporting modular descriptions of behavioral variations. However, self-adaptive applications must satisfy additional requirements, such as distribution and concurrency, support for unforeseen changes and enforcement of correct behavior in the presence of dynamic change. Addressing these issues at the language level requires a holistic design that covers all aspects and takes into account the possibly cumbersome interaction of those features, for example concurrency and dynamic change.We present ContextErlang, a COP programming language in which adaptive abstractions are seamlessly integrated with distribution and concurrency. We define ContextErlang's formal semantics, validated through an executable prototype, and we show how it supports formal proofs that the language design ensures satisfaction of certain safety requirements. We provide empirical evidence that ContextErlang is an effective solution through case studies and a performance assessment. We also show how the same design principles that lead to the development of ContextErlang can be followed to systematically design contextual extensions of other languages. A concrete example is presented concerning ContextScala.},
-	journal = {Sci. Comput. Program.},
+	journal = {Science of Computer Programming},
 	month = may,
-	pages = {20–43},
+	pages = {20--43},
 	numpages = {24},
 	keywords = {Context, Context-oriented programming, Distribution, Concurrency, Self-adaptive software},
 	pdf = {papers/2015_ContextErlang-A-language-for-distributed-context-aware-self-adaptive-applications.pdf}
@@ -979,9 +1015,9 @@
 	address = {New York, NY, USA},
 	url = {https://doi.org/10.1145/2635868.2635895},
 	doi = {10.1145/2635868.2635895},
-	abstract = { Starting from the first investigations with strictly functional languages, reactive programming has been proposed as THE programming paradigm for reactive applications. The advantages of designs based on this style over designs based on the Observer design pattern have been studied for a long time. Over the years, researchers have enriched reactive languages with more powerful abstractions, embedded these abstractions into mainstream languages – including object-oriented languages – and applied reactive programming to several domains, like GUIs, animations, Web applications, robotics, and sensor networks. However, an important assumption behind this line of research – that, beside other advantages, reactive programming makes a wide class of otherwise cumbersome applications more comprehensible – has never been evaluated. In this paper, we present the design and the results of the first empirical study that evaluates the effect of reactive programming on comprehensibility compared to the traditional object-oriented style with the Observer design pattern. Results confirm the conjecture that comprehensibility is enhanced by reactive programming. In the experiment, the reactive programming group significantly outperforms the other group. },
+	abstract = { Starting from the first investigations with strictly functional languages, reactive programming has been proposed as THE programming paradigm for reactive applications. The advantages of designs based on this style over designs based on the Observer design pattern have been studied for a long time. Over the years, researchers have enriched reactive languages with more powerful abstractions, embedded these abstractions into mainstream languages -- including object-oriented languages -- and applied reactive programming to several domains, like GUIs, animations, Web applications, robotics, and sensor networks. However, an important assumption behind this line of research -- that, beside other advantages, reactive programming makes a wide class of otherwise cumbersome applications more comprehensible -- has never been evaluated. In this paper, we present the design and the results of the first empirical study that evaluates the effect of reactive programming on comprehensibility compared to the traditional object-oriented style with the Observer design pattern. Results confirm the conjecture that comprehensibility is enhanced by reactive programming. In the experiment, the reactive programming group significantly outperforms the other group. },
 	booktitle = {Proceedings of the 22nd ACM SIGSOFT International Symposium on Foundations of Software Engineering},
-	pages = {564–575},
+	pages = {564--575},
 	numpages = {12},
 	keywords = {Reactive Programming, Empirical Study, Controlled Experiment},
 	location = {Hong Kong, China},
@@ -991,7 +1027,7 @@
 
 @inproceedings{10.1145/2660193.2660242,
 	abbr = {OOPSLA},
-	author = {Mitschke, Ralf and Erdweg, Sebastian and K\"{o}hler, Mirko and Mezini, Mira and Salvaneschi, Guido},
+	author = {Mitschke, Ralf and Erdweg, Sebastian and Köhler, Mirko and Mezini, Mira and Salvaneschi, Guido},
 	title = {I3QL: Language-Integrated Live Data Views},
 	year = {2014},
 	isbn = {9781450325851},
@@ -1001,7 +1037,7 @@
 	doi = {10.1145/2660193.2660242},
 	abstract = {An incremental computation updates its result based on a change to its input, which is often an order of magnitude faster than a recomputation from scratch. In particular, incrementalization can make expensive computations feasible for settings that require short feedback cycles, such as interactive systems, IDEs, or (soft) real-time systems.This paper presents i3QL, a general-purpose programming language for specifying incremental computations. i3QL provides a declarative SQL-like syntax and is based on incremental versions of operators from relational algebra, enriched with support for general recursion. We integrated i3QL into Scala as a library, which enables programmers to use regular Scala code for non-incremental subcomputations of an i3QL query and to easily integrate incremental computations into larger software projects. To improve performance, i3QL optimizes user-defined queries by applying algebraic laws and partial evaluation. We describe the design and implementation of i3QL and its optimizations, demonstrate its applicability, and evaluate its performance.},
 	booktitle = {Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages &amp; Applications},
-	pages = {417–432},
+	pages = {417--432},
 	numpages = {16},
 	keywords = {reactive programming, scala, incremental computation},
 	location = {Portland, Oregon, USA},
@@ -1022,7 +1058,7 @@
 	doi = {10.1145/2660193.2660240},
 	abstract = {Reactive programming improves the design of reactive applications by relocating the logic for managing dependencies between dependent values away from the application logic to the language implementation. Many distributed applications are reactive. Yet, existing change propagation algorithms are not suitable in a distributed setting.We propose Distributed REScala, a reactive language with a change propagation algorithm that works without centralized knowledge about the topology of the dependency structure among reactive values and avoids unnecessary propagation of changes, while retaining safety guarantees (glitch freedom). Distributed REScala enables distributed reactive programming, bringing the benefits of reactive programming to distributed applications. We demonstrate the enabled design improvements by a case study. We also empirically evaluate the performance of our algorithm in comparison to other algorithms in a simulated distributed setting.},
 	booktitle = {Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages &amp; Applications},
-	pages = {361–376},
+	pages = {361--376},
 	numpages = {16},
 	keywords = {distributed programming, scala, reactive programming},
 	location = {Portland, Oregon, USA},
@@ -1043,7 +1079,7 @@
 	doi = {10.1145/2611286.2611290},
 	abstract = {The reactive programming paradigm has been proposed to simplify the development of reactive systems. It relies on programming primitives to express dependencies between data items and on runtime/middleware support for automated propagation of changes. Despite this paradigm is receiving increasing attention, defining the precise semantics and the consistency guarantees for reactive programming in distributed environments is an open research problem.This paper targets such problem by studying the consistency guarantees for the propagation of changes in a distributed reactive system. In particular, it introduces three propagation semantics, namely causal, glitch free, and atomic, providing different trade-offs between costs and guarantees. Furthermore, it describes how these semantics are concretely implemented in a Distributed REActice Middleware (DREAM), which exploits a distributed event-based dispatching system to propagate changes.We compare the performance of DREAM in a wide range of scenarios. This allows us to study the overhead introduced by the different semantics in terms of network traffic and propagation delay and to assess the efficiency of DREAM in supporting distributed reactive systems.},
 	booktitle = {Proceedings of the 8th ACM International Conference on Distributed Event-Based Systems},
-	pages = {142–153},
+	pages = {142--153},
 	numpages = {12},
 	keywords = {distributed reactive programming, event-based middleware, glitch-freedom, consistency guarantees, dream},
 	location = {Mumbai, India},
@@ -1064,7 +1100,7 @@
 	doi = {10.1145/2577080.2577083},
 	abstract = {Traditionally, object-oriented software adopts the Observer pattern to implement reactive behavior. Its drawbacks are well-documented and two families of alternative approaches have been proposed, extending object-oriented languages with concepts from functional reactive and dataflow programming, respectively event-driven programming. The former hardly escape the functional setting; the latter do not achieve the declarativeness of more functional approaches.In this paper, we present REScala, a reactive language which integrates concepts from event-based and functional-reactive programming into the object-oriented world. REScala supports the development of reactive applications by fostering a functional declarative style which complements the advantages of object-oriented design.},
 	booktitle = {Proceedings of the 13th International Conference on Modularity},
-	pages = {25–36},
+	pages = {25--36},
 	numpages = {12},
 	keywords = {scala, event-driven programming, functional-reactive programming},
 	location = {Lugano, Switzerland},
@@ -1085,7 +1121,7 @@
 	doi = {10.1145/2577080.2577082},
 	abstract = {Advanced concurrency abstractions overcome the drawbacks of low-level techniques such as locks and monitors, freeing programmers that implement concurrent applications from the burden of concentrating on low-level details. However, with current approaches the coordination logic involved in complex coordination schemas is fragmented into several pieces including join patterns, data emissions triggered in different places of the application, and the application logic that implicitly creates dependencies among communication channels, hence indirectly among join patterns. We present JEScala, a language that captures coordination schemas in a more expressive and modular way by leveraging a seamless integration of an advanced event system with join abstractions. We validate our approach with case studies and provide a first performance assessment.},
 	booktitle = {Proceedings of the 13th International Conference on Modularity},
-	pages = {205–216},
+	pages = {205--216},
 	numpages = {12},
 	keywords = {concurrency, join patterns, scala, event-driven programming},
 	location = {Lugano, Switzerland},
@@ -1101,7 +1137,7 @@
 	and Tanter, {\'E}ric
 	and Bodden, Eric
 	and Maoz, Shahar
-	and Kienzle, J{\"o}rg",
+	and Kienzle, Jörg",
 	title="Towards Reactive Programming for Object-Oriented Applications",
 	bookTitle="Transactions on Aspect-Oriented Software Development XI",
 	year="2014",
@@ -1116,20 +1152,20 @@
 }
 
 @ARTICLE{6840828,
-	abbr = {IEEE Software},
+	abbr = {Software},
 	author={Salvaneschi, Guido and Eugster, Patrick and Mezini, Mira},
 	journal={IEEE Software},
 	title={Programming with Implicit Flows},
 	year={2014},
 	volume={31},
 	number={5},
-	pages={52-59},
+	pages={52--59},
 	doi={10.1109/MS.2014.101},
 	pdf = {papers/2014_Programming_with_Implicit_Flows.pdf}
 }
 
 @article{10.1145/2491465.2491466,
-	abbr = {ACM Trans. Auton. Adapt. Syst.},
+	abbr = {TAAS},
 	author = {Salvaneschi, Guido and Ghezzi, Carlo and Pradella, Matteo},
 	title = {An Analysis of Language-Level Support for Self-Adaptive Software},
 	year = {2013},
@@ -1142,7 +1178,7 @@
 	url = {https://doi.org/10.1145/2491465.2491466},
 	doi = {10.1145/2491465.2491466},
 	abstract = {Self-adaptive software has become increasingly important to address the new challenges of complex computing systems. To achieve adaptation, software must be designed and implemented by following suitable criteria, methods, and strategies. Past research has been mostly addressing adaptation by developing solutions at the software architecture level. This work, instead, focuses on finer-grain programming language-level solutions. We analyze three main linguistic approaches: metaprogramming, aspect-oriented programming, and context-oriented programming. The first two are general-purpose linguistic mechanisms, whereas the third is a specific and focused approach developed to support context-aware applications. This paradigm provides specialized language-level abstractions to implement dynamic adaptation and modularize behavioral variations in adaptive systems.The article shows how the three approaches can support the implementation of adaptive systems and compares the pros and cons offered by each solution.},
-	journal = {ACM Trans. Auton. Adapt. Syst.},
+	journal = {ACM Transactions on Autonomous and Adaptive Systems},
 	month = jul,
 	articleno = {7},
 	numpages = {29},
@@ -1163,7 +1199,7 @@
 	doi = {10.1145/2451436.2451442},
 	abstract = {Reactive applications are difficult to implement. Traditional solutions based on event systems and the Observer pattern have a number of inconveniences, but programmers bear them in return for the benefits of OO design. On the other hand, reactive approaches based on automatic updates of dependencies - like functional reactive programming and dataflow languages - provide undoubted advantages but do not fit well with mutable objects. In this paper, we provide a research roadmap to overcome the limitations of the current approaches and to support reactive applications in the OO setting. To establish a solid background for our investigation, we propose a conceptual framework to model the design space of reactive applications and we study the flaws of the existing solutions. Then we highlight how reactive languages have the potential to address those issues and we formulate our research plan.},
 	booktitle = {Proceedings of the 12th Annual International Conference on Aspect-Oriented Software Development},
-	pages = {37–48},
+	pages = {37--48},
 	numpages = {12},
 	keywords = {functional-reactive programming, reactive programming, object-oriented programming, incremental computation},
 	location = {Fukuoka, Japan},
@@ -1177,6 +1213,7 @@
 	title = {Ways to React: Comparing Reactive Languages and Complex Event},
 	author = {Margara, Alessandro and Salvaneschi, Guido},
 	year = {2013},
+	note = {Workshop on Reactivity, Events and Modularity},
 	pdf = {papers/2013_Ways-to-React-Comparing-Reactive-Languages-and-Complex-Event-Processing.pdf}
 }
 
@@ -1189,7 +1226,7 @@
 	editor="De Nicola, Rocco
 	and Julien, Christine",
 	title="Towards Distributed Reactive Programming",
-	booktitle="Coordination Models and Languages",
+	booktitle="Proceedings of the International Conference on Coordination Languages and Models",
 	year="2013",
 	publisher="Springer Berlin Heidelberg",
 	address="Berlin, Heidelberg",
@@ -1200,7 +1237,7 @@
 }
 
 @article{10.1016/j.jss.2012.03.024,
-	abbr = {Journal of Syst. Softw.},
+	abbr = {JSS},
 	author = {Salvaneschi, Guido and Ghezzi, Carlo and Pradella, Matteo},
 	title = {Context-Oriented Programming: A Software Engineering Perspective},
 	year = {2012},
@@ -1213,9 +1250,9 @@
 	url = {https://doi.org/10.1016/j.jss.2012.03.024},
 	doi = {10.1016/j.jss.2012.03.024},
 	abstract = {The implementation of context-aware systems can be supported through the adoption of techniques at the architectural level such as middlewares or component-oriented architectures. It can also be supported by suitable constructs at the programming language level. Context-oriented programming (COP) is emerging as a novel paradigm for the implementation of this kind of software, in particular in the field of mobile and ubiquitous computing. The COP paradigm tackles the issue of developing context-aware systems at the language-level, introducing ad hoc language abstractions to manage adaptations modularization and their dynamic activation. In this paper we review the state of the art in the field of COP in the perspective of the benefits that this technique can provide to software engineers in the design and implementation of context-aware applications.},
-	journal = {J. Syst. Softw.},
+	journal = {Journal of Systems and Software},
 	month = aug,
-	pages = {1801–1817},
+	pages = {1801--1817},
 	numpages = {17},
 	keywords = {Context-oriented programming, Context, Context-awareness},
 	pdf = {papers/2012_Context-oriented-programming-a-software-engineering-perspective.pdf}
@@ -1233,7 +1270,7 @@
 	doi = {10.1145/2162049.2162072},
 	abstract = {Self-adapting systems are becoming widespread in emerging fields such as autonomic, mobile and ubiquitous computing. Context-oriented programming (COP) is a promising language-level solution for the implementation of context-aware, self-adaptive software. However, current COP approaches struggle to effectively manage the asynchronous nature of context provisioning. We argue that, to solve these issues, COP features should be designed to fit nicely in the concurrency model supported by the language. This work presents the design rationale of ContextErlang, which introduces COP in the Actor Model. We provide evidence that ContextErlang constitutes a viable solution to implement context-aware software in a highly concurrent and distributed setting. We discuss a case study and an evaluation of run-time performance.},
 	booktitle = {Proceedings of the 11th Annual International Conference on Aspect-Oriented Software Development},
-	pages = {191–202},
+	pages = {191--202},
 	numpages = {12},
 	keywords = {self-adaptive software, Erlang, OTP platform, context-oriented programming},
 	location = {Potsdam, Germany},
@@ -1251,12 +1288,12 @@
 	address = {Berlin, Heidelberg},
 	url = {https://doi.org/10.1007/978-3-642-25560-1_10},
 	doi = {10.1007/978-3-642-25560-1_10},
-	abstract = {Malware analysts, and in particular antivirus vendors, never agreed on a single naming convention for malware specimens. This leads to confusion and difficulty—more for researchers than for practitioners—for example, when comparing coverage of different antivirus engines, when integrating and systematizing known threats, or comparing the classifications given by different detectors. Clearly, solving naming inconsistencies is a very difficult task, as it requires that vendors agree on a unified naming convention. More importantly, solving inconsistencies is impossible without knowing exactly where they are. Therefore, in this paper we take a step back and concentrate on the problem of finding inconsistencies. To this end, we first represent each vendor's naming convention with a graph-based model. Second, we give a precise definition of inconsistency with respect to these models. Third, we define two quantitative measures to calculate the overall degree of inconsistency between vendors. In addition, we propose a fast algorithm that finds non-trivial (i.e., beyond syntactic differences) inconsistencies. Our experiments on four major antivirus vendors and 98,798 real-world malware samples confirm anecdotal observations that different vendors name viruses differently. More importantly, we were able to find inconsistencies that cannot be inferred at all by looking solely at the syntax.},
+	abstract = {Malware analysts, and in particular antivirus vendors, never agreed on a single naming convention for malware specimens. This leads to confusion and difficulty---more for researchers than for practitioners---for example, when comparing coverage of different antivirus engines, when integrating and systematizing known threats, or comparing the classifications given by different detectors. Clearly, solving naming inconsistencies is a very difficult task, as it requires that vendors agree on a unified naming convention. More importantly, solving inconsistencies is impossible without knowing exactly where they are. Therefore, in this paper we take a step back and concentrate on the problem of finding inconsistencies. To this end, we first represent each vendor's naming convention with a graph-based model. Second, we give a precise definition of inconsistency with respect to these models. Third, we define two quantitative measures to calculate the overall degree of inconsistency between vendors. In addition, we propose a fast algorithm that finds non-trivial (i.e., beyond syntactic differences) inconsistencies. Our experiments on four major antivirus vendors and 98,798 real-world malware samples confirm anecdotal observations that different vendors name viruses differently. More importantly, we were able to find inconsistencies that cannot be inferred at all by looking solely at the syntax.},
 	booktitle = {Proceedings of the 7th International Conference on Information Systems Security},
-	pages = {144–159},
+	pages = {144--159},
 	numpages = {16},
 	location = {Kolkata, India},
-	series = {ICISS'11},
+	series = {ICISS '11},
 	pdf = {papers/2011_Finding-Non-trivial-Malware-Naming-Inconsistencies.pdf}
 }
 
@@ -1292,7 +1329,7 @@
 	doi = {10.1145/1988008.1988016},
 	abstract = {In recent years the need for software applications to adapt to the environment in which they are situated has become common. Beside architectural approaches, language-level support for the development of adaptable and context-aware software have been investigated. Many existing solutions adopt ad hoc programming paradigms such as aspect oriented programming (AOP) or context oriented programming (COP). In this paper we investigate the use of the abstractions offered by traditional object-oriented and functional paradigms for the development of context-adaptable systems. We carry out our analysis along a set of conceptual directions which consider the requirement of functional adaptation beside non functional requirements such as safety and effective modularization. Our analysis were validated though the development of several prototypes of an adaptable cache server which is chosen as the running example through the paper. We provide an estimation of the performance advantages of the techniques based traditional programming languages compared with context-oriented programming.},
 	booktitle = {Proceedings of the 6th International Symposium on Software Engineering for Adaptive and Self-Managing Systems},
-	pages = {50–59},
+	pages = {50--59},
 	numpages = {10},
 	keywords = {self-adaptive software, context, context-oriented programming},
 	location = {Waikiki, Honolulu, HI, USA},
@@ -1317,22 +1354,14 @@
 	bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{DBLP:journals/corr/abs-1105-0069,
+@misc{DBLP:journals/corr/abs-1105-0069,
 	abbr = {CoRR},
-	author    = {Guido Salvaneschi and
-	           Carlo Ghezzi and
-	           Matteo Pradella},
-	title     = {Context-Oriented Programming: {A} Programming Paradigm for Autonomic
-	           Systems},
-	journal   = {CoRR},
-	volume    = {abs/1105.0069},
-	year      = {2011},
-	url       = {http://arxiv.org/abs/1105.0069},
+	author = {Guido Salvaneschi and Carlo Ghezzi and Matteo Pradella},
+	title = {Context-Oriented Programming: A Programming Paradigm for Autonomic Systems},
+	year = {2011},
 	archivePrefix = {arXiv},
-	eprint    = {1105.0069},
-	timestamp = {Mon, 13 Aug 2018 16:47:40 +0200},
-	biburl    = {https://dblp.org/rec/journals/corr/abs-1105-0069.bib},
-	bibsource = {dblp computer science bibliography, https://dblp.org}
+	eprint = {1105.0069},
+	abstract = {Dynamic software adaptability is one of the central features leveraged by autonomic computing. However, developing software that changes its behavior at run time adapting to the operational conditions is a challenging task. Several approaches have been proposed in the literature to attack this problem at different and complementary abstraction levels: software architecture, middleware, and programming level. We focus on the support that ad-hoc programming language constructs may provide to support dynamically adaptive behaviors. We introduce context-oriented programming languages and we present a framework that positions the supported paradigm in the MAPE-K autonomic loop. We discuss the advantages of using context-oriented programming languages instead of other mainstream approaches based on dynamic aspect-oriented programming languages. We present a preliminary case study that shows how the proposed programming style naturally fits dynamic adaptation requirements and we extensively evaluate the use of COP in this scenario. Finally, we discuss some known problems and outline a number of open research challenges.}
 }
 
 @inproceedings{10.1145/1930021.1930022,
@@ -1356,7 +1385,7 @@
 }
 
 @inproceedings{10.1109/SP.2010.12,
-	abbr = {IEEE S&P},
+	abbr = {SP},
 	author = {Comparetti, Paolo Milani and Salvaneschi, Guido and Kirda, Engin and Kolbitsch, Clemens and Kruegel, Christopher and Zanero, Stefano},
 	title = {Identifying Dormant Functionality in Malware Programs},
 	year = {2010},
@@ -1367,7 +1396,7 @@
 	doi = {10.1109/SP.2010.12},
 	abstract = {To handle the growing flood of malware, security vendors and analysts rely on tools that automatically identify and analyze malicious code. Current systems for automated malware analysis typically follow a dynamic approach, executing an unknown program in a controlled environment (sandbox) and recording its runtime behavior. Since dynamic analysis platforms directly run malicious code, they are resilient to popular malware defense techniques such as packing and code obfuscation. Unfortunately, in many cases, only a small subset of all possible malicious behaviors is observed within the short time frame that a malware sample is executed. To mitigate this issue, previous work introduced techniques such as multi-path or forced execution to increase the coverage of dynamic malware analysis. Unfortunately, using these techniques is potentially expensive, as the number of paths that require analysis can grow exponentially. In this paper, we propose Reanimator, a novel solution to determine the capabilities (malicious functionality) of malware programs. Our solution is based on the insight that we can leverage behavior observed while dynamically executing a specific malware sample to identify similar functionality in other programs. More precisely, when we observe malicious actions during dynamic analysis, we automatically extract and model the parts of the malware binary that are responsible for this behavior. We then leverage these models to check whether similar code is present in other samples. This allows us to statically identify dormant functionality (functionality that is not observed during dynamic analysis) in malicious programs. We evaluate our approach on thousands of real-world malware samples, and we show that our system is successful in identifying additional, malicious functionality. As a result, our approach can significantly improve the coverage of malware analysis results.},
 	booktitle = {Proceedings of the 2010 IEEE Symposium on Security and Privacy},
-	pages = {61–76},
+	pages = {61--76},
 	numpages = {16},
 	keywords = {malware analysis, dormant functionality, binary analysis},
 	series = {SP '10},
@@ -1386,7 +1415,7 @@
 	doi = {10.1145/1808984.1808991},
 	abstract = {Software applications are increasingly situated in a world where context changes continuously. At the same time, applications need to provide continuous service, and the service provided often needs to change in order to adapt to the new contexts. Context-aware adaptation can be greatly facilitated by using programming languages that natively support high-level features to deal with contexts, context changes, and context-aware behaviors. Although context-oriented programming has been around for a while, most existing efforts focus on incorporating context-oriented features in languages that are not primarily oriented to concurrency, distribution, and dynamic reconfiguration. These features, however, characterize most pervasive context-aware situations. In this work, we illustrate how context-aware programming primitives may introduced in the parallel and distributed Erlang programming language. We also present an extended example, which illustrates the benefits of using our extension (ContextErlang) to design context-aware pervasive applications.},
 	booktitle = {Proceedings of the 2010 ICSE Workshop on Software Engineering for Adaptive and Self-Managing Systems},
-	pages = {59–68},
+	pages = {59--68},
 	numpages = {10},
 	keywords = {Erlang, context-oriented programming, context, self-adaptative software, OTP platform},
 	location = {Cape Town, South Africa},
@@ -1406,10 +1435,10 @@
 	doi = {10.1007/978-3-642-12029-9_17},
 	abstract = {The problem of formal software specification has been addressed and discussed since the infancy of software engineering. However, among all the proposed solutions, none is universally accepted yet. Many different formal descriptions can in fact be given for the same software component; thus, the problem of determining the consistency relation among those descriptions becomes relevant and potentially critical. In this work, we propose a method for comparing two specific kinds of formal specifications of containers. In particular, we check the consistency of intensional behavior models with algebraic specifications. The consistency check is performed by generating a behavioral equivalence model from the intensional model, converting the algebraic axioms into temporal logic formulae, and then checking them against the model by using the NuSMV model checker. An automated software tool which encodes the problem as model checking has been implemented to check the consistency of recovered specifications of relevant Java classes.},
 	booktitle = {Proceedings of the 13th International Conference on Fundamental Approaches to Software Engineering},
-	pages = {233–247},
+	pages = {233--247},
 	numpages = {15},
 	location = {Paphos, Cyprus},
-	series = {FASE'10}
+	series = {FASE '10}
 }
 
 @inproceedings{10.1109/EC2ND.2009.13,
@@ -1424,7 +1453,7 @@
 	doi = {10.1109/EC2ND.2009.13},
 	abstract = {Anomaly-based techniques were exploited successfully to implement protection mechanisms for various systems. Recently, these approaches have been ported to the web domain under the name of "web application anomaly detectors" (or firewalls) with promising results. In particular, those capable of automatically building specifications, or models, of the protected application by observing its traffic (e.g., network packets, system calls, or HTTP requests and responses) are particularly interesting, since they can be deployed with little effort.Typically, the detection accuracy of these systems is significantly influenced by the model building phase (often called training), which clearly depends upon the quality of the observed traffic, which should resemble the normal activity of the protected application and must be also free from attacks. Otherwise, detection may result in significant amounts of false positives (i.e., benign events flagged as anomalous) and negatives (i.e., undetected threats). In this work we describe Masibty, a web application anomaly detector that have some interesting properties. First, it requires the training data not to be attack-free. Secondly, not only it protects the monitored application, it also detects and blocks malicious client-side threats before they are sent to the browser. Third, Masibty intercepts the queries before they are sent to the database, correlates them with the corresponding HTTP requests and blocks those deemed anomalous.Both the accuracy and the performance have been evaluated on real-world web applications with interesting results. The system is almost not influenced by the presence of attacks in the training data and shows only a negligible amount of false positives, although this is paid in terms of a slight performance overhead.},
 	booktitle = {Proceedings of the 2009 European Conference on Computer Network Defense},
-	pages = {37–45},
+	pages = {37--45},
 	numpages = {9},
 	series = {EC2ND '09},
 	pdf = {papers/2009_Integrated-Detection-of-Attacks-Against-Browsers-Web-Applications-and-Databases.pdf}

@@ -29,7 +29,7 @@
                 {% endfor %}
           {% endif %}
       </div>
-      <div class="title">{{entry.title}}</div>
+      <div class="title">{{ entry.title | replace: '\mathbbN', 'ℕ' | replace: '\mathcalO', '𝓞' | replace: '\log', 'log' }}</div>
       <div class="author">
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
@@ -62,18 +62,23 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
-      {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        <em>{{entry.journal}}</em>{% if entry.volume %} {{entry.volume}}{% endif %}{% if entry.number %} ({{entry.number}}){% endif %}{% if entry.year %}, {{entry.year}}{% endif %}
+      {% elsif entry.type == "inproceedings" or entry.type == "incollection" or entry.type == "inbook" %}
+        In <em>{% if entry.year %}{{entry.booktitle | regex_replace: '\s*[\s’]\d+\s*\)$', ')'}}{% else %}{{entry.booktitle}}{% endif %}</em>{% if entry.series and entry.year %}, {{entry.series | regex_replace: '\s*[\s’]\d+\s*$', ''}}{% elsif entry.series %}, {{entry.series}}{% endif %}{% if entry.year %}, {{entry.year}}{% endif %}
       {% elsif entry.type == "unpublished" %}
-        <em>{{entry.note}}</em>
-      {% elsif entry.type == "incollection" %}
-        <em>In {{entry.booktitle}}</em>
+        <em>{{entry.note}}</em>{% if entry.year %}, {{entry.year}}{% endif %}
       {% elsif entry.type == "phdthesis" %}
-          Doctoral dissertation. <em>{{ entry.school }}</em>
-      {% endif %}
-      {% if entry.year %}
-        {{entry.year}}
+          Doctoral dissertation, <em>{{ entry.school }}</em>{% if entry.year %}, {{entry.year}}{% endif %}
+      {% elsif entry.archiveprefix == "arXiv" and entry.eprint %}
+          arXiv{% if entry.year %}, {{entry.year}}{% endif %}
+      {% elsif entry.archiveprefix == "hdl" and entry.eprint %}
+          HDL{% if entry.year %}, {{entry.year}}{% endif %}
+      {% elsif entry.archiveprefix == "jstor" and entry.eprint %}
+          JSTOR{% if entry.year %}, {{entry.year}}{% endif %}
+      {% elsif entry.archiveprefix == "pubmed" and entry.eprint %}
+          PMID{% if entry.year %}, {{entry.year}}{% endif %}
+      {% elsif entry.archiveprefix == "googlebooks" and entry.eprint %}
+          Google Books{% if entry.year %}, {{entry.year}}{% endif %}
       {% endif %}
       </div>
     {% endif %}
@@ -91,9 +96,16 @@
     {% endif %}
     {% if entry.doi %}
       <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-    {% endif %}
-    {% if entry.arxiv %}
-      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    {% elsif entry.archiveprefix == "arXiv" and entry.eprint %}
+      <a href="https://arxiv.org/abs/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    {% elsif entry.archiveprefix == "hdl" and entry.eprint %}
+      <a href="http://hdl.handle.net/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    {% elsif entry.archiveprefix == "jstor" and entry.eprint %}
+      <a href="http://hdl.handle.net/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    {% elsif entry.archiveprefix == "pubmed" and entry.eprint %}
+      <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    {% elsif entry.archiveprefix == "googlebooks" and entry.eprint %}
+      <a href="http://books.google.com/books?id={{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
     {% endif %}
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
@@ -133,7 +145,7 @@
     <!-- Hidden abstract block -->
     {% if entry.abstract %}
     <div class="abstract hidden">
-      <p>{{ entry.abstract }}</p>
+      <p>{{ entry.abstract | regex_replace: '\s*(\r\n|\r|\n)\s*((\r\n|\r|\n)\s*)+', '</p><p>' | replace: '\mathbbN', 'ℕ' | replace: '\mathcalO', '𝓞' | replace: '\log', 'log' }}</p>
     </div>
     {% endif %}
   </div>

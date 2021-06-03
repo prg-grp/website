@@ -9,4 +9,5 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'unicode_utils'
     gem 'jekyll-sitemap'
+    gem 'jekyll-regex-replace'
 end
