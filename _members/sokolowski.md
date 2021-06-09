@@ -3,6 +3,7 @@ layout: about
 inline: false
 group: Doctoral Researchers
 group_rank: 3
+team_frontpage: true
 
 title: MSc Daniel Sokolowski
 description: Profile of MSc Daniel Sokolowski, Doctoral Researcher at the Programming Group.

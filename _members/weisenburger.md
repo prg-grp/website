@@ -3,6 +3,7 @@ layout: about
 inline: false
 group: Postdoctoral Researchers
 group_rank: 2
+team_frontpage: true
 
 title: Dr. Pascal Weisenburger
 description: Profile of Dr. Pascal Weisenburger, Postdoctoral Researcher at the Programming Group.

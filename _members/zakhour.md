@@ -3,6 +3,7 @@ layout: about
 inline: false
 group: Doctoral Researchers
 group_rank: 3
+team_frontpage: true
 
 title: MSc George Zakhour
 description: Profile of MSc George Zakhour, Doctoral Researcher at the Programming Group.

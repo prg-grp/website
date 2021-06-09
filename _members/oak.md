@@ -3,6 +3,7 @@ layout: about
 inline: false
 group: Doctoral Researchers
 group_rank: 3
+team_frontpage: true
 
 title: MSc Aditya Oak
 description: Profile of MSc Aditya Oak, Doctoral Researcher at the Programming Group.

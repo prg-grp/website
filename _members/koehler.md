@@ -3,6 +3,7 @@ layout: about
 inline: false
 group: Doctoral Researchers
 group_rank: 3
+team_frontpage: true
 
 title: MSc Mirko Köhler
 description: Profile of MSc Mirko Köhler, Doctoral Researcher at the Programming Group.
