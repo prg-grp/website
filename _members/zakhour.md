@@ -14,7 +14,7 @@ teaser: >
     I am a PhD student at the Programming Group since August 2021.
     Before I was an R&D software developer at Agilent Technologies.
     My research interests are
-    the formal study of programming langauges,
+    the formal study of programming languages,
     mathematical logic (and its relation to programming),
     quantum computation from the perspective of computability and complexity, and
     numerical simulations.
@@ -35,7 +35,7 @@ profile:
 I am a PhD student at the Programming Group since August 2021.
 Before I was an R&D software developer at <a href="https://www.agilent.com/" target="_blank">Agilent Technologies</a>.
 My research interests are
-the formal study of programming langauges,
+the formal study of programming languages,
 mathematical logic (and its relation to programming),
 quantum computation from the perspective of computability and complexity, and
 numerical simulations.
