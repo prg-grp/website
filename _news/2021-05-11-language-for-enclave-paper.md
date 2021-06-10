@@ -5,4 +5,4 @@ inline: true
 ---
 
 Our [paper]({{ '/assets/pdf/papers/2021_Language-Support-for-Secure-Software-Development-with-Enclaves.pdf' | relative_url }}) "Language Support for Secure Software Development with Enclaves"
-got accepted at CSF 2021.
+got accepted at <a href="https://www.ieee-security.org/TC/CSF2021/" target="_blank">CSF '21</a>.
