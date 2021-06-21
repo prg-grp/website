@@ -30,4 +30,4 @@ profile:
 
 My research interests include Programming Languages,
 Information Flow Control and Trusted Execution Environments.
-I am currently working on language abstractions for secure programming with trusted execution environments. I am one of the developers of the [J<sub>E</sub>]({https://prg-grp.github.io/je-lang/ }) language.
+I am currently working on language abstractions for secure programming with trusted execution environments. I am one of the developers of the [J<sub>E</sub>](https://prg-grp.github.io/je-lang/) language—a language for secure Java programming with Intel SGX.
