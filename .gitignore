@@ -2,8 +2,8 @@ _site
 .bundle
 .sass-cache
 .jekyll-metadata
+.jekyll-cache/
 .DS_store
-.ruby-version
 .tweet-cache/
 Gemfile.lock
 vendor
