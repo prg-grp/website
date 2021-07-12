@@ -31,9 +31,10 @@ I’m a (tenured) Associate Professor at the University of St.Gallen from Septem
 Before, I have been an assistant professor at TU Darmstadt, where I led the Reactive Software Systems group.
 
 
-## Committees (Selected)
+## Recent Committees (Selected)
 
 * [ICSE’22](https://conf.researchr.org/home/icse-2022) (PC)
+* [ECOOP’22](https://conf.researchr.org/home/ecoop-2022) (PC)
 * [ESOP’21](https://etaps.org/2021/esop) (PC)  
 * [ACSOS'21](https://conf.researchr.org/home/acsos-2021) (PC)
 * [ECOOP’20](https://2020.ecoop.org/) (PC)
