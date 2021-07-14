@@ -19,6 +19,8 @@ baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: /impressum # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
+google_site_verification: RMUCoHAseeFv2jAdfyJb4XLx4e1J8XpU1l8fvwAxk1g
+
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -142,12 +144,14 @@ plugins:
   # - material-sass
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "assets/lib/**"
     values:
       sitemap: false
-
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/og/pg.png # Default open graph image
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
