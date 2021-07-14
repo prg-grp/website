@@ -7,3 +7,4 @@ _site
 .tweet-cache/
 vendor
 .idea/
+node_modules/

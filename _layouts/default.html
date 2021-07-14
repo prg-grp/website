@@ -3,7 +3,6 @@
 
   <head>
     {% include head.html %}
-    {% include scripts/mathjax.html %}
   </head>
 
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
@@ -22,9 +21,15 @@
 
     {% include footer.html %}
 
-
-    {% include scripts/bootstrap.html %}
-    {% include scripts/mansory.html %}
-    {% include scripts/misc.html %}
+    {% minibundle js %}
+    destination_path: 'assets/css/bundle'
+    baseurl: '{{ site.baseurl }}/'
+    assets:
+    - ../node_modules/jquery/dist/jquery
+    - ../node_modules/bootstrap/js/dist/index
+    - ../node_modules/mdbootstrap/js/popper
+    - ../node_modules/mdbootstrap/js/mdb
+    - js/common
+    {% endminibundle %}
   </body>
 </html>

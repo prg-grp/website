@@ -16,6 +16,12 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+    - name: Setup node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Setup NPM dependencies
+      run: npm ci
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -36,7 +42,7 @@ jobs:
         else
           echo "::set-output name=DEPLOY_BRANCH::gh-pages"
         fi
-    - name: Deploy website 
+    - name: Deploy website
       run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
-                    --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
+        --src ${{ steps.setup.outputs.SRC_BRANCH }}
+        --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}

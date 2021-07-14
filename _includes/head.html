@@ -17,51 +17,21 @@
 
 <meta name="google-site-verification" content="RMUCoHAseeFv2jAdfyJb4XLx4e1J8XpU1l8fvwAxk1g" />
 
-<!-- Bootstrap & MDB -->
-<link href="{{ '/assets/lib/bootstrap/' | append: site.bootstrap.version | append: '/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" />
-<link rel="stylesheet" href="{{ '/assets/lib/mdbootstrap/' | append: site.mdb.version | append: '/css/mdb.min.css' | relative_url }}" integrity="{{ site.mdb.integrity.css }}" />
-
-<!-- Fonts & Icons -->
-<link rel="stylesheet" href="{{ '/assets/lib/font-awesome/' | append: site.fontawesome.version | append: '/css/all.min.css' | relative_url }}"  integrity="{{ site.fontawesome.integrity }}" >
-<link rel="stylesheet" href="{{ '/assets/lib/academicons/' | append: site.academicons.version | append: '/css/academicons.min.css' | relative_url }}" integrity="{{ site.academicons.integrity }}" >
-<link rel="stylesheet" type="text/css" href="{{ '/assets/css/fonts.css' | relative_url }}">
-
-<!-- Code Syntax Highlighting -->
-<link rel="stylesheet" href="{{ '/assets/lib/jekyll-pygments-themes/' | append: site.highlight_theme | append: '.css' | relative_url }}" />
-
 <!-- Styles -->
 <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
-<!-- JQuery -->
-{% include scripts/jquery.html %}
-
-<!-- Theming-->
-{% if site.enable_darkmode %}
-  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-  <!-- Load DarkMode JS -->
-<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
-{% endif %}
-
-{% if site.enable_google_analytics %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
-{% endif %}
-
-{% if site.enable_panelbear_analytics %}
-<!-- Panelbear Analytics - We respect your privacy -->
-<script async src="https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}"></script>
-<script>
-    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
-    panelbear('config', { site: '{{site.panelbear_analytics}}' });
-</script>
-{% endif %}
+<!-- Styles -->
+<link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}" />
+{% minibundle css %}
+destination_path: 'assets/css/bundle'
+baseurl: '{{ site.baseurl }}/'
+assets:
+- ../node_modules/bootstrap/dist/css/bootstrap
+- ../node_modules/mdbootstrap/css/mdb
+- ../node_modules/@fortawesome/fontawesome-free/css/all
+- lib/jekyll-pygments-themes/github
+- css/fonts
+{% endminibundle %}
+<link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}" />
