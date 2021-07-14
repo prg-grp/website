@@ -128,7 +128,7 @@ kramdown:
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor]
+exclude: ['bin', 'LICENSE', 'node_modules', 'package.json', 'package-lock.json', 'README.md', 'vendor']
 
 # Plug-ins
 plugins:
