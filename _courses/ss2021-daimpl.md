@@ -6,5 +6,5 @@ title: Design and Implementation of Modern Programming Languages (Seminar)
 university: Technical University of Darmstadt
 semester: SS&nbsp;2021
 past: false
-external_page: https://www.stg.tu-darmstadt.de/teaching/courses/ss_2021/daimpl_ss_21/index_79.en.jsp
+external_page: https://www.stg.tu-darmstadt.de/teaching_stg/courses_stg/ss_2021_stg/design_and_implementation_of_modern_programming_languages_ss2021_stg/index.en.jsp
 ---

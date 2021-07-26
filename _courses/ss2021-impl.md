@@ -6,5 +6,5 @@ title: Implementation of Programming Languages (Project)
 university: Technical University of Darmstadt
 semester: SS&nbsp;2021
 past: false
-external_page: https://www.stg.tu-darmstadt.de/teaching/courses/ss_2021/impl_ss_21/index_80.en.jsp
+external_page: https://www.stg.tu-darmstadt.de/teaching_stg/courses_stg/ss_2021_stg/implementation_of_modern_programming_languages_ss2021_stg/index.en.jsp
 ---
