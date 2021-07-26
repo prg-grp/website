@@ -37,13 +37,13 @@ regarding areas such as sound programming models for the interaction between com
 their composition, privacy protection issues,
 type systems for reasoning about the placement of data and computation.
 
-Within the [MAKI](https://www.maki.tu-darmstadt.de/) project,
+Within the [MAKI](https://www.maki.tu-darmstadt.de/){: target="_blank" } project,
 I worked on complex event processing (CEP)
 and multitier languages for developing modular distributed applications.
 I’m the main developer of the [ScalaLoci]({{ '/projects/scala-loci' | relative_url }})
 multitier programming language.
 
-I served in the program committee of [ProWeb 2020](https://2020.programming-conference.org/home/proweb-2020)
+I served in the program committee of [ProWeb 2020](https://2020.programming-conference.org/home/proweb-2020){: target="_blank" }
 (Workshop on Programming Technology for the Future Web)
 at ‹Programming› ’20.
 

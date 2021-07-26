@@ -29,6 +29,6 @@ profile:
 ---
 
 I work on programming abstractions for replicated data.
-Currently, I'm the main contributor to [ConSysT](https://consyst-project.github.io/),
+Currently, I'm the main contributor to [ConSysT](https://consyst-project.github.io/){: target="_blank" },
 an object-oriented language for mixed consistency with replicated objects.
 My research interests include concurrency, mixed consistency protocols, and type systems.

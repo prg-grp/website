@@ -30,4 +30,4 @@ profile:
 
 I am a PhD student in the Programming Group since May 2019.
 My research interests include Cloud Computing, Software Engineering, and Programming Languages.
-Currently, I am working on programming models for decentralized and resilient systems under the [emergenCITY project](https://www.emergencity.de/).
+Currently, I am working on programming models for decentralized and resilient systems under the [emergenCITY project](https://www.emergencity.de/){: target="_blank" }.

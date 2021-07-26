@@ -37,4 +37,4 @@ I am interested in distributed systems and cloud technology
 from a Programming Languages and Software Engineering perspective.
 At the moment, I mainly focus on advanced solutions for DevOps
 leveraging Infrastructure as Code.
-I am part of the [Software Factory 4.0 project](https://www.software-factory-4-0.de/).
+I am part of the [Software Factory 4.0 project](https://www.software-factory-4-0.de/){: target="_blank" }.

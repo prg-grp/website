@@ -7,7 +7,7 @@ nav_rank: 6
 description: Contact of the Programming Group.
 ---
 
-<a href="mailto:guido.salvaneschi@unisg.ch"><i class="fas fa-envelope"></i> guido.salvaneschi@unisg.ch</a>
+[<i class="fas fa-envelope"></i> guido.salvaneschi@unisg.ch](mailto:guido.salvaneschi@unisg.ch)
 
 School of Computer Science 33-507\\
 c/o Prof. Dr. Guido Salvaneschi\\
