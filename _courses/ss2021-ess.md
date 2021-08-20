@@ -5,6 +5,6 @@ inline: true
 title: Engineering Software Systems
 university: University of St. Gallen
 semester: SS&nbsp;2021
-past: false
+past: true
 external_page: https://tools.unisg.ch/Url/csqk3j
 ---
