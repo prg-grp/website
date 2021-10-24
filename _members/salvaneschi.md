@@ -22,8 +22,9 @@ profile:
     twitter: guidosalva
     orcid: 0000-0002-9324-8894
     address: >
-        School of Computer Science 33-507<br />
-        Rosenbergstrasse 51<br />
+        School of Computer Science<br />
+        Office 64-114<br />
+        Torstrasse 25<br />
         9000 St. Gallen, Switzerland
 ---
 

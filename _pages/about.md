@@ -15,9 +15,10 @@ profile:
     href: '/members/salvaneschi'
     email: guido.salvaneschi@unisg.ch
     address: >
-        School of Computer Science 33-507<br />
-        Rosenbergstrasse 51<br />
-        9000 St. Gallen, Switzerland<br />
+        School of Computer Science<br />
+        Office 64-114<br />
+        Torstrasse 25<br />
+        9000 St. Gallen, Switzerland
 
 news: true # includes a list of news items
 projects: true # includes a tile list of projects

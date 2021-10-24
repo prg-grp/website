@@ -28,6 +28,7 @@ profile:
     github: DSoko2
     orcid: 0000-0003-2911-8304
     address: >
+        School of Computer Science<br />
         Torstrasse 25<br />
         9000 St. Gallen, Switzerland
 ---

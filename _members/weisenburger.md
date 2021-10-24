@@ -26,8 +26,8 @@ profile:
     github: pweisenburger
     orcid: 0000-0003-1288-1485
     address: >
-        School of Computer Science 33-507<br />
-        Rosenbergstrasse 51<br />
+        School of Computer Science<br />
+        Torstrasse 25<br />
         9000 St. Gallen, Switzerland
 ---
 
