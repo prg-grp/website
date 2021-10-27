@@ -1,20 +1,6 @@
 ---
 ---
 
-@inproceedings{Oak:2021:secdev,
-  acronym = {SecDev},
-  file = {papers/2021_Enclave-Based-Secure-Programming-with-JE.pdf},
-  projects = {J<sub>E</sub>},
-  author = {Oak, Aditya and Ahmadian, Amir M. and Balliu, Musard and Salvaneschi, Guido},
-  title = {Enclave-Based Secure Programming with JE},
-  booktitle = {2021 IEEE Secure Development (SecDev)},
-  series = {SecDev '21},
-  year = {2021},
-  month=oct,
-  publisher = {IEEE},
-  abstract={Over the past few years, major hardware vendors have started offering processors that support Trusted Execution Environments (TEEs) allowing confidential computations over sensitive data on untrusted hosts. Unfortunately, developing applications that use TEEs remains challenging. Current solutions require to use low-level languages (e.g., C/C++) to handle the TEE management process manually -- a complex and error-prone task. Worse, the separation of the application into components that run inside and outside the TEE may lead to information leaks. In summary, TEEs are a powerful means to design secure applications, but there is still a long way to building secure software with TEEs alone. In this work, we present , a programming model for developing TEE-enabled applications where developers only need to annotate Java programs to define application-level security policies and run them securely inside enclaves.},
-}
-
 @article{Luthra:2021:TCEP,
   acronym = {JCSS},
   file = {papers/2021_TCEP-Transitions-in-Operator-Placement-to-Adapt-to-Dynamic-Network-Environments.pdf},
@@ -33,6 +19,21 @@
   doi = {10.1016/j.jcss.2021.05.003},
   keywords = {Complex Event Processing, Operator Placement, Migrations, Adaptations, Transitions, Dynamic Network Environment, Internet of Things},
   abstract = {Distributed Complex Event Processing (DCEP) is a commonly used paradigm to detect and act on situational changes of many applications, including the Internet of Things (IoT). DCEP achieves this using a simple specification of analytical tasks on data streams called operators and their distributed execution on a set of infrastructure. The adaptivity of DCEP to the dynamics of IoT applications is essential and very challenging in the face of changing demands concerning Quality of Service. In our previous work, we addressed this issue by enabling transitions, which allow for the adaptive use of operator placement mechanisms. In this article, we extend the transition methodology by optimizing the costs of transition and analyzing the behavior using multiple operator placement mechanisms. Furthermore, we provide an extensive evaluation on the costs of transition imposed by operator migrations and learning, as it can inflict overhead on the performance if operated uncoordinatedly.},
+}
+
+@inproceedings{Oak:2021:EnclaveBased,
+  acronym = {SecDev},
+  projects = {J<sub>E</sub>},
+  file = {papers/2021_Enclave-Based-Secure-Programming-with-JE.pdf},
+  author = {Oak, Aditya and Ahmadian, Amir M. and Balliu, Musard and Salvaneschi, Guido},
+  title = {Enclave-Based Secure Programming with JE},
+  booktitle = {2021 IEEE Secure Development},
+  series = {SecDev '21},
+  year = {2021},
+  month = oct,
+  publisher = {IEEE Press},
+  address = {Piscataway, NJ, USA},
+  abstract = {Over the past few years, major hardware vendors have started offering processors that support Trusted Execution Environments (TEEs) allowing confidential computations over sensitive data on untrusted hosts. Unfortunately, developing applications that use TEEs remains challenging. Current solutions require to use low-level languages (e.g., C/C++) to handle the TEE management process manually -- a complex and error-prone task. Worse, the separation of the application into components that run inside and outside the TEE may lead to information leaks. In summary, TEEs are a powerful means to design secure applications, but there is still a long way to building secure software with TEEs alone. In this work, we present , a programming model for developing TEE-enabled applications where developers only need to annotate Java programs to define application-level security policies and run them securely inside enclaves.},
 }
 
 Preliminary entry, update once in ACM
