@@ -23,7 +23,7 @@ profile:
     role: Doctoral Researcher
     website: https://dsoko.de
     email: daniel.sokolowski@unisg.ch
-    phone: +49 163 6949690
+    phone: +91 88002 82799
     twitter: Soko2D
     github: DSoko2
     orcid: 0000-0003-2911-8304
