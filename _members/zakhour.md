@@ -25,6 +25,7 @@ profile:
     image: zakhour-profile.jpg
     role: Doctoral Researcher
     website: https://grgz.me
+    email: george.zakhour@unisg.ch
     github: geezee
     address: >
         School of Computer Science<br />
