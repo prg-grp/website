@@ -4,11 +4,14 @@
 % To be updated
 @inproceedings{Sokolowski:2021:EssentialSafety,
   acronym = {ICSE},
+  file = {papers/2022_Change-Is-the-Only-Constant-Dynamic-Updates-for-Workflows.pdf},
   author = {Sokolowski, Daniel and Weisenburger, Pascal and Salvaneschi, Guido},
   title = {Change Is the Only Constant: Dynamic Updates for Workflows},
   booktitle = {Proceedings of the 44th International Conference on Software Engineering},
   series = {ICSE '22},
-  year = {2022}
+  year = {2022},
+  doi = {10.1145/3510003.3510065},
+  abstract = {Software systems must be updated regularly to address changing requirements and urgent issues like security-related bugs. Traditionally, updates are performed by shutting down the system to replace certain components. In modern software organizations, updates are increasingly frequent—up to multiple times per day—hence, shutting down the entire system is unacceptable. Safe dynamic software updating (DSU) enables component updates while the system is running by determining when the update can occur without causing errors. Safe DSU is crucial, especially for long-running or frequently executed asynchronous transactions (workflows), e.g., user-interactive sessions and order fulfillment processes. Unfortunately, previous research is limited to synchronous transaction models and does not address this case.\par In this work, we propose a unified model for safe DSU in workflows. We discuss how state-of-the-art DSU solutions fit into this model and show that they incur significant overhead. To improve the performance, we introduce Essential Safety, a novel safe DSU approach that leverages the notion of non-essential changes, i.e., semantics preserving updates. In 106 realistic collaborative BPMN workflows, Essential Safety reduces the delay of workflow completions, on average, by 47.8% compared to the state of the art. We show that the distinction of essential and non-essential changes plays a crucial role in this reduction and that, as suggested in literature, non-essential changes are frequent: at least 60% and often more than 90% of systems’ updates in eight monorepos we analyze.},
 }
 
 @article{Luthra:2021:TCEP,
@@ -43,7 +46,7 @@
   month = oct,
   publisher = {IEEE Press},
   address = {Piscataway, NJ, USA},
-  abstract = {Over the past few years, major hardware vendors have started offering processors that support Trusted Execution Environments (TEEs) allowing confidential computations over sensitive data on untrusted hosts. Unfortunately, developing applications that use TEEs remains challenging. Current solutions require to use low-level languages (e.g., C/C++) to handle the TEE management process manually -- a complex and error-prone task. Worse, the separation of the application into components that run inside and outside the TEE may lead to information leaks. In summary, TEEs are a powerful means to design secure applications, but there is still a long way to building secure software with TEEs alone. In this work, we present , a programming model for developing TEE-enabled applications where developers only need to annotate Java programs to define application-level security policies and run them securely inside enclaves.},
+  abstract = {Over the past few years, major hardware vendors have started offering processors that support Trusted Execution Environments (TEEs) allowing confidential computations over sensitive data on untrusted hosts. Unfortunately, developing applications that use TEEs remains challenging. Current solutions require to use low-level languages (e.g., C/C++) to handle the TEE management process manually -- a complex and error-prone task. Worse, the separation of the application into components that run inside and outside the TEE may lead to information leaks. In summary, TEEs are a powerful means to design secure applications, but there is still a long way to building secure software with TEEs alone.\par In this work, we present , a programming model for developing TEE-enabled applications where developers only need to annotate Java programs to define application-level security policies and run them securely inside enclaves.},
 }
 
 Preliminary entry, update once in ACM
@@ -1109,8 +1112,8 @@ Preliminary entry, update once in ACM
 
 @inproceedings{Salvaneschi:2015:Reactive,
   acronym = {ICSE},
-  file = {papers/2015_Reactive-Programming-A-Walkthrough.pdf},
   projects = {REScala},
+  file = {papers/2015_Reactive-Programming-A-Walkthrough.pdf},
   author = {Salvaneschi, Guido and Margara, Alessandro and Tamburrelli, Giordano},
   title = {Reactive Programming: A Walkthrough},
   booktitle = {Proceedings of the 37th International Conference on Software Engineering},
