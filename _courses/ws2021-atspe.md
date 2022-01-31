@@ -5,6 +5,6 @@ inline: true
 title: Advanced Topics in Software and Process Engineering (PhD Course)
 university: University of St. Gallen
 semester: WS&nbsp;2021/22
-past: false
+past: true
 external_page: https://tools.unisg.ch/Url/csndmj
 ---
