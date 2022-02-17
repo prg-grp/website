@@ -15,6 +15,30 @@
   abstract = {Software systems must be updated regularly to address changing requirements and urgent issues like security-related bugs. Traditionally, updates are performed by shutting down the system to replace certain components. In modern software organizations, updates are increasingly frequent—up to multiple times per day—hence, shutting down the entire system is unacceptable. Safe dynamic software updating (DSU) enables component updates while the system is running by determining when the update can occur without causing errors. Safe DSU is crucial, especially for long-running or frequently executed asynchronous transactions (workflows), e.g., user-interactive sessions and order fulfillment processes. Unfortunately, previous research is limited to synchronous transaction models and does not address this case.\par In this work, we propose a unified model for safe DSU in workflows. We discuss how state-of-the-art DSU solutions fit into this model and show that they incur significant overhead. To improve the performance, we introduce Essential Safety, a novel safe DSU approach that leverages the notion of non-essential changes, i.e., semantics preserving updates. In 106 realistic collaborative BPMN workflows, Essential Safety reduces the delay of workflow completions, on average, by 47.8% compared to the state of the art. We show that the distinction of essential and non-essential changes plays a crucial role in this reduction and that, as suggested in literature, non-essential changes are frequent: at least 60% and often more than 90% of systems’ updates in eight monorepos we analyze.},
 }
 
+% Provisional entry, change once published
+@inproceedings{oak:2021:invited:pavetrust,
+  acronym = {PAVeTrust},
+  projects = {J<sub>E</sub>},
+  file = {papers/2021_Towards_Democratizing_Secure_Enclave_Programming.pdf},
+  author = {Oak, Aditya and Ahmadian, Amir M. and Balliu, Musard and Salvaneschi, Guido},
+  title = {Towards Democratizing Secure Enclave Programming},
+  series = {PAVeTrust '21},
+  year = {2021},
+  publisher = {ACM},
+  abstract = {Secure enclaves, like Intel SGX, provide a means to process
+data securely on third-party cloud infrastructure with little or no
+performance overhead. Developing software that takes advantage
+of a secure enclave requires, however, to explicitly deal with a
+number of low-level details such as dedicated IO, custom syscalls,
+and stringent memory constraints, requiring the expertise needed
+for system programming, rather than applications. We discuss
+our recent research that provides a developer-friendly approach
+to enclave programming—our Java language extension JE.
+Finally, we outline our vision of a programming framework
+that brings secure enclave programming at the fingertips of
+application developers.}
+}
+
 @article{Luthra:2021:TCEP,
   acronym = {JCSS},
   file = {papers/2021_TCEP-Transitions-in-Operator-Placement-to-Adapt-to-Dynamic-Network-Environments.pdf},
