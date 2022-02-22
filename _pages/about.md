@@ -33,17 +33,17 @@ social: false  # includes social icons at the bottom of the page
 > — Lewis Carroll
 
 Welcome to the Programming Group!
-We are located at the [University of St. Gallen (HSG)](https://www.unisg.ch/)
-and have a branch at the [Technical University of Darmstadt](https://www.tu-darmstadt.de/). 
+We are part of the [Institute of Computer Science (ICS)](https://ics.unisg.ch/){: target="_blank"} at the [University of St. Gallen (HSG)](https://www.unisg.ch/){: target="_blank"}
+and have a branch at the [Technical University of Darmstadt](https://www.tu-darmstadt.de/){: target="_blank"}. 
 Together we enjoy working on **Programming Languages**
 and **Software Engineering**, including languages and architectures for
-**Distributed Systems**, **Reactive Programming**, and **Secure Software Systems**.
+**Distributed Systems**, **Reactive Programming**, **DevOps Organizations**, and **Secure Software Systems**.
 
 [Talk to us](mailto:guido.salvaneschi@unisg.ch) or
 [join our group]({{ '/open-positions' | relative_url }})
 when you are interested in these topics or our work.
 Students at HSG or TU Darmstadt,
-please find [our courses, theses, and HiWi offerings]({{ '/teaching' | relative_url }}).
+please find [our courses, theses, and jobs]({{ '/teaching' | relative_url }}).
 {: class="clearfix"}
 
 {% assign members = site.members | where: "team_frontpage", true | sort: "lastname" %}
