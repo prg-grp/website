@@ -43,12 +43,11 @@ Before, I have been an assistant professor at TU Darmstadt, where I led the Reac
 * [ECOOP’20](https://2020.ecoop.org/){: target="_blank" } (PC)
 * [ICFP’20](https://icfp20.sigplan.org/){: target="_blank" } (ERC)
 * [PROGRAMMING’20](https://2020.programming-conference.org/){: target="_blank" } (PC)
-<!---
-* [CCGrid’20](http://cloudbus.org/ccgrid2020/){: target="_blank" } (PC)
-* [FORTE’19](http://www.discotec.org/2019/forte.html){: target="_blank" } (PC)
-* [MPLR’19](https://conf.researchr.org/home/mplr-2019){: target="_blank" } (PC)
-* [PROGRAMMING’19](https://2019.programming-conference.org/){: target="_blank" } (PC)
--->
+
+[//]: * [CCGrid’20](http://cloudbus.org/ccgrid2020/){: target="_blank" } (PC)
+[//]: * [FORTE’19](http://www.discotec.org/2019/forte.html){: target="_blank" } (PC)
+[//]: * [MPLR’19](https://conf.researchr.org/home/mplr-2019){: target="_blank" } (PC)
+[//]: * [PROGRAMMING’19](https://2019.programming-conference.org/){: target="_blank" } (PC)
 
 
 ## Reviewer for Journals
