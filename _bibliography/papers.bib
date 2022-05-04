@@ -1,7 +1,27 @@
 ---
 ---
 
-% To be updated
+% Provisional entry, change once published
+@inproceedings{Audrito:2022:XC,
+    acronym = {ECOOP},
+    author = {Audrito, Giorgio and Casadei, Roberto and Damiani, Ferruccio and Salvaneschi, Guido and Viroli, Mirko},
+    title = {Functional Programming for Distributed Systems with XC},
+    booktitle = {Proceedings of the European Conference on Object-Oriented Programming (ECOOP '22)},
+    year = {2022},
+    abstract = {Programming distributed systems is notoriously hard due to – among the others – concurrency, asynchronous execution, message loss, and device failures. Homogeneous distributed systems consist of similar devices that communicate to neighbors and execute the same program: they include wireless sensor networks, network hardware and robot swarms. For the homogeneous case, we investigate an experimental language design that aims to push the abstraction boundaries farther, compared to existing approaches. In this paper, we introduce the design of XC, a programming language to develop homogeneous distributed systems. In XC, developers define the single program that every device executes and the overall behavior is achieved collectively, in an emergent way. The programming framework transparently takes care of concurrency, asynchronous execution, message loss, and device failures. We propose a minimalistic design, which features a single declarative primitive for communication, state management and connection management. A mechanism called alignment enables developers to abstract over asynchronous execution while still retaining composability. We define syntax and operational semantics of a core calculus, prove a number of properties of the calculus, including type soundness. XC comes with two DSL implementations: a DSL in Scala and one in C++. An evaluation based on smart-city monitoring demonstrates XC in a realistic application.},
+}
+
+% Provisional entry, change once published
+@inproceedings{Richter:2022:Prisma,
+    acronym = {ECOOP},
+    author = {Richter, David and Kretzler, David and Weisenburger, Pascal and Salvaneschi, Guido and Faust, Sebastian and Mezini, Mira},
+    title = {Prisma: A Tierless Language for Enforcing Contract-client Protocols in Decentralized Apps},
+    booktitle = {Proceedings of the European Conference on Object-Oriented Programming (ECOOP '22)},
+    year = {2022},
+    abstract = {Decentralized applications (dApps) consist of smart contracts that run on blockchains and clients that model collaborating parties. dApps are used to model financial and legal business functionality. Today, contracts and clients are written as separate programs – in different programming languages – communicating via send and receive operations. This makes distributed program flow awkward to express and reason about, increasing the potential for mismatches in the client-contract interface, which can be exploited by malicious clients, potentially leading to huge financial losses.\par In this paper, we present Prisma, a language for tierless decentralized applications, where the contract and its clients are defined in one unit and pairs of send and receive actions that “belong together” are encapsulated into a single direct–style operation, which is executed differently by sending and receiving parties. This enables expressing distributed program flow via standard control flow and renders mismatching communication impossible. We prove formally that our compiler preserves program behavior in presence of an attacker controlling the client code. We systematically compare Prisma with mainstream and advanced programming models for dApps and provide empirical evidence for its expressiveness and performance.},
+}
+
+% Provisional entry, change once published
 @inproceedings{Sokolowski:2021:EssentialSafety,
   acronym = {ICSE},
   file = {papers/2022_Change-Is-the-Only-Constant-Dynamic-Updates-for-Workflows.pdf},
@@ -27,18 +47,8 @@
   year = {2021},
   month = dec,
   publisher = {ACM},
-  abstract = {Secure enclaves, like Intel SGX, provide a means to process
-data securely on third-party cloud infrastructure with little or no
-performance overhead. Developing software that takes advantage
-of a secure enclave requires, however, to explicitly deal with a
-number of low-level details such as dedicated IO, custom syscalls,
-and stringent memory constraints, requiring the expertise needed
-for system programming, rather than applications. We discuss
-our recent research that provides a developer-friendly approach
-to enclave programming—our Java language extension JE.
-Finally, we outline our vision of a programming framework
-that brings secure enclave programming at the fingertips of
-application developers.}
+  address = {New York, NY, USA},
+  abstract = {Secure enclaves, like Intel SGX, provide a means to process data securely on third-party cloud infrastructure with little or no performance overhead. Developing software that takes advantage of a secure enclave requires, however, to explicitly deal with a number of low-level details such as dedicated IO, custom syscalls, and stringent memory constraints, requiring the expertise needed for system programming, rather than applications. We discuss our recent research that provides a developer-friendly approach to enclave programming—our Java language extension JE. Finally, we outline our vision of a programming framework that brings secure enclave programming at the fingertips of application developers.},
 }
 
 @article{Luthra:2021:TCEP,
