@@ -35,8 +35,9 @@ profile:
 
 I am interested in distributed systems and cloud technology
 from a Programming Languages and Software Engineering perspective.
-At the moment, I mainly focus on advanced solutions for DevOps
-leveraging Infrastructure as Code.
+Currently, I mainly focus on advancing Infrastructure as Code (IaC),
+aiming at robust deployments in modern DevOps organizations.
+For more information, please consult my [private webpage](https://dsoko.de){: target="_blank" }.
 
 I recently moved to the University of St. Gallen.
 Before I was part of the [Software Factory 4.0 project](https://www.software-factory-4-0.de/){: target="_blank" } at the Technical University of Darmstadt.
