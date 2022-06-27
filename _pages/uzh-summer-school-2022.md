@@ -6,7 +6,8 @@ description: Course contents of the cool programming lectures at the University 
 nav: false
 ---
 
-# Cool Programming – Main Headline
+# Programming Languages - A Journey into Abstraction and Composition
+
 
 Content
 
