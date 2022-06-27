@@ -12,7 +12,7 @@ Course contents of the programming languages lectures at the University Zurich S
 
 ## Interpreters
 
-[0000-00-00-interpreters-v3.zip]({{ '/assets/uzh-summer-school-2022/0000-00-00-interpreters-v3.zip' | relative_url }})
+[interpreters-v3.zip]({{ '/assets/uzh-summer-school-2022/0000-00-00-interpreters-v3.zip' | relative_url }})
 
 
 ## Exercises
