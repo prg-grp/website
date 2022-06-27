@@ -7,7 +7,8 @@ nav: false
 ---
 
 # Programming Languages
-## A Journey into Abstraction and Composition
+
+A Journey into Abstraction and Composition
 
 Course contents of the programming languages lectures at the University Zurich Summer School 2022.
 
