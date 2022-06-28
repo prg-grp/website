@@ -25,3 +25,17 @@ Course contents of the programming languages lectures at the University Zurich S
 
 * [ex03.pdf]({{ '/assets/uzh-summer-school-2022/ex03.pdf' | relative_url }})
 * [exercise-03-solution-v1.zip]({{ '/assets/uzh-summer-school-2022/exercise-03-solution-v1.zip' | relative_url }})
+
+## Slides
+
+* [slides-part0-introduction.pdf]({{ '/assets/uzh-summer-school-2022/slides-part0-introduction.pdf' | relative_url }})
+* [slides-part1-intro-to-PL.pdf]({{ '/assets/uzh-summer-school-2022/slides-part1-intro-to-PL.pdf' | relative_url }})
+* [slides-part2-growing-a-language.pdf]({{ '/assets/uzh-summer-school-2022/slides-part2-growing-a-language.pdf' | relative_url }})
+* [slides-part3-types-at-work.pdf]({{ '/assets/uzh-summer-school-2022/slides-part3-types-at-work.pdf' | relative_url }})
+* [slides-part4-research-in-PL.pdf]({{ '/assets/uzh-summer-school-2022/slides-part4-research-in-PL.pdf' | relative_url }})
+
+
+
+
+
+
