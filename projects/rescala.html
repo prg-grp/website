@@ -1,0 +1,1987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>REScala | Programming Group</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="REScala" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Advanced functional reactive programming for the JVM and the Web." />
+<meta property="og:description" content="Advanced functional reactive programming for the JVM and the Web." />
+<link rel="canonical" href="https://programming-group.com/projects/rescala" />
+<meta property="og:url" content="https://programming-group.com/projects/rescala" />
+<meta property="og:site_name" content="Programming Group" />
+<meta property="og:image" content="https://programming-group.com/assets/img/og/pg.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-07-26T12:00:50+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://programming-group.com/assets/img/og/pg.png" />
+<meta property="twitter:title" content="REScala" />
+<meta name="google-site-verification" content="RMUCoHAseeFv2jAdfyJb4XLx4e1J8XpU1l8fvwAxk1g" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","description":"Advanced functional reactive programming for the JVM and the Web.","image":"https://programming-group.com/assets/img/og/pg.png","headline":"REScala","dateModified":"2022-07-26T12:00:50+00:00","datePublished":"2022-07-26T12:00:50+00:00","url":"https://programming-group.com/projects/rescala","mainEntityOfPage":{"@type":"WebPage","@id":"https://programming-group.com/projects/rescala"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/assets/css/bundle-1e30bbe54ea0bcfc79fd9ff0bac804df.css">
+<link rel="stylesheet" href="/assets/css/main.css?v=8ade1d78f8a56c2f1192cff7fb2fb9b4f8a09258" />
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header class="fixed-top">
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand">
+    <div class="container px-md-3">
+      <a href="/" class="">
+        <img src="/assets/img/pg-logo.svg" alt="Programming Group"/>
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-wrap">
+          <!-- About -->
+          
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/">
+                Home
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/team">
+                Team
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/teaching">
+                Teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/publications">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/open-positions">
+                Open Positions
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/contact">
+                Contact
+                
+              </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <span class="social-header float-right">
+  <a href="mailto:%67%75%69%64%6F.%73%61%6C%76%61%6E%65%73%63%68%69@%75%6E%69%73%67.%63%68"><i class="fas fa-envelope"></i></a>
+  
+  
+  
+  
+  
+  
+  <a href="https://twitter.com/prg_grp" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.youtube.com/channel/UCW60aqeksbbWTT-7sR6G97w" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+  
+  
+  
+  
+  
+  
+  
+</span>
+
+    <h1 class="post-title">
+     REScala
+    </h1>
+      
+  </header>
+
+  <article>
+    
+    <div class="profile float-right">
+      
+        
+          <img class="img-fluid" src="/assets/img/projects/rescala.svg" alt="REScala">
+        
+      
+      
+        <div class="address">
+          <p>
+            
+              <span class="name">REScala</span>
+            
+            
+            
+            
+            
+            
+            
+            <br /><a href="https://www.rescala-lang.com/" target="_blank"><i class="fas fa-globe"></i> https://www.rescala-lang.com/</a>
+          </p>
+          <p class="post"></p>
+        </div>
+      
+    </div>
+    
+
+    <div class="clearfix">
+      <p>Advanced functional reactive programming for the JVM and the Web.</p>
+
+
+        
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+      <h2 id="publications">Publications</h2>
+      <div class="publications">
+        <ol class="bibliography"><li><div class="row">
+
+
+  <div id="Mogk:2019:FaultTolerant" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">OOPSLA</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">A Fault-Tolerant Programming Model for Distributed Interactive Applications</div>
+      <div class="author">
+        
+          
+          
+          
+          
+
+          
+            
+              Ragnar Mogk, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Joscha Drechsler, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Proceedings of the ACM on Programming Languages</em> 3 (OOPSLA), 2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+    
+      <a href="https://doi.org/10.1145/3360570" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Ubiquitous connectivity of web, mobile, and IoT computing platforms has fostered a variety of distributed applications with decentralized state. These applications execute across multiple devices with varying reliability and connectivity. Unfortunately, there is no declarative fault-tolerant programming model for distributed interactive applications with an inherently decentralized system model.</p><p>We present a novel approach to automating fault tolerance using high-level programming abstractions tailored to the needs of distributed interactive applications. Specifically, we propose a calculus that enables formal reasoning about applications’ dataflow within and across individual devices. Our calculus reinterprets the functional reactive programming model to seamlessly integrate its automated state change propagation with automated crash recovery of device-local dataflow and disconnection-tolerant distribution with guaranteed automated eventual consistency semantics based on conflict-free replicated datatypes. As a result, programmers are relieved of handling intricate details of distributing change propagation and coping with distribution failures in the presence of interactivity. We also provides proofs of our claims, an implementation of our calculus, and an empirical evaluation using a common interactive application.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Drechsler:2018:ThreadSafe" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">OOPSLA</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Thread-Safe Reactive Programming</div>
+      <div class="author">
+        
+          
+          
+          
+          
+
+          
+            
+              Joscha Drechsler, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Ragnar Mogk, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Proceedings of the ACM on Programming Languages</em> 2 (OOPSLA), 2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2018-Thread-safe-reactive-programming.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/3276477" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The execution of an application written in a reactive language involves transfer of data and control flow between imperative and reactive abstractions at well-defined points. In a multi-threaded environment, multiple such interactions may execute concurrently, potentially causing data races and event ordering ambiguities. Existing RP languages either disable multi-threading or handle it at the cost of reducing expressiveness or weakening consistency. This paper proposes a model for thread-safe reactive programming (RP) that ensures abort-free strict serializability under concurrency while sacrificing neither expressiveness nor consistency. We also propose an architecture for integrating a corresponding scheduler into the RP language runtime, such that thread-safety is provided "out-of-the-box" to the applications.</p><p>We show the feasibility of our proposal by providing and evaluating a ready-to-use implementation integrated into the REScala programming language. The scheduling algorithm is formally proven correct. A thorough empirical evaluation shows that reactive applications build on top of it scale with multiple threads, while the scheduler incurs acceptable performance overhead in a single-threaded configuration. The scalability enabled by our scheduler is roughly on-par with that of hand-crafted application-specific locking and better than the scalability enabled by a scheduler using an off-the-shelf software transactional memory library.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Mogk:2018:FaultTolerant" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">ECOOP</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Fault-tolerant Distributed Reactive Programming</div>
+      <div class="author">
+        
+          
+          
+          
+          
+
+          
+            
+              Ragnar Mogk, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Lars Baumgärtner, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Bernd Freisleben, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 32nd European Conference on Object-Oriented Programming (ECOOP)</em>, Leibniz International Proceedings in Informatics (LIPIcs), 2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2018_Fault-tolerant-Distributed-Reactive-Programming.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.4230/LIPIcs.ECOOP.2018.1" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>In this paper, we present a holistic approach to provide fault tolerance for distributed reactive programming. Our solution automatically stores and recovers program state to handle crashes, automatically updates and shares distributed parts of the state to provide eventual consistency, and handles errors in a fine-grained manner to allow precise manual control when necessary. By making use of the reactive programming paradigm, we provide these mechanisms without changing the behavior of existing programs and with reasonable performance, as indicated by our experimental evaluation.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Mogk:2018:Reactive" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">PX</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Reactive Programming Experience with REScala</div>
+      <div class="author">
+        
+          
+          
+          
+          
+
+          
+            
+              Ragnar Mogk, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Companion Proceedings for the 2nd International Conference on Art, Science, and Engineering of Programming</em>, ‹Programming› Companion, 2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+    
+      <a href="https://doi.org/10.1145/3191697.3214337" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Reactive programming is a recent programming paradigm that specifically targets reactive applications. Over the years, a number of reactive languages have been proposed, with different combinations of features, and various target domains. Unfortunately, there is a lack of knowledge about the experience of developing software applications with reactive languages. As a result, a number of design choices in reactive programming languages remain disconnected from experience and the applicability of reactive programming to various domains remains unclear. To bridge this gap, we report on our experience of developing reactive applications as well as teaching reactive programming in REScala, which we collected over several years of research and practice.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Salvaneschi:2017:Positive" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">TSE</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">On the Positive Effect of Reactive Programming on Software Comprehension: An Empirical Study</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Sebastian Proksch, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Sven Amann, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Sarah Nadi, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>IEEE Transactions on Software Engineering</em> 43 (12), 2017
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2017_On-the-Positive-Effect-of-Reactive-Programming-on-Software-Comprehension-An-Empirical-Study.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1109/TSE.2017.2655524" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Starting from the first investigations with strictly functional languages, reactive programming has been proposed as the programming paradigm for reactive applications. Over the years, researchers have enriched reactive languages with more powerful abstractions, embedded these abstractions into mainstream languages—including object-oriented languages—and applied reactive programming to several domains, such as GUIs, animations, Web applications, robotics, and sensor networks. However, an important assumption behind this line of research is that, beside other claimed advantages, reactive programming makes a wide class of otherwise cumbersome applications more comprehensible. This claim has never been evaluated. In this paper, we present the first empirical study that evaluates the effect of reactive programming on comprehension. The study involves&nbsp;127 subjects and compares reactive programming to the traditional object-oriented style with the Observer design pattern. Our findings show that program comprehension is significantly enhanced by the reactive-programming paradigm—a result that suggests to further develop research in this field.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Salvaneschi:2016:Languages" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">PLATEAU</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">What Do We Really Know about Data Flow Languages?</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 7th International Workshop on Evaluation and Usability of Programming Languages and Tools</em>, PLATEAU, 2016
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2016_What-do-we-really-know-about-data-flow-languages.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/3001878.3001884" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Over the last years, a number of languages based on data flow abstractions have been proposed in different important areas including Big Data, stream processing, reactive programming, real time analytics. While there is a general agreement that the data flow style simplifies the access to such complex systems compared to low level imperative APIs, this design has been substantiated by little evidence. In this paper, we advocate a systematic investigation of the design principles of data flow languages and suggest important research questions that urge to be addressed.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Salvaneschi:2016:Debugging" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">ICSE</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Debugging for Reactive Programming</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 38th International Conference on Software Engineering</em>, ICSE, 2016
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2016_Debugging-for-Reactive-Programming.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/2884781.2884815" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Reactive programming is a recent programming technique that provides dedicated language abstractions for reactive software. Reactive programming relieves developers from manually updating outputs when the inputs of a computation change, it overcomes a number of well-know issues of the Observer design pattern, and it makes programs more comprehensible. Unfortunately, complementing the new paradigm with proper tools is a vastly unexplored area. Hence, as of now, developers can embrace reactive programming only at the cost of a more challenging development process.</p><p>In this paper, we investigate a primary issue in the field: debugging programs in the reactive style. We analyze the problem of debugging reactive programs, show that the reactive style requires a paradigm shift in the concepts needed for debugging, and propose RP Debugging, a methodology for effectively debugging reactive programs. These ideas are implemented in Reactive Inspector, a debugger for reactive programs integrated with the Eclipse Scala IDE. Evaluation based on a controlled experiment shows that RP Debugging outperforms traditional debugging techniques.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Salvaneschi:2016:Inspector" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">ICSE Companion</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Debugging Reactive Programming with Reactive Inspector</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Companion Proceedings of the 38th International Conference on Software Engineering</em>, ICSE Companion, 2016
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2016_Debugging-Reactive-Programming-with-Reactive-Inspector.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/2889160.2893174" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Reactive programming provides dedicated language abstractions for reactive software, relieving developers from manually updating outputs when the inputs of a computation change. Unfortunately, complementing the new paradigm with proper tools that support coding activities is a vastly unexplored area.</p><p>We investigate a primary issue in the field: debugging programs in the reactive style. We propose RP Debugging, a methodology for effectively debugging reactive programs. These ideas are implemented in Reactive Inspector, a debugger for reactive programs integrated with the Eclipse Scala development environment.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Salvaneschi:2015:Reactive" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">ICSE</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Reactive Programming: A Walkthrough</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Alessandro Margara, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Giordano Tamburrelli
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 37th International Conference on Software Engineering</em>, ICSE, 2015
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2015_Reactive-Programming-A-Walkthrough.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1109/ICSE.2015.303" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Over the last few years, Reactive Programming has emerged as the trend to support the development of reactive software through dedicated programming abstractions. Reactive Programming has been increasingly investigated in the programming languages community and it is now gaining the interest of practitioners. Conversely, it has received so far less attention from the software engineering community.</p><p>This technical briefing bridges this gap through an accurate overview of Reactive Programming, discussing the available frameworks and outlining open research challenges with an emphasis on cross-field research opportunities.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Salvaneschi:2014:Empirical" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">FSE</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">An Empirical Study on Program Comprehension with Reactive Programming</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Sven Amann, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Sebastian Proksch, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 22nd ACM SIGSOFT International Symposium on Foundations of Software Engineering</em>, FSE, 2014
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2014_An-Empirical-Study-on-Program-Comprehension-with-Reactive-Programming.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/2635868.2635895" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Starting from the first investigations with strictly functional languages, reactive programming has been proposed as THE programming paradigm for reactive applications. The advantages of designs based on this style over designs based on the Observer design pattern have been studied for a long time. Over the years, researchers have enriched reactive languages with more powerful abstractions, embedded these abstractions into mainstream languages – including object-oriented languages – and applied reactive programming to several domains, like GUIs, animations, Web applications, robotics, and sensor networks. However, an important assumption behind this line of research – that, beside other advantages, reactive programming makes a wide class of otherwise cumbersome applications more comprehensible – has never been evaluated. In this paper, we present the design and the results of the first empirical study that evaluates the effect of reactive programming on comprehensibility compared to the traditional object-oriented style with the Observer design pattern. Results confirm the conjecture that comprehensibility is enhanced by reactive programming. In the experiment, the reactive programming group significantly outperforms the other group.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Drechsler:2014:Distributed" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">OOPSLA</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Distributed REScala: An Update Algorithm for Distributed Reactive Programming</div>
+      <div class="author">
+        
+          
+          
+          
+          
+
+          
+            
+              Joscha Drechsler, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Ragnar Mogk, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 2014 ACM International Conference on Object-oriented Programming, Systems, Languages, and Applications</em>, OOPSLA, 2014
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2014_Distributed_REScala_An_Update_Algorithm_for_Distributed_Reactive_Programming.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/2660193.2660240" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Reactive programming improves the design of reactive applications by relocating the logic for managing dependencies between dependent values away from the application logic to the language implementation. Many distributed applications are reactive. Yet, existing change propagation algorithms are not suitable in a distributed setting.</p><p>We propose Distributed REScala, a reactive language with a change propagation algorithm that works without centralized knowledge about the topology of the dependency structure among reactive values and avoids unnecessary propagation of changes, while retaining safety guarantees (glitch freedom). Distributed REScala enables distributed reactive programming, bringing the benefits of reactive programming to distributed applications. We demonstrate the enabled design improvements by a case study. We also empirically evaluate the performance of our algorithm in comparison to other algorithms in a simulated distributed setting.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="VanHam:2014:JEScala" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">MODULARITY</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">JEScala: Modular Coordination with Declarative Events and Joins</div>
+      <div class="author">
+        
+          
+          
+          
+          
+
+          
+            
+              Jurgen M. Van Ham, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Jacques Noyé
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 13th International Conference on Modularity</em>, MODULARITY, 2014
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2014_JEScala-Modular-Coordination-with-Declarative-Events-and-Joins.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/2577080.2577082" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Advanced concurrency abstractions overcome the drawbacks of low-level techniques such as locks and monitors, freeing programmers that implement concurrent applications from the burden of concentrating on low-level details. However, with current approaches the coordination logic involved in complex coordination schemas is fragmented into several pieces including join patterns, data emissions triggered in different places of the application, and the application logic that implicitly creates dependencies among communication channels, hence indirectly among join patterns. We present JEScala, a language that captures coordination schemas in a more expressive and modular way by leveraging a seamless integration of an advanced event system with join abstractions. We validate our approach with case studies and provide a first performance assessment.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Salvaneschi:2014:REScala" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">MODULARITY</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">REScala: Bridging between Object-Oriented and Functional Style in Reactive Applications</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Gerold Hintz, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 13th International Conference on Modularity</em>, MODULARITY, 2014
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2014_REScala-Bridging-The-Gap-Between-Object-Oriented-And-Functional-Style-In-Reactive-Applications.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/2577080.2577083" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Traditionally, object-oriented software adopts the Observer pattern to implement reactive behavior. Its drawbacks are well-documented and two families of alternative approaches have been proposed, extending object-oriented languages with concepts from functional reactive and dataflow programming, respectively event-driven programming. The former hardly escape the functional setting; the latter do not achieve the declarativeness of more functional approaches.</p><p>In this paper, we present REScala, a reactive language which integrates concepts from event-based and functional-reactive programming into the object-oriented world. REScala supports the development of reactive applications by fostering a functional declarative style which complements the advantages of object-oriented design.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Salvaneschi:2014:Reactive" class="col-sm-12">
+    
+      <div class="abbr">
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Towards Reactive Programming for Object-Oriented Applications</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Transactions on Aspect-Oriented Software Development XI</em>, Lecture Notes in Computer Science, 2014
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2014_Towards-Reactive-Programming-for-Object-Oriented-Applications.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1007/978-3-642-55099-7_7" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Reactive applications are difficult to implement. Traditional solutions based on event systems and the Observer pattern have a number of inconveniences, but programmers bear them in return for the benefits of OO design. On the other hand, reactive approaches based on automatic updates of dependencies – like functional reactive programming and dataflow languages – provide undoubted advantages but do not fit well with mutable objects.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Margara:2013:Ways" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">REM</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Ways to React: Comparing Reactive Languages and Complex Event</div>
+      <div class="author">
+        
+          
+          
+          
+          
+
+          
+            
+              Alessandro Margara, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Presentation at the Workshop on Reactivity, Events and Modularity (REM)</em>, 2013
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2013_Ways-to-React-Comparing-Reactive-Languages-and-Complex-Event-Processing.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Reactive applications demand for detecting the changes that occur in a domain of interest and for timely reactions. Examples range from simple interactive applications to complex monitoring tasks involving distributed and heterogeneous systems.</p><p>Over the last years, different programming paradigms and solutions have been proposed to support such applications. In this paper, we focus on two prominent approaches: event-based programming, specifically Complex Event Processing (CEP), and Reactive Languages (RLs).</p><p>CEP systems enable the definition of high level situations of interest from low level primitive events detected in the external environment. On the other hand, RLs support time-changing values and their composition as dedicated language abstractions. These research fields have been investigated by different communities, belonging respectively to the database and the distributed systems areas and to the programming language area.</p><p>It is our belief that a deeper understanding of these research fields, including their benefits and limitations, their similarities and differences, could drive further developments in supporting reactive applications. For this reason, we propose a first comparison of the two fields. Despite huge differences, we believe that such a comparison can trigger an interesting discussion across the communities, favor knowledge sharing, and let new ideas emerge.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Salvaneschi:2013:Distributed" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">COORDINATION</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Towards Distributed Reactive Programming</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Joscha Drechsler, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the International Conference on Coordination Languages and Models</em>, COORDINATION, 2013
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2013_Towards-Distributed-Reactive-Programming.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1007/978-3-642-38493-6_16" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Reactive applications is a wide class of software that responds to user input, network messages, and other events. Recent research on reactive languages successfully addresses the drawbacks of the Observer pattern – the traditional way reactive applications are implemented in the object-oriented setting – by introducing time-changing values and other ad-hoc programming abstractions.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Salvaneschi:2013:Reactive" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">AOSD</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/rescala">REScala <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Reactive Behavior in Object-Oriented Applications: An Analysis and a Research Roadmap</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 12th Annual International Conference on Aspect-Oriented Software Development</em>, AOSD, 2013
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2013_Reactive-Behavior-in-Object-oriented-Applications-An-Analysis-and-a-Research-Roadmap.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/2451436.2451442" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Reactive applications are difficult to implement. Traditional solutions based on event systems and the Observer pattern have a number of inconveniences, but programmers bear them in return for the benefits of OO design. On the other hand, reactive approaches based on automatic updates of dependencies - like functional reactive programming and dataflow languages - provide undoubted advantages but do not fit well with mutable objects. In this paper, we provide a research roadmap to overcome the limitations of the current approaches and to support reactive applications in the OO setting. To establish a solid background for our investigation, we propose a conceptual framework to model the design space of reactive applications and we study the flaws of the existing solutions. Then we highlight how reactive languages have the potential to address those issues and we formulate our research plan.</p>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+      </div>
+    
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    &copy; Copyright 2022   Programming Group.
+    
+    
+    <a href="https://programming-group.com/impressum">Impressum</a>.
+    
+    
+    Last updated: July 26, 2022.
+    
+  </div>
+</footer>
+
+
+
+    <script type="text/javascript" src="/assets/css/bundle-f83a6549c9380ccdc3ff0fc271d913db.js"></script>
+  </body>
+</html>

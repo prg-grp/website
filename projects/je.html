@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>JE | Programming Group</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="JE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Language-level abstractions for secure programming with Trusted Execution Environments." />
+<meta property="og:description" content="Language-level abstractions for secure programming with Trusted Execution Environments." />
+<link rel="canonical" href="https://programming-group.com/projects/je" />
+<meta property="og:url" content="https://programming-group.com/projects/je" />
+<meta property="og:site_name" content="Programming Group" />
+<meta property="og:image" content="https://programming-group.com/assets/img/og/pg.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-07-26T12:00:50+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://programming-group.com/assets/img/og/pg.png" />
+<meta property="twitter:title" content="JE" />
+<meta name="google-site-verification" content="RMUCoHAseeFv2jAdfyJb4XLx4e1J8XpU1l8fvwAxk1g" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","description":"Language-level abstractions for secure programming with Trusted Execution Environments.","image":"https://programming-group.com/assets/img/og/pg.png","headline":"JE","dateModified":"2022-07-26T12:00:50+00:00","datePublished":"2022-07-26T12:00:50+00:00","url":"https://programming-group.com/projects/je","mainEntityOfPage":{"@type":"WebPage","@id":"https://programming-group.com/projects/je"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/assets/css/bundle-1e30bbe54ea0bcfc79fd9ff0bac804df.css">
+<link rel="stylesheet" href="/assets/css/main.css?v=8ade1d78f8a56c2f1192cff7fb2fb9b4f8a09258" />
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header class="fixed-top">
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand">
+    <div class="container px-md-3">
+      <a href="/" class="">
+        <img src="/assets/img/pg-logo.svg" alt="Programming Group"/>
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-wrap">
+          <!-- About -->
+          
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/">
+                Home
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/team">
+                Team
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/teaching">
+                Teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/publications">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/open-positions">
+                Open Positions
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/contact">
+                Contact
+                
+              </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <span class="social-header float-right">
+  <a href="mailto:%67%75%69%64%6F.%73%61%6C%76%61%6E%65%73%63%68%69@%75%6E%69%73%67.%63%68"><i class="fas fa-envelope"></i></a>
+  
+  
+  
+  
+  
+  
+  <a href="https://twitter.com/prg_grp" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.youtube.com/channel/UCW60aqeksbbWTT-7sR6G97w" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+  
+  
+  
+  
+  
+  
+  
+</span>
+
+    <h1 class="post-title">
+     J<sub>E</sub>
+    </h1>
+      
+  </header>
+
+  <article>
+    
+    <div class="profile float-right">
+      
+      
+        <div class="address">
+          <p>
+            
+              <span class="name">J<sub>E</sub></span>
+            
+            
+            
+            
+            
+            
+            
+            <br /><a href="https://prg-grp.github.io/je-lang" target="_blank"><i class="fas fa-globe"></i> https://prg-grp.github.io/je-lang</a>
+          </p>
+          <p class="post"></p>
+        </div>
+      
+    </div>
+    
+
+    <div class="clearfix">
+      <p>Language-level abstractions for secure programming with Trusted Execution Environments.</p>
+
+
+
+        
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+      <h2 id="publications">Publications</h2>
+      <div class="publications">
+        <ol class="bibliography"><li><div class="row">
+
+
+  <div id="Oak:2021:Pavetrust" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">PAVeTrust</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/je">J<sub>E</sub> <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Towards Democratizing Secure Enclave Programming</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/oak">Aditya Oak</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Amir M. Ahmadian, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Musard Balliu, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Program Analysis and Verification on Trusted Platforms</em>, PAVeTrust, 2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2021_Towards_Democratizing_Secure_Enclave_Programming.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Secure enclaves, like Intel SGX, provide a means to process data securely on third-party cloud infrastructure with little or no performance overhead. Developing software that takes advantage of a secure enclave requires, however, to explicitly deal with a number of low-level details such as dedicated IO, custom syscalls, and stringent memory constraints, requiring the expertise needed for system programming, rather than applications. We discuss our recent research that provides a developer-friendly approach to enclave programming—our Java language extension JE. Finally, we outline our vision of a programming framework that brings secure enclave programming at the fingertips of application developers.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Oak:2021:EnclaveBased" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">SecDev</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/je">J<sub>E</sub> <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Enclave-Based Secure Programming with JE</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/oak">Aditya Oak</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Amir M. Ahmadian, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Musard Balliu, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 2021 IEEE Secure Development Conference</em>, SecDev, 2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2021_Enclave-Based-Secure-Programming-with-JE.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1109/SecDev51306.2021.00026" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Over the past few years, major hardware vendors have started offering processors that support Trusted Execution Environments (TEEs) allowing confidential computations over sensitive data on untrusted hosts. Unfortunately, developing applications that use TEEs remains challenging. Current solutions require to use low-level languages (e.g., C/C++) to handle the TEE management process manually – a complex and error-prone task. Worse, the separation of the application into components that run inside and outside the TEE may lead to information leaks. In summary, TEEs are a powerful means to design secure applications, but there is still a long way to building secure software with TEEs alone.</p><p>In this work, we present , a programming model for developing TEE-enabled applications where developers only need to annotate Java programs to define application-level security policies and run them securely inside enclaves.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Oak:2021:Language" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">CSF</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/je">J<sub>E</sub> <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Language Support for Secure Software Development with Enclaves</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/oak">Aditya Oak</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Amir M. Ahmadian, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Musard Balliu, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 34th IEEE Computer Security Foundations Symposium</em>, CSF, 2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2021_Language-Support-for-Secure-Software-Development-with-Enclaves.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1109/CSF51468.2021.00037" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Confidential computing is a promising technology for securing code and data-in-use on untrusted host machines, e.g., the cloud. Many hardware vendors offer different implementations of Trusted Execution Environments (TEEs). A TEE is a hardware protected execution environment that allows performing confidential computations over sensitive data on untrusted hosts. Despite the appeal of achieving strong security guarantees against low-level attackers, two challenges hinder the adoption of TEEs. First, developing software in high-level managed languages, e.g., Java or Scala, taking advantage of existing TEEs is complex and error-prone. Second, partitioning an application into components that run inside and outside a TEE may break application-level security policies, resulting in an insecure application when facing a realistic attacker.</p><p>In this work, we study both these challenges. We present J<sub>E</sub>, a programming model that seamlessly integrates a TEE, abstracting away low-level programming details such as initialization and loading of data into the TEE. J<sub>E</sub> only requires developers to add annotations to their programs to enable the execution within the TEE. Drawing on information flow control, we develop a security type system that checks confidentiality and integrity policies against realistic attackers with full control over the code running outside the TEE. We formalize the security type system for the J<sub>E</sub> core and prove it sound for a semantic characterization of security. We implement J<sub>E</sub> and the security type system, enable Java programs to run on Intel SGX with strong security guarantees. We evaluate our approach on use cases from the literature, including a battleship game, a secure event processing system, and a popular processing framework for big data, showing that we correctly handle complex cases of partitioning, information flow, declassification, and trust.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Oak:2019:Language" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">PASS</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/je">J<sub>E</sub> <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Language Support for Multiple Privacy Enhancing Technologies</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/oak">Aditya Oak</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Mira Mezini, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Companion Proceedings of the 3rd International Conference on Art, Science, and Engineering of Programming</em>, ‹Programming› Companion, 2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+    
+      <a href="https://doi.org/10.1145/3328433.3328446" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Privacy is one of the critical aspects in the design of computing systems. Various techniques are being used to enforce privacy, such as information flow control, symmetric/asymmetric cryptography, secure computing enclaves, partial homomorphic encryption and differential privacy. These mechanisms should ideally be combined in complex software systems as they offer different properties and performance trade offs. Unfortunately, reasoning about the privacy properties of such combination is still an open research problem.</p><p>In this paper, we present our vision on a programming language in which we incorporate different privacy preservation techniques in a common programming model.</p>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+      </div>
+    
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    &copy; Copyright 2022   Programming Group.
+    
+    
+    <a href="https://programming-group.com/impressum">Impressum</a>.
+    
+    
+    Last updated: July 26, 2022.
+    
+  </div>
+</footer>
+
+
+
+    <script type="text/javascript" src="/assets/css/bundle-f83a6549c9380ccdc3ff0fc271d913db.js"></script>
+  </body>
+</html>

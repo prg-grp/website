@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>ScalaLoci | Programming Group</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="ScalaLoci" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A programming language for distributed applications." />
+<meta property="og:description" content="A programming language for distributed applications." />
+<link rel="canonical" href="https://programming-group.com/projects/scala-loci" />
+<meta property="og:url" content="https://programming-group.com/projects/scala-loci" />
+<meta property="og:site_name" content="Programming Group" />
+<meta property="og:image" content="https://programming-group.com/assets/img/og/pg.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-07-26T12:00:50+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://programming-group.com/assets/img/og/pg.png" />
+<meta property="twitter:title" content="ScalaLoci" />
+<meta name="google-site-verification" content="RMUCoHAseeFv2jAdfyJb4XLx4e1J8XpU1l8fvwAxk1g" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","description":"A programming language for distributed applications.","image":"https://programming-group.com/assets/img/og/pg.png","headline":"ScalaLoci","dateModified":"2022-07-26T12:00:50+00:00","datePublished":"2022-07-26T12:00:50+00:00","url":"https://programming-group.com/projects/scala-loci","mainEntityOfPage":{"@type":"WebPage","@id":"https://programming-group.com/projects/scala-loci"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/assets/css/bundle-1e30bbe54ea0bcfc79fd9ff0bac804df.css">
+<link rel="stylesheet" href="/assets/css/main.css?v=8ade1d78f8a56c2f1192cff7fb2fb9b4f8a09258" />
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header class="fixed-top">
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand">
+    <div class="container px-md-3">
+      <a href="/" class="">
+        <img src="/assets/img/pg-logo.svg" alt="Programming Group"/>
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-wrap">
+          <!-- About -->
+          
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/">
+                Home
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/team">
+                Team
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/teaching">
+                Teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/publications">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/open-positions">
+                Open Positions
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link text-nowrap" href="/contact">
+                Contact
+                
+              </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <span class="social-header float-right">
+  <a href="mailto:%67%75%69%64%6F.%73%61%6C%76%61%6E%65%73%63%68%69@%75%6E%69%73%67.%63%68"><i class="fas fa-envelope"></i></a>
+  
+  
+  
+  
+  
+  
+  <a href="https://twitter.com/prg_grp" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.youtube.com/channel/UCW60aqeksbbWTT-7sR6G97w" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+  
+  
+  
+  
+  
+  
+  
+</span>
+
+    <h1 class="post-title">
+     ScalaLoci
+    </h1>
+      
+  </header>
+
+  <article>
+    
+    <div class="profile float-right">
+      
+        
+          <img class="img-fluid" src="/assets/img/projects/scala-loci.svg" alt="ScalaLoci">
+        
+      
+      
+        <div class="address">
+          <p>
+            
+              <span class="name">ScalaLoci</span>
+            
+            
+            
+            
+            
+            
+            
+            <br /><a href="https://scala-loci.github.io/" target="_blank"><i class="fas fa-globe"></i> https://scala-loci.github.io/</a>
+          </p>
+          <p class="post"></p>
+        </div>
+      
+    </div>
+    
+
+    <div class="clearfix">
+      <p>A programming language for distributed applications.</p>
+
+
+        
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+      <h2 id="publications">Publications</h2>
+      <div class="publications">
+        <ol class="bibliography"><li><div class="row">
+
+
+  <div id="Giallorenzo:2021:Multiparty" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">ECOOP</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Multiparty Languages: The Choreographic and Multitier Cases</div>
+      <div class="author">
+        
+          
+          
+          
+          
+
+          
+            
+              Saverio Giallorenzo, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Fabrizio Montesi, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Marco Peressotti, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              David Richter, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>,
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/weisenburger">Pascal Weisenburger</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 35th European Conference on Object-Oriented Programming (ECOOP)</em>, Leibniz International Proceedings in Informatics (LIPIcs), 2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2021_Multiparty-Languages-The-Choreographic-and-Multitier-Cases.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.4230/LIPIcs.ECOOP.2021.22" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Choreographic languages aim to express multiparty communication protocols, by providing primitives that make interaction manifest. Multitier languages enable programming computation that spans across several tiers of a distributed system, by supporting primitives that allow computation to change the location of execution. Rooted into different theoretical underpinnings—respectively process calculi and lambda calculus—the two paradigms have been investigated independently by different research communities with little or no contact. As a result, the link between the two paradigms has remained hidden for long.</p><p>In this paper, we show that choreographic languages and multitier languages are surprisingly similar. We substantiate our claim by isolating the core abstractions that differentiate the two approaches and by providing algorithms that translate one into the other in a straightforward way. We believe that this work paves the way for joint research and cross-fertilisation among the two communities.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Sokolowski:2020:Leveraging" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">SuperCompCloud</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Leveraging Hybrid Cloud HPC with Multitier Reactive Programming</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/sokolowski">Daniel Sokolowski</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Jan-Patrick Lehr, 
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Christian Bischof, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 3rd IEEE/ACM International Workshop on Interoperability of Supercomputing and Cloud Technologies</em>, SuperCompCloud, 2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2020_Leveraging-Hybrid-Cloud-HPC-with-Multitier-Reactive-Programming.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1109/SuperCompCloud51944.2020.00010" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The advent of cloud computing has enabled large-scale availability of on-demand computing and storage resources. However, these benefits are not yet at the fingertips of HPC developers: Typical HPC applications use on-premise computing resources and rely on static deployment setups, reliable hardware, and rather homogeneous resources. This hinders (partial) execution in the cloud, even though applications could benefit from scaling beyond on-premise resources and from the variety of hardware available in the cloud to speed up execution.</p><p>To address this issue, we orchestrate computationally intensive kernels using a high-level programming language that ensures advanced optimization and improves execution flexibility-enabling hybrid cloud/on-premise HPC deployments. Our approach is based on multitier reactive programming, where distributed code is defined within the same compilation unit and computations are placed explicitly using placement types. We adjust placement based on performance characteristics measured before execution, apply our approach to a shortest vector problem (SVP) solver from cryptanalysis, and evaluate it to be effective.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Weisenburger:2020:Survey" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">CSUR</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">A Survey of Multitier Programming</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/weisenburger">Pascal Weisenburger</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Johannes Wirth, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>ACM Computing Surveys</em> 53 (4), 2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2020_A-Survey-of-Multitier-Programming.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/3397495" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Multitier programming deals with developing the components that pertain to different tiers in the system (e.g., client and server), mixing them in the same compilation unit. In this paradigm, the code for different tiers is then either generated at run time or it results from the compiler splitting the codebase into components that belong to different tiers based on user annotations, static analysis, types, or a combination of these. In the Web context, multitier languages aim at reducing the distinction between client and server code, by translating the code that is to be executed on the clients to JavaScript or by executing JavaScript on the server, too. Ultimately, the goal of the multitier approach is to improve program comprehension, simplify maintenance and enable formal reasoning about the properties of the whole distributed application.</p><p>A number of multitier research languages have been proposed over the last decade, which support various degrees of multitier programming and explore different design tradeoffs. In this article, we provide an overview of the existing solutions, discuss their positioning in the design space, and outline open research problems.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Weisenburger:2020:Implementing" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">‹Programming›</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Implementing a Language for Distributed Systems: Choices and Experiences with Type Level and Macro Programming in Scala</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/weisenburger">Pascal Weisenburger</a>,
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>The Art, Science, and Engineering of Programming</em> 4 (3), 2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2020_Implementing-a-Language-for-Distributed-Systems.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.22152/programming-journal.org/2020/4/17" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+      <a href="https://github.com/scala-loci" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+      <a href="https://scala-loci.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Multitier programming languages reduce the complexity of developing distributed systems by developing the distributed system in a single coherent code base. The compiler or the runtime separate the code for the components of the distributed system, enabling abstraction over low level implementation details such as data representation, serialization and network protocols. Our ScalaLoci language allows developers to declare the different components and their architectural relation at the type level, allowing static reasoning about about distribution and remote communication and guaranteeing static type safety across components. The compiler splits the multitier program into the component-specific code and automatically generates the communication boilerplate. Communication between components can be modeled by declaratively specifying data flows between components using reactive programming.</p><p>In this paper, we report on the implementation of our design and our experience with embedding our language features into Scala as a host language. We show how a combination of Scala’s advanced type level programming and its macro system can be used to enrich the language with new abstractions. We comment on the challenges we encountered and the solutions we developed for our current implementation and outline suggestions for an improved macro system to support the such use cases of embedding of domain-specific abstractions.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Weisenburger:2020:Programming" class="col-sm-12">
+    
+      <div class="abbr">
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">A Programming Language for Distributed Systems</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/weisenburger">Pascal Weisenburger</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+          Doctoral dissertation, <em>Technische Universität Darmstadt</em>, 2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+    
+      <a href="https://doi.org/10.25534/tuprints-00013500" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Today’s software, including many everyday services, such as online streaming, search engines and social networks, is widely distributed, running on top of a network of interconnected computers. Such distributed applications are traditionally developed as separate modules for each component in the distributed system. These modules react to events, like user input or messages from the network, and in turn produce new events for the other modules. Separation into different modules is problematic because combining modules is notoriously hard and requires extensive and time-consuming integration and manual implementation of communication forces programmers to program complex event-based communication schemes among hosts ? an activity which is often low-level and error-prone. The combination of the two results in obscure distributed data flows scattered among multiple modules, hindering reasoning about the system as a whole. For these reasons, despite most software today is distributed, the design and development of distributed systems remains surprisingly challenging.</p><p>We present the ScalaLoci distributed programming language, our approach for taming the complexity of developing distributed applications via specialized programming language support. ScalaLoci addresses the issues above with a coherent model based on placement types that enables reasoning about distributed data flows otherwise scattered across multiple modules, supporting multiple software architectures via dedicated language features and abstracting over low-level communication details and data conversions.</p><p>ScalaLoci does not force developers to modularize software along network boundaries as is traditionally the case when developing distributed systems. Instead, we propose a module system that supports encapsulating each (cross-host) functionality and defining it over abstract peer types. As a result, we disentangle modularization and distribution and we enable the definition of a distributed system as a composition of ScalaLoci modules, each representing a subsystem.</p><p>Our case studies on distributed algorithms, distributed data structures, as well as on real-world distributed streaming engines show that ScalaLoci simplifies developing distributed systems, reduces error-prone communication code and favors early detection of bugs. As we demonstrate, the ScalaLoci module system allows the definition of reusable patterns of interaction in distributed software and enables separating the modularization and distribution concerns, properly separating functionalities in distributed systems.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Sokolowski:2019:Multitier" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">REBLS</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Multitier Reactive Programming in High Performance Computing</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/sokolowski">Daniel Sokolowski</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Philipp Martens, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Presentation at the 6th Workshop on Reactive and Event-based Languages and Systems (REBLS)</em>, 2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2019_Multitier-Reactive-Programming-in-High-Performance-Computing.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>High Performance Computing (HPC) is crucial in a number of sectors, including weather forecasts, particle simulations and fluid dynamics. Existing programming frameworks for HPC expose developers to low-level details such as message passing and explicit memory management, which are hard to program and error-prone.</p><p>In this paper, we present ongoing work on increasing the level of abstraction for HPC. We tackle this problem with an approach based on a combination of multitier programming and reactive programming which enables the development of complex processor configurations in a uniform way using event streams as communication pattern. We report our experience with LULESH, a well known HPC benchmark, and we outline our research roadmap.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Weisenburger:2019:Multitier" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">ECOOP</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Multitier Modules</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/weisenburger">Pascal Weisenburger</a>,
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 33rd European Conference on Object-Oriented Programming (ECOOP)</em>, Leibniz International Proceedings in Informatics (LIPIcs), 2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2019_Multitier-Modules.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.4230/LIPIcs.ECOOP.2019.3" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+      <a href="https://github.com/scala-loci" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+      <a href="https://scala-loci.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Multitier programming languages address the complexity of developing distributed systems abstracting over low level implementation details such as data representation, serialization and network protocols. Since the functionalities of different peers can be defined in the same compilation unit, multitier languages do not force developers to modularize software along network boundaries. Unfortunately, combining the code for all tiers into the same compilation unit poses a scalability challenge or forces developers to resort to traditional modularization abstractions that are agnostic to the multitier nature of the language.</p><p>In this paper, we address this issue with a module system for multitier languages. Our module system supports encapsulating each (cross-peer) functionality and defining it over abstract peer types. As a result, we disentangle modularization and distribution and we enable the definition of a distributed system as a composition of multitier modules, each representing a subsystem. Our case studies on distributed algorithms, distributed data structures, as well as on the Apache Flink task distribution system, show that multitier modules allow the definition of reusable (abstract) patterns of interaction in distributed software and enable separating the modularization and distribution concerns, properly separating functionalities in distributed systems.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Weisenburger:2019:Developing" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">DEBS</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Tutorial: Developing Distributed Systems with Multitier Programming</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/weisenburger">Pascal Weisenburger</a>,
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Proceedings of the 13th ACM International Conference on Distributed and Event-Based Systems</em>, DEBS, 2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2019_Developing-Distributed-Systems-with-Multitier-Programming.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/3328905.3332465" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Developing distributed systems is a complex task that requires to program different peers, often using several languages on different platforms, writing communication code and handling data serialization and conversion.</p><p>We show how the multitier programming paradigm can alleviate these issues, supporting a development model where all peers in the system can be written in the same language and coexist in the same compilation units, communication code is automatically inserted by the compiler and the language abstracts over data conversion and serialization. We present multitier programming abstractions, discuss their applicability step by step for the development of small applications and discuss larger case studies on distributed stream processing, like Apache Flink and Apache Gearpump.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Weisenburger:2018:Distributed" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">OOPSLA</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Distributed System Development with ScalaLoci</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/weisenburger">Pascal Weisenburger</a>,
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/koehler">Mirko Köhler</a>,
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Proceedings of the ACM on Programming Languages</em> 2 (OOPSLA), 2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2018_Distributed-System-Development-with-ScalaLoci.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/3276499" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+      <a href="https://github.com/scala-loci" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+      <a href="https://scala-loci.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Distributed applications are traditionally developed as separate modules, often in different languages, which react to events, like user input, and in turn produce new events for the other modules. Separation into components requires time-consuming integration. Manual implementation of communication forces programmers to deal with low-level details. The combination of the two results in obscure distributed data flows scattered among multiple modules, hindering reasoning about the system as a whole. The ScalaLoci distributed programming language addresses these issues with a coherent model based on placement types that enables reasoning about distributed data flows, supporting multiple software architectures via dedicated language features and abstracting over low-level communication details and data conversions. As we show, ScalaLoci simplifies developing distributed systems, reduces error-prone communication code and favors early detection of bugs.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Weisenburger:2018:Static" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">FTfJP</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Static Latency Tracking with Placement Types</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/weisenburger">Pascal Weisenburger</a>,
+            
+          
+        
+          
+          
+          
+          
+
+          
+            
+              Tobias Reinhard, 
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/salvaneschi">Guido Salvaneschi</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Companion Proceedings for the ISSTA/ECOOP 2018 Workshops</em>, ISSTA/ECOOP Companion, 2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2018_Static-Latency-Tracking-with-Placement-Types.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/3236454.3236486" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Large-scale distributed applications, e.g., in geodistributed data centers, pose a performance challenge to developers which need to take high cross-data-center latency communication cost into account. We present a preliminary investigation of a type system that tracks latency and makes the cost of remote calls explicit, raising developers’ awareness of communication overhead.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+
+
+  <div id="Weisenburger:2016:Multitier" class="col-sm-12">
+    
+      <div class="abbr">
+          
+              
+                <abbr class="badge">SPLASH DS</abbr><br />
+              
+          
+          
+                
+                
+                    
+                    
+                    
+                        <abbr class="badge project"><a href="/projects/scala-loci">ScalaLoci <i class="fas fa-external-link-alt"></i></a></abbr><br />
+                    
+                
+          
+      </div>
+      <div class="title">Multitier Reactive Abstractions</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+
+          
+            
+              <a href="/members/weisenburger">Pascal Weisenburger</a>
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        In <em>Companion Proceedings of the 2016 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity</em>, SPLASH Companion, 2016
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      
+        <a href="/assets/pdf/papers/2016_Multitier-Reactive-Abstractions.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://doi.org/10.1145/2984043.2984051" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Distributed applications are traditionally developed using separate modules for each component in the distributed system, which can even be written in different programming languages. Those modules react on events such as user input, which are produced by other modules, and may in turn produce new events to be handled by different modules. Thus, most distributed applications are reactive in nature. Distributed event-based data flow makes it is hard to reason about the system and therefore makes the development of distributed systems challenging. In this paper, we present language abstractions for distributed reactive programming easing the development of such applications and supporting various distributed architectures.</p>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+      </div>
+    
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    &copy; Copyright 2022   Programming Group.
+    
+    
+    <a href="https://programming-group.com/impressum">Impressum</a>.
+    
+    
+    Last updated: July 26, 2022.
+    
+  </div>
+</footer>
+
+
+
+    <script type="text/javascript" src="/assets/css/bundle-f83a6549c9380ccdc3ff0fc271d913db.js"></script>
+  </body>
+</html>
