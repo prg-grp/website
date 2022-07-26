@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Alumni
-group_rank: 4
+group_rank: 10
 team_frontpage: false
 
 title: MSc Benyamin Delshad Mamaghani
