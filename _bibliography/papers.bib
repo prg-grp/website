@@ -1,6 +1,23 @@
 ---
 ---
 
+% Provisional entry, change once published
+@article{Sokolowski:2023:Decentralizing,
+  acronym = {IEEE Software},
+  file = {papers/2023_Decentralizing-Infrastructure-as-Code.pdf},
+  author = {Sokolowski, Daniel and Weisenburger, Pascal and Salvaneschi, Guido},
+  title = {Decentralizing Infrastructure as Code},
+  year = {2023},
+  journal = {IEEE Software},
+  volume = {40},
+  number = {01},
+  publisher = {IEEE},
+  address = {Los Alamitos, CA, USA},
+  doi = {10.1109/MS.2022.3192968},
+  keywords = {DevOps, Infrastructure as Code, Cloud},
+  abstract = {Infrastructure as Code (IaC) automates deployments for single teams, falling short of decentralized deployments across groups. We need mature IaC solutions that embrace and consolidate software engineering principles to enable testing and automation advances for decentralized organizations.},
+}
+
 @inproceedings{Audrito:2022:XC,
   acronym = {ECOOP},
   file = {papers/2022_Functional-Programming-for-Distributed-Systems-with-XC.pdf},
@@ -27,7 +44,6 @@
   abstract = {Programming distributed systems is notoriously hard due to – among the others – concurrency, asynchronous execution, message loss, and device failures. Homogeneous distributed systems consist of similar devices that communicate to neighbors and execute the same program: they include wireless sensor networks, network hardware and robot swarms. For the homogeneous case, we investigate an experimental language design that aims to push the abstraction boundaries farther, compared to existing approaches.\par In this paper, we introduce the design of XC, a programming language to develop homogeneous distributed systems. In XC, developers define the single program that every device executes and the overall behavior is achieved collectively, in an emergent way. The programming framework transparently takes care of concurrency, asynchronous execution, message loss, and device failures. We propose a minimalistic design, which features a single declarative primitive for communication, state management and connection management. A mechanism called alignment enables developers to abstract over asynchronous execution while still retaining composability. We define syntax and operational semantics of a core calculus, prove a number of properties of the calculus, including type soundness. XC comes with two DSL implementations: a DSL in Scala and one in C++. An evaluation based on smart-city monitoring demonstrates XC in a realistic application.},
 }
 
-% Provisional entry, change once published
 @inproceedings{Richter:2022:Prisma,
   acronym = {ECOOP},
   file = {papers/2022_Prisma-A-Tierless-Language-for-Enforcing-Contract-Client-Protocols-in-Decentralized-Applications.pdf},
@@ -54,7 +70,6 @@
   abstract = {Decentralized applications (dApps) consist of smart contracts that run on blockchains and clients that model collaborating parties. dApps are used to model financial and legal business functionality. Today, contracts and clients are written as separate programs – in different programming languages – communicating via send and receive operations. This makes distributed program flow awkward to express and reason about, increasing the potential for mismatches in the client-contract interface, which can be exploited by malicious clients, potentially leading to huge financial losses.\par In this paper, we present Prisma, a language for tierless decentralized applications, where the contract and its clients are defined in one unit and pairs of send and receive actions that “belong together” are encapsulated into a single direct–style operation, which is executed differently by sending and receiving parties. This enables expressing distributed program flow via standard control flow and renders mismatching communication impossible. We prove formally that our compiler preserves program behavior in presence of an attacker controlling the client code. We systematically compare Prisma with mainstream and advanced programming models for dApps and provide empirical evidence for its expressiveness and performance.},
 }
 
-% Provisional entry, change once published
 @inproceedings{Sokolowski:2021:EssentialSafety,
   acronym = {ICSE},
   file = {papers/2022_Change-Is-the-Only-Constant-Dynamic-Updates-for-Workflows.pdf},
@@ -63,14 +78,14 @@
   booktitle = {Proceedings of the 44th International Conference on Software Engineering},
   series = {ICSE '22},
   year = {2022},
-  month = may,
   numpages = {13},
   pages = {350--362},
   location = {Pittsburgh, PA, USA},
   publisher = {ACM},
   address = {New York, NY, USA},
+  isbn = {9781450392211},
   doi = {10.1145/3510003.3510065},
-  keywords = {Software Evolution, Dynamic Software Updating, Workflows},
+  keywords = {dynamic software updating, workflows, software evolution},
   supp = {https://doi.org/10.5281/zenodo.5864684},
   abstract = {Software systems must be updated regularly to address changing requirements and urgent issues like security-related bugs. Traditionally, updates are performed by shutting down the system to replace certain components. In modern software organizations, updates are increasingly frequent—up to multiple times per day—hence, shutting down the entire system is unacceptable. Safe dynamic software updating (DSU) enables component updates while the system is running by determining when the update can occur without causing errors. Safe DSU is crucial, especially for long-running or frequently executed asynchronous transactions (workflows), e.g., user-interactive sessions and order fulfillment processes. Unfortunately, previous research is limited to synchronous transaction models and does not address this case.\par In this work, we propose a unified model for safe DSU in workflows. We discuss how state-of-the-art DSU solutions fit into this model and show that they incur significant overhead. To improve the performance, we introduce Essential Safety, a novel safe DSU approach that leverages the notion of non-essential changes, i.e., semantics preserving updates. In 106 realistic collaborative BPMN workflows, Essential Safety reduces the delay of workflow completions, on average, by 47.8% compared to the state of the art. We show that the distinction of essential and non-essential changes plays a crucial role in this reduction and that, as suggested in literature, non-essential changes are frequent: at least 60% and often more than 90% of systems’ updates in eight monorepos we analyze.},
 }
@@ -95,7 +110,6 @@
   abstract = {Distributed Complex Event Processing (DCEP) is a commonly used paradigm to detect and act on situational changes of many applications, including the Internet of Things (IoT). DCEP achieves this using a simple specification of analytical tasks on data streams called operators and their distributed execution on a set of infrastructure. The adaptivity of DCEP to the dynamics of IoT applications is essential and very challenging in the face of changing demands concerning Quality of Service. In our previous work, we addressed this issue by enabling transitions, which allow for the adaptive use of operator placement mechanisms. In this article, we extend the transition methodology by optimizing the costs of transition and analyzing the behavior using multiple operator placement mechanisms. Furthermore, we provide an extensive evaluation on the costs of transition imposed by operator migrations and learning, as it can inflict overhead on the performance if operated uncoordinatedly.},
 }
 
-% Provisional entry, change once published
 @inproceedings{Oak:2021:Pavetrust,
   acronym = {PAVeTrust},
   projects = {J<sub>E</sub>},
