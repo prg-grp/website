@@ -12,10 +12,10 @@ publications: 'author^=*Gigon'
 
 teaser: >
     I hold a Bachelor of Arts in Economics from the University of St. Gallen
-    and currently study a Bachelor of Science in Computer Science at the ETH Zurich.
-    In the Programming Group I deepen my computer science research expertise since fall 2022
-    and contribute to programming in the Metaverse
-    and automated testing techniques for modern Infrastructure as Code programs.
+    and am currently pursuing a Bachelor of Science in Computer Science at ETH Zurich.
+    I joined the Programming Group in Fall 2022,
+    where I contribute to programming in the Metaverse
+    as well as automated testing techniques for modern Infrastructure as Code programs.
 
 profile:
     name: BA Quentin Gigon
@@ -29,7 +29,7 @@ profile:
 ---
 
 I hold a Bachelor of Arts in Economics from the [University of St. Gallen](https://www.unisg.ch/){: target="_blank" }
-and currently study a Bachelor of Science in Computer Science at the [ETH Zurich](https://ethz.ch/){: target="_blank" }.
-In the Programming Group I deepen my computer science research expertise since fall 2022
-and contribute to programming in the Metaverse
-and automated testing techniques for modern Infrastructure as Code programs.
+and am currently pursuing a Bachelor of Science in Computer Science at [ETH Zurich](https://ethz.ch/){: target="_blank" }.
+I joined the Programming Group in Fall 2022,
+where I contribute to programming in the Metaverse
+as well as automated testing techniques for modern Infrastructure as Code programs.
