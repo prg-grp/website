@@ -5,6 +5,6 @@ inline: true
 title: "Introduction to Programming"
 university: University of St. Gallen
 semester: Fall&nbsp;2022
-past: false
+past: true
 external_page: https://tools.unisg.ch/Url/csnwk2
 ---
