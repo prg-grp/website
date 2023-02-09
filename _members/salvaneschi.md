@@ -34,6 +34,9 @@ Before, I have been an assistant professor at TU Darmstadt, where I led the Reac
 
 ## Recent Committees (Selected)
 
+* [ECOOP’23](https://conf.researchr.org/home/ecoop-2022){: target="_blank" } (Co-Chair)
+* [ICSME’23]( https://conf.researchr.org/home/icsme-2023){: target="_blank" } (PC)
+* [ISSTA’23](https://conf.researchr.org/home/issta-2023){: target="_blank" } (PC)
 * [OOPSLA’23](https://2023.splashcon.org/){: target="_blank" } (PC)
 * [ICSE’23 NIER](https://conf.researchr.org/home/icse-2023){: target="_blank" } (PC)
 * [ICSE’22](https://conf.researchr.org/home/icse-2022){: target="_blank" } (PC)
