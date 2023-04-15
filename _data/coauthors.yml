@@ -22,6 +22,10 @@
   - firstname: [ "Daniel", "D.", "Daniel Sokolowski" ]
     url: /members/sokolowski
 
+"Spielmann":
+  - firstname: [ "David", "D.", "David Spielmann" ]
+    url: /members/spielmann
+
 "Weisenburger":
   - firstname: [ "Pascal", "P.", "Pascal Weisenburger" ]
     url: /members/weisenburger
