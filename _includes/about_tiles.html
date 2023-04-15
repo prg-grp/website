@@ -14,7 +14,11 @@
                     {% endif %}
                     {% if item.img %}
                     <div class="card-header">
+                        {% if item.img == 'title' %}
+                        {{ item.title }}
+                        {% else %}
                         <img src="/assets/img/{{ item.img | relative_url }}" alt="{{ item.title }}" />
+                        {% endif %}
                     </div>
                     {% endif %}
                     <div class="card-body">
