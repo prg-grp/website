@@ -3,7 +3,7 @@ layout: about
 inline: false
 title: J<sub>E</sub>
 description: Language-level abstractions for secure programming with Trusted Execution Environments.
-rank: 4
+rank: 2
 
 external_page: https://prg-grp.github.io/je-lang
 publications: 'projects^=*J<sub>E</sub>'

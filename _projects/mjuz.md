@@ -3,7 +3,7 @@ layout: about
 inline: true
 title: µs
 description: Infrastructure as code (IaC) for decentralized deployment automation.
-rank: 5
+rank: 1
 
 publications: 'projects^=*µs'
 

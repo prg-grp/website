@@ -3,7 +3,7 @@ layout: about
 inline: true
 title: ConSysT
 description: Safe mixing of consistency levels for replicated objects.
-rank: 2
+rank: 3
 
 img: projects/consyst.svg
 img_contains_title: true
