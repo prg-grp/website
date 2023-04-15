@@ -1,11 +1,3 @@
-"Salvaneschi":
-  - firstname: ["Guido", "G.", "Guido Salvaneschi"]
-    url: /members/salvaneschi
-
-"Weisenburger":
-  - firstname: [ "Pascal", "P.", "Pascal Weisenburger" ]
-    url: /members/weisenburger
-
 "Delshad":
   - firstname: [ "Benyamin", "B.", "Benyamin Delshad" ]
     url: /members/delshad
@@ -22,6 +14,18 @@
   - firstname: [ "Aditya", "A.", "Aditya Oak" ]
     url: /members/oak
 
+"Salvaneschi":
+  - firstname: ["Guido", "G.", "Guido Salvaneschi"]
+    url: /members/salvaneschi
+
 "Sokolowski":
   - firstname: [ "Daniel", "D.", "Daniel Sokolowski" ]
     url: /members/sokolowski
+
+"Weisenburger":
+  - firstname: [ "Pascal", "P.", "Pascal Weisenburger" ]
+    url: /members/weisenburger
+
+"Zakhour":
+  - firstname: [ "George", "g.", "George Zakhour" ]
+    url: /members/zakhour
