@@ -1,6 +1,20 @@
 ---
 ---
 
+@article{DBLP:journals/tches/SpielmannGS23,
+  acronym = {TCHES},
+  file = {papers/2023_FPGA-Routing-Delay-Sensors-for-Effective-Remote-Power-Analysis-Attacks.pdf},
+  author = {Spielmann, David and Glamocanin, Ognjen and Stojilovic, Mirjana},
+  title = {{RDS:} {FPGA} Routing Delay Sensors for Effective Remote Power Analysis Attacks},
+  year = {2023},
+  journal = {{IACR} Transactions on Cryptographic Hardware Embedded Systems},
+  volume = {2023},
+  number = {2},
+  pages = {543--567},
+  doi = {10.46586/tches.v2023.i2.543-567},
+  abstract = {State-of-the-art sensors for measuring FPGA voltage fluctuations are time-to-digital converters (TDCs). They allow detecting voltage fluctuations in the order of a few nanoseconds. The key building component of a TDC is a delay line, typically implemented as a chain of fast carry propagation multiplexers. In FPGAs, the fast carry chains are constrained to dedicated logic and routing, and need to be routed strictly vertically. In this work, we present an alternative approach to designing on-chip voltage sensors, in which the FPGA routing resources replace the carry logic. We present three variants of what we name a routing delay sensor (RDS): one vertically constrained, one horizontally constrained, and one free of any constraints. We perform a thorough experimental evaluation on both the Sakura-X side-channel evaluation board and the Alveo U200 datacenter card, to evaluate the performance of RDS sensors in the context of a remote power side-channel analysis attack. The results show that our best RDS implementation in most cases outperforms the TDC. On average, for breaking the full 128-bit key of an AES-128 cryptographic core, an adversary requires 35\% fewer side-channel traces when using the RDS than when using the TDC. Besides making the attack more effective, given the absence of the placement and routing constraint, the RDS sensor is also easier to deploy.}
+}
+
 % Provisional entry, change once published
 @inproceedings{Zakhour:2023:TypeChecking,
   acronym = {PLDI},
