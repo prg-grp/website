@@ -11,8 +11,8 @@ lastname: Eskandani
 publications: 'author^=*Eskandani'
 
 teaser: >
-    I am a part-time PhD student at the Technical University of Darmstadt and an Associate Scientist at ABB Corporate Research Center.
-    My research interests include Cloud Computing, Software Engineering, and Software Architecture.
+    I am a PhD student at the Technical University of Darmstadt and an Associate Scientist at ABB Corporate Research Center.
+    My research interests include Cloud Native Applications, Digital Twin, Software Architecture, and Software Engineering.
     Currently, I am working on programming models for decentralized and resilient systems.
 
 profile:
@@ -28,6 +28,6 @@ profile:
         68526 Ladenburg, Germany
 ---
 
-I am a part-time PhD student at the Technical University of Darmstadt and an Associate Scientist at ABB Corporate Research Center.
-My research interests include Cloud Computing, Software Engineering, and Software Architecture.
+I am a PhD student at the Technical University of Darmstadt and an Associate Scientist at ABB Corporate Research Center.
+My research interests include Cloud Native Applications, Digital Twin, Software Architecture, and Software Engineering.
 Currently, I am working on programming models for decentralized and resilient systems.
