@@ -3,7 +3,7 @@ layout: about
 inline: true
 title: REScala
 description: Advanced functional reactive programming for the JVM and the Web.
-rank: 5
+rank: 15
 
 img: projects/rescala.svg
 img_contains_title: true

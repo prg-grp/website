@@ -3,7 +3,7 @@ layout: about
 inline: true
 title: ScalaLoci
 description: A programming language for distributed applications.
-rank: 4
+rank: 11
 
 img: projects/scala-loci.svg
 img_contains_title: true
