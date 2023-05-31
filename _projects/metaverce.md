@@ -27,8 +27,9 @@ The Metaverse is a great space for these discussions. It facilitates the exchang
 
 In the Programming Group, we thrive to advance cloud engineering technology.
 The Metaverse enables new discussion rooms and interactions with our technologies.
-In our MetaverCE app, we demonstrate for two use cases at different levels in the software production
-how the Metaverse can boost the stakeholder's productivity through novel visualization, interaction, and communication possibilities.
+In our MetaverCE app,
+we demonstrate two use cases at different levels in the software production process,
+illustrating how the Metaverse can boost stakeholders' productivity through novel visualization, interaction, and communication possibilities.
 
 ### Microservice Architecture
 
