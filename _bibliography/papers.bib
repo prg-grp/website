@@ -1,6 +1,28 @@
 ---
 ---
 
+@inproceedings{Richter:2023:DirectStyle,
+  acronym = {ECOOP},
+  file = {papers/2023_A-Direct-Style-Effect-Notation-for-Sequential-and-Parallel-Programs.pdf},
+  author = {Richter, David and Böhler, Timon and Weisenburger, Pascal and Mezini, Mira},
+  title = {A Direct-Style Effect Notation for Sequential and Parallel Programs},
+  booktitle = {Proceedings of the 37th European Conference on Object-Oriented Programming (ECOOP '23)},
+  series = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  year = {2023},
+  month = jun,
+  articleno = {25},
+  numpages = {22},
+  pages = {25:1--25:22},
+  editor = {Ali, Karim and Salvaneschi, Guido},
+  location = {Seattle, WA, USA},
+  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum für Informatik},
+  address = {Dagstuhl, Germany},
+  issn = {1868-8969},
+  doi = {10.4230/LIPIcs.ECOOP.2023.25},
+  keywords = {Do-Notation, Parallelism, Concurrency, Effects},
+  abstract = {Modeling sequential and parallel composition of effectful computations has been investigated in a variety of languages for a long time. In particular, the popular do-notation provides a lightweight effect embedding for any instance of a monad. Idiom bracket notation, on the other hand, provides an embedding for applicatives. First, while monads force effects to be executed sequentially, ignoring potential for parallelism, applicatives do not support sequential effects. Composing sequential with parallel effects remains an open problem. This is even more of an issue as real programs consist of a combination of both sequential and parallel segments. Second, common notations do not support invoking effects in direct-style, instead forcing a rigid structure upon the code.\par In this paper, we propose a mixed applicative/monadic notation that retains parallelism where possible, but allows sequentiality where necessary. We leverage a direct-style notation where sequentiality or parallelism is derived from the structure of the code. We provide a mechanisation of our effectful language in Coq and prove that our compilation approach retains the parallelism of the source program.},
+}
+
 @article{Zakhour:2023:TypeChecking,
   acronym = {PLDI},
   projects = {Propel},
@@ -22,7 +44,9 @@
   issn = {2475-1421},
   doi = {10.1145/3591276},
   keywords = {Conflict-Free Replicated Data Types, Type Systems, Verifications},
-  supp = {https://doi.org/10.5281/zenodo.7817421},
+  supp = {https://doi.org/10.5281/zenodo.8010989},
+  code = {https://github.com/propel-prover},
+  website = {https://propel-prover.github.io/},
   abstract = {Conflict-free Replicated Data Types (CRDTs) are a recent approach for keeping replicated data consistent while guaranteeing the absence of conflicts among replicas. For correct operation, CRDTs rely on a merge function that is commutative, associative and idempotent. Ensuring that such algebraic properties are satisfied by implementations, however, is left to the programmer, resulting in a process that is complex and error-prone. While techniques based on testing, automatic verification of a model, and mechanized or handwritten proofs are available, we lack an approach that is able to verify such properties on concrete CRDT implementations.\par In this paper, we present Propel, a programming language with a type system that captures the algebraic properties required by a correct CRDT implementation. The Propel type system deduces such properties by case analysis and induction: sum types guide the case analysis and algebraic properties in function types enable induction for free. Propel's key feature is its capacity to reason about algebraic properties (a) in terms of rewrite rules and (b) to derive the equality or inequality of expressions from the properties. We provide an implementation of Propel as a Scala embedding, we implement several CRDTs, verify them with Propel and compare the verification process with four state-of-the-art verification tools. Our evaluation shows that Propel is able to automatically deduce the properties that are relevant for common CRDT implementations found in open-source libraries even in cases in which competitors timeout.},
 }
 
