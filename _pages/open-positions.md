@@ -1,10 +1,12 @@
 ---
 layout: page
+pagination:
+    enabled: true
 permalink: /open-positions
 title: Open Positions
 description: HiWi, PhD and Postdoc job openings.
 nav_rank: 5
-nav: true
+nav: false
 ---
 
 We are looking for talented students who are interested in doing research on programming languages and software engineering.

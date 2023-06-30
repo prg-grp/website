@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Programming Group # the website title (if blank, full name will be used instead)
+title: Feelab # the website title (if blank, full name will be used instead)
 first_name:
 middle_name:
 last_name: Programming Group
@@ -45,6 +45,7 @@ og_image: /assets/img/og/pg.png # The site-wide (default for all links) Open Gra
 # Social integration
 # -----------------------------------------------------------------------------
 
+github: [metadata]
 github_username: # your GitHub user name
 twitter_username: prg_grp # your Twitter handle
 youtube_channel: UCW60aqeksbbWTT-7sR6G97w # your YouTube channel id
@@ -159,7 +160,7 @@ defaults:
 
 scholar:
 
-  last_name: 
+  last_name:
   first_name: []
 
   style: apa

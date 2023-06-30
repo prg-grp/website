@@ -1,5 +1,7 @@
 ---
 layout: page
+pagination:
+    enabled: true
 permalink: /uzh-summer-school-2022
 title: UZH Summer School 2022
 description: Course contents of the cool programming lectures at the University Zurich Summer School 2022.

@@ -10,12 +10,12 @@ layout: default
   </header>
 
   <article>
-    {{ content }}
+    {{ page.content | markdownify }}
 
       {% if page.publications %}
         <h2>Publications</h2>
         <div class="publications">
-            {% bibliography -f papers -q @*[{{page.publications}}]* %}
+            {% bibliography -f papers -q @*[{{ page.publications | markdownify }}]* %}
         </div>
       {% endif %}
   </article>

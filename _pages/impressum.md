@@ -1,5 +1,7 @@
 ---
 layout: page
+pagination:
+    enabled: true
 permalink: /impressum
 title: Impressum
 description: Legal note and contact.
