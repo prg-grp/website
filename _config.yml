@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Feelab # the website title (if blank, full name will be used instead)
-first_name:
+title: FEELab # the website title (if blank, full name will be used instead)
+first_name: 
 middle_name:
-last_name: Programming Group
-email: guido.salvaneschi@unisg.ch
+last_name: Further Energy and Environment research Laboratory
+email: lucas.pereira@tecnico.ulisboa.pt
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The Programming Group at the University of St. Gallen and at the Technical University of Darmstadt.
 footer_text: >
@@ -20,7 +20,7 @@ last_updated: true # set to true if you want to display last updated in the foot
 impressum_path: /impressum # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 future: true # Also render sites which are dated in the future
 
-google_site_verification: RMUCoHAseeFv2jAdfyJb4XLx4e1J8XpU1l8fvwAxk1g
+google_site_verification: #RMUCoHAseeFv2jAdfyJb4XLx4e1J8XpU1l8fvwAxk1g
 
 # -----------------------------------------------------------------------------
 # Layout
