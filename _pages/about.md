@@ -28,7 +28,8 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 > <i class="fas fa-quote-left"></i>
-> “Where should I go?” - Alice. “That depends on where you want to end up.” - The Cheshire Cat.
+> “Where should I go?” - Alice. <br />
+> “That depends on where you want to end up.” - The Cheshire Cat.
 > <i class="fas fa-quote-right"></i><br />
 > — Lewis Carroll
 
