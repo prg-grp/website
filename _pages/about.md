@@ -28,10 +28,10 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 > <i class="fas fa-quote-left"></i>
-> “Where should I go?” - Alice. <br />
-> “That depends on where you want to end up.” - The Cheshire Cat.
+> “Where should I go?” –&nbsp;Alice. <br />
+> “That depends on where you want to end up.” –&nbsp;The&nbsp;Cheshire&nbsp;Cat.
 > <i class="fas fa-quote-right"></i><br />
-> — Lewis Carroll
+> —&nbsp;Lewis Carroll
 
 Welcome to the Programming Group!
 We are part of the [Institute of Computer Science (ICS)](https://ics.unisg.ch/){: target="_blank"} at the [University of St. Gallen (HSG)](https://www.unisg.ch/){: target="_blank"}
