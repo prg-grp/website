@@ -22,6 +22,9 @@ profile:
     image: spielmann-profile.jpg
     role: Doctoral Researcher
     email: david.spielmann@unisg.ch
+    twitter: DaSpielmann
+    github: davidspielmann
+    orcid: 0009-0004-1715-2059
     address: >
         School of Computer Science<br />
         Torstrasse 25<br />
