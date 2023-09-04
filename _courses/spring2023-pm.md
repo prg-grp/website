@@ -5,6 +5,6 @@ inline: true
 title: "Programming Methodology"
 university: University of St. Gallen
 semester: Spring&nbsp;2023
-past: false
+past: true
 external_page: https://tools.unisg.ch/Url/csv1s4
 ---
