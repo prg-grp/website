@@ -24,6 +24,7 @@ profile:
     email: david.spielmann@unisg.ch
     twitter: DaSpielmann
     github: davidspielmann
+    linkedin: david-spielmann-74a10919a
     orcid: 0009-0004-1715-2059
     address: >
         School of Computer Science<br />

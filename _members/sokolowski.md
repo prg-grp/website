@@ -26,6 +26,7 @@ profile:
     phone: +41 7122 47823
     twitter: Soko2D
     github: DSoko2
+    linkedin: dsoko
     orcid: 0000-0003-2911-8304
     address: >
         School of Computer Science<br />

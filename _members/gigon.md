@@ -22,6 +22,7 @@ profile:
     align: right
     image: gigon-profile.jpg
     role: Student Researcher
+    linkedin: quentin-gigon-郭昆廷-6a91a694
     address: >
         School of Computer Science<br />
         Torstrasse 25<br />
