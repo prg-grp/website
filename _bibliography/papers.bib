@@ -1,13 +1,28 @@
 ---
 ---
 
-% Preliminary entry
 @inproceedings{Psarakis:2023:Stateful,
   acronym = {EDBT},
   file = {papers/2024_Stateful-Entities-Object-oriented-Cloud-Applications-as-Distributed-Dataflows.pdf},
   author = {Psarakis, Kyriakos and Zorgdrager, Wouter and Fragkoulis, Marios and Salvaneschi, Guido and Katsifodimos, Asterios},
   title = {Stateful Entities: Object-oriented Cloud Applications as Distributed Dataflows},
+  booktitle = {Proceedings 27th International Conference on Extending Database Technology},
+  series = {EDBT '24},
   year = {2024},
+  month = mar,
+  volume = {27},
+  numpages = {7},
+  pages = {15--21},
+  editor = {Tanca, Letizia and Luo, Qiong and Polese, Giuseppe and Caruccio, Loredana and Oriol, Xavier and Firmani, Donatella},
+  location = {Paestum, Italy},
+  publisher = {OpenProceedings.org},
+  address = {Konstanz, Germany},
+  isbn = {978-3-89318-091-2},
+  issn = {2367-2005},
+  doi = {10.48786/edbt.2024.02},
+  url = {https://openproceedings.org/2024/conf/edbt/paper-11.pdf},
+  keywords = {Do-Notation, Parallelism, Concurrency, Effects},
+  abstract = {Although the cloud has reached a state of robustness, the burden of using its resources falls on the shoulders of programmers who struggle to keep up with ever-growing cloud infrastructure services and abstractions. As a result, state management, scaling, operation, and failure management of scalable cloud applications, require disproportionately more effort than developing the applications’ actual business logic.\par Our vision aims to raise the abstraction level for programming scalable cloud applications by compiling \emph{stateful entities} -- a programming model enabling imperative transactional programs authored in Python -- into stateful streaming dataflows. We propose a compiler pipeline that analyzes the abstract syntax tree of stateful entities and transforms them into an intermediate representation based on stateful dataflow graphs. It then compiles that intermediate representation into different dataflow engines, leveraging their exactly-once message processing guarantees to prevent state or failure management primitives from ``leaking'' into the level of the programming model. Preliminary experiments with a proof of concept implementation show that despite program transformation and translation to dataflows, stateful entities can perform at sub-100ms latency even for transactional workloads.},
 }
 
 @misc{Sokolowski:2023:Creed,
