@@ -6,7 +6,7 @@
   file = {papers/2024_Stateful-Entities-Object-oriented-Cloud-Applications-as-Distributed-Dataflows.pdf},
   author = {Psarakis, Kyriakos and Zorgdrager, Wouter and Fragkoulis, Marios and Salvaneschi, Guido and Katsifodimos, Asterios},
   title = {Stateful Entities: Object-oriented Cloud Applications as Distributed Dataflows},
-  booktitle = {Proceedings 27th International Conference on Extending Database Technology},
+  booktitle = {Proceedings of the 27th International Conference on Extending Database Technology},
   series = {EDBT '24},
   year = {2024},
   month = mar,
@@ -21,7 +21,6 @@
   issn = {2367-2005},
   doi = {10.48786/edbt.2024.02},
   url = {https://openproceedings.org/2024/conf/edbt/paper-11.pdf},
-  keywords = {Do-Notation, Parallelism, Concurrency, Effects},
   abstract = {Although the cloud has reached a state of robustness, the burden of using its resources falls on the shoulders of programmers who struggle to keep up with ever-growing cloud infrastructure services and abstractions. As a result, state management, scaling, operation, and failure management of scalable cloud applications, require disproportionately more effort than developing the applications’ actual business logic.\par Our vision aims to raise the abstraction level for programming scalable cloud applications by compiling \emph{stateful entities} -- a programming model enabling imperative transactional programs authored in Python -- into stateful streaming dataflows. We propose a compiler pipeline that analyzes the abstract syntax tree of stateful entities and transforms them into an intermediate representation based on stateful dataflow graphs. It then compiles that intermediate representation into different dataflow engines, leveraging their exactly-once message processing guarantees to prevent state or failure management primitives from ``leaking'' into the level of the programming model. Preliminary experiments with a proof of concept implementation show that despite program transformation and translation to dataflows, stateful entities can perform at sub-100ms latency even for transactional workloads.},
 }
 
@@ -83,7 +82,8 @@
   booktitle = {Proceedings of the 37th European Conference on Object-Oriented Programming (ECOOP '23)},
   series = {Leibniz International Proceedings in Informatics (LIPIcs)},
   year = {2023},
-  month = jun,
+  month = jul,
+  volume = {263},
   articleno = {25},
   numpages = {22},
   pages = {25:1--25:22},
@@ -91,9 +91,13 @@
   location = {Seattle, WA, USA},
   publisher = {Schloss Dagstuhl -- Leibniz-Zentrum für Informatik},
   address = {Dagstuhl, Germany},
+  isbn = {978-3-95977-281-5},
   issn = {1868-8969},
   doi = {10.4230/LIPIcs.ECOOP.2023.25},
+  url = {https://drops.dagstuhl.de/opus/volltexte/2023/18218},
+  urn = {urn:nbn:de:0030-drops-182181},
   keywords = {Do-Notation, Parallelism, Concurrency, Effects},
+  supp = {https://doi.org/10.4230/DARTS.9.2.17},
   abstract = {Modeling sequential and parallel composition of effectful computations has been investigated in a variety of languages for a long time. In particular, the popular do-notation provides a lightweight effect embedding for any instance of a monad. Idiom bracket notation, on the other hand, provides an embedding for applicatives. First, while monads force effects to be executed sequentially, ignoring potential for parallelism, applicatives do not support sequential effects. Composing sequential with parallel effects remains an open problem. This is even more of an issue as real programs consist of a combination of both sequential and parallel segments. Second, common notations do not support invoking effects in direct-style, instead forcing a rigid structure upon the code.\par In this paper, we propose a mixed applicative/monadic notation that retains parallelism where possible, but allows sequentiality where necessary. We leverage a direct-style notation where sequentiality or parallelism is derived from the structure of the code. We provide a mechanisation of our effectful language in Coq and prove that our compilation approach retains the parallelism of the source program.},
   prggrp = {noGroupPublication},
 }
@@ -321,6 +325,7 @@
   url = {https://drops.dagstuhl.de/opus/volltexte/2022/16263},
   urn = {urn:nbn:de:0030-drops-162632},
   keywords = {Domain Specific Languages, Smart Contracts, Scala},
+  supp = {https://doi.org/10.4230/DARTS.8.2.16},
   abstract = {Decentralized applications (dApps) consist of smart contracts that run on blockchains and clients that model collaborating parties. dApps are used to model financial and legal business functionality. Today, contracts and clients are written as separate programs -- in different programming languages -- communicating via send and receive operations. This makes distributed program flow awkward to express and reason about, increasing the potential for mismatches in the client-contract interface, which can be exploited by malicious clients, potentially leading to huge financial losses.\par In this paper, we present Prisma, a language for tierless decentralized applications, where the contract and its clients are defined in one unit and pairs of send and receive actions that “belong together” are encapsulated into a single direct--style operation, which is executed differently by sending and receiving parties. This enables expressing distributed program flow via standard control flow and renders mismatching communication impossible. We prove formally that our compiler preserves program behavior in presence of an attacker controlling the client code. We systematically compare Prisma with mainstream and advanced programming models for dApps and provide empirical evidence for its expressiveness and performance.},
 }
 
@@ -1163,7 +1168,7 @@
   isbn = {978-1-4503-5782-1},
   doi = {10.1145/3210284.3210292},
   keywords = {Stream Processing, Adaptation, Operator Placement, Migration, Internet of Things, Complex Event Processing, Transitions},
-  abstract = {Operator placement has a profound impact on the performance of a distributed complex event processing system (DCEP). Since the behavior of a placement mechanism strongly depends on its environment; a single placement mechanism is often not enough to fulfill stringent performance requirements under environmental changes. In this paper, we show how DCEP can benefit from the adaptive use of multiple placement mechanisms. We propose TCEP, a DCEP system to integrate multiple placement mechanisms. By enabling transitions, TCEP can seamlessly exchange distinct operator mechanisms at runtime. We make two main contributions that are highly important for a cost-efficient transition: i) a transition strategy for efficiently scheduling state migrations and ii) a lightweight learning algorithm to adaptively select an appropriate placement mechanism as a consequence of a transition. Our evaluations for important decentralized placement mechanisms in the context of an IoT scenario show that transitions can better fulfill QoS demands in a dynamic environment. Thereby efficient scheduling of state migrations can help to faster complete transitions by up to 94~%.},
+  abstract = {Operator placement has a profound impact on the performance of a distributed complex event processing system (DCEP). Since the behavior of a placement mechanism strongly depends on its environment; a single placement mechanism is often not enough to fulfill stringent performance requirements under environmental changes. In this paper, we show how DCEP can benefit from the adaptive use of multiple placement mechanisms. We propose TCEP, a DCEP system to integrate multiple placement mechanisms. By enabling transitions, TCEP can seamlessly exchange distinct operator mechanisms at runtime. We make two main contributions that are highly important for a cost-efficient transition: i) a transition strategy for efficiently scheduling state migrations and ii) a lightweight learning algorithm to adaptively select an appropriate placement mechanism as a consequence of a transition. Our evaluations for important decentralized placement mechanisms in the context of an IoT scenario show that transitions can better fulfill QoS demands in a dynamic environment. Thereby efficient scheduling of state migrations can help to faster complete transitions by up to 94\%.},
 }
 
 @article{Margara:2018:Semantics,
@@ -1979,4 +1984,3 @@
   doi = {10.1109/EC2ND.2009.13},
   abstract = {Anomaly-based techniques were exploited successfully to implement protection mechanisms for various systems. Recently, these approaches have been ported to the web domain under the name of "web application anomaly detectors" (or firewalls) with promising results. In particular, those capable of automatically building specifications, or models, of the protected application by observing its traffic (e.g., network packets, system calls, or HTTP requests and responses) are particularly interesting, since they can be deployed with little effort.\par Typically, the detection accuracy of these systems is significantly influenced by the model building phase (often called training), which clearly depends upon the quality of the observed traffic, which should resemble the normal activity of the protected application and must be also free from attacks. Otherwise, detection may result in significant amounts of false positives (i.e., benign events flagged as anomalous) and negatives (i.e., undetected threats).\par In this work we describe Masibty, a web application anomaly detector that have some interesting properties. First, it requires the training data not to be attack-free. Secondly, not only it protects the monitored application, it also detects and blocks malicious client-side threats before they are sent to the browser. Third, Masibty intercepts the queries before they are sent to the database, correlates them with the corresponding HTTP requests and blocks those deemed anomalous.\par Both the accuracy and the performance have been evaluated on real-world web applications with interesting results. The system is almost not influenced by the presence of attacks in the training data and shows only a negligible amount of false positives, although this is paid in terms of a slight performance overhead.},
 }
-
