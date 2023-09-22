@@ -1,10 +1,8 @@
 ---
 layout: about
-pagination:
-    enabled: true
 title: Home
 permalink: /
-nav: false
+nav: true
 nav_rank: 1
 sitetitle: true
 description: Welcome to the Programming Group at the University of St. Gallen and at the Technical University of Darmstadt. Team. Projects. Support.
@@ -22,9 +20,9 @@ profile:
         Torstrasse 25<br />
         9000 St. Gallen, Switzerland
 
-news: true # includes a list of news items
-projects: true # includes a tile list of projects
-supports: true # includes a tile list of supports
+news: false # includes a list of news items
+projects: false # includes a tile list of projects
+supports: false # includes a tile list of supports
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
@@ -42,10 +40,9 @@ and **Software Engineering**, including languages and architectures for
 **Distributed Systems**, **Reactive Programming**, **DevOps Organizations**, and **Secure Software Systems**.
 
 [Talk to us](mailto:guido.salvaneschi@unisg.ch) or
-[join our group]({{ '/open-positions' | relative_url }})
-when you are interested in these topics or our work.
+join our group when you are interested in these topics or our work.
 Students at HSG or TU Darmstadt,
-please find [our courses, theses, and jobs]({{ '/teaching' | relative_url }}).
+please find our courses, theses, and jobs.
 {: class="clearfix"}
 
 {% assign members = site.members | where: "team_frontpage", true | sort: "lastname" %}

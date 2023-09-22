@@ -1,10 +1,8 @@
 ---
 layout: page
-pagination:
-    enabled: true
 title: Contact
 permalink: /contact
-nav: false
+nav: true
 nav_rank: 6
 description: Contact of the Programming Group.
 ---

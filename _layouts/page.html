@@ -4,18 +4,18 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    {% include social_header.html %}
+    <!-- {% include social_header.html %} If we had socials uncoment this -->
     <h1 class="post-title">{{ page.title }}</h1>
     {% comment %}<p class="post-description">{{ page.description }}</p>{% endcomment %}
   </header>
 
   <article>
-    {{ page.content | markdownify }}
+    {{ content }}
 
       {% if page.publications %}
         <h2>Publications</h2>
         <div class="publications">
-            {% bibliography -f papers -q @*[{{ page.publications | markdownify }}]* %}
+            {% bibliography -f papers -q @*[{{page.publications}}]* %}
         </div>
       {% endif %}
   </article>

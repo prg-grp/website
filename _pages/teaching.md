@@ -1,7 +1,5 @@
 ---
 layout: page
-pagination:
-    enabled: true
 permalink: /teaching
 title: Teaching
 description: Offered courses, theses and student jobs at HSG and TU Darmstadt.

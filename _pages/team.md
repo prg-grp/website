@@ -1,11 +1,9 @@
 ---
 layout: page
-pagination:
-    enabled: true
 permalink: /team
 title: Team
 description: Members and close collaborators of the group.
-nav: false
+nav: true
 nav_rank: 2
 ---
 
