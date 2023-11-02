@@ -3,7 +3,7 @@ layout: about
 inline: false
 title: "MetaverCE"
 description: "MetaverCE: A demonstration of Cloud Engineering in the Metaverse."
-rank: 6
+rank: 10
 
 publications: false
 

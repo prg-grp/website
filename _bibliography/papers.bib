@@ -26,6 +26,7 @@
 
 @misc{Sokolowski:2023:Creed,
   acronym = {CONFLANG},
+  projects = {ProTI},
   file = {papers/2023_Creed-for-Speed-Comprehensive-Infrastructure-as-Code-Testing.pdf},
   author = {Sokolowski, Daniel and Spielmann, David and Salvaneschi, Guido},
   title = {Creed for Speed: Comprehensive Infrastructure as Code Testing},
@@ -34,20 +35,26 @@
   abstract = {With Programming Languages Infrastructure as Code (PL-IaC), developers implement imperative IaC programs in one of many general-purpose programming languages, e.g., TypeScript, Python, or Go, to declaratively describe deployments. Using these languages provides access to quality assurance techniques and tools developed for traditional software; however, programmers routinely rely on prohibitively slow integration testing – if they test at all. As a result, even simple bugs are found late, tremendously slowing down the development process.\par To improve the velocity of PL-IaC development, we propose ProTI, an automated unit testing approach that quickly tests PL-IaC programs in many different configurations. ProTI mocks all cloud resources, replacing them with pluggable oracles that validate all resources configurations and a generator for realistic test inputs. We implemented ProTI for Pulumi TypeScript with simple generator and oracle plugins. Our experience of testing with ProTI encourages the exploration of more sophisticated oracles and generators, leading to the early detection of more bugs. ProTI enables programmers to rapidly prototype, explore, and plug in new oracles and generators for efficient PL-IaC program testing.},
 }
 
-% Preliminary entry
 @inproceedings{Spielmann:2023:Extensible,
   acronym = {SPLASH Companion},
+  projects = {ProTI},
   file = {papers/2023_Extensible-Testing-for-Infrastructure-as-Code.pdf},
   author = {Spielmann, David and Sokolowski, Daniel and Salvaneschi, Guido},
   title = {Extensible Testing for Infrastructure as Code},
   booktitle = {Companion Proceedings of the 2023 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity},
-  series = {SPLASH Companion '23},
+  series = {SPLASH '23},
   year = {2023},
-  isbn = {979-8-4007-0384-3/23/10},
+  numpages = {3},
+  pages = {58--60},
+  location = {Cascais, Portugal},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  isbn = {9798400703843},
   doi = {10.1145/3618305.3623607},
+  keywords = {Fuzzing, DevOps, Infrastructure as Code, Testing},
+  abstract = {Developers automate deployments with Programming Languages Infrastructure as Code (PL-IaC) by implementing IaC programs in popular languages like TypeScript and Python. Yet, systematic testing---well established for high-velocity software development---is rarely applied to IaC programs because IaC testing techniques are either slow or require extensive development effort. To solve this dilemma, we develop ProTI, a novel IaC unit testing approach, and implement it for Pulumi TypeScript. Our preliminary experiments with simple type-based test case generators and oracles show that ProTI can find bugs reliably in a short time, often without writing any additional testing code. ProTI's extensible plugin architecture allows combining, adopting, and experimenting with new approaches, opening the discussion about novel generators and oracles for efficient IaC testing.},
 }
 
-% Preliminary entry
 @inproceedings{Koehler:2023:SafeCombination,
   acronym = {SPLASH Companion},
   projects = {ConSysT},
@@ -55,10 +62,17 @@
   author = {Köhler, Mirko and Salvaneschi, Guido},
   title = {Safe Combination of Data-Centric and Operation-Centric Consistency},
   booktitle = {Companion Proceedings of the 2023 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity},
-  series = {SPLASH Companion '23},
+  series = {SPLASH '23},
   year = {2023},
-  isbn = {979-8-4007-0384-3/23/10},
+  numpages = {3},
+  pages = {65--67},
+  location = {Cascais, Portugal},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  isbn = {9798400703843},
   doi = {10.1145/3618305.3623610},
+  keywords = {replication, consistency, Java, type systems},
+  abstract = {Programming distributed systems requires maintaining consistency among data replicas. In recent years, various frameworks have proposed language-level abstractions for this, falling into two fundamental approaches: data-centric and operation-centric solutions. The former allow developers to explicitly assign consistency levels to data, the latter enable attaching consistency constraints to operations. In practice, developers may benefit from both in the same application: data-centric consistency harmonizes well with object-oriented programming, yet one may need the flexibility to access the same data with a different consistency level depending on the operation. Currently, there is no solution that integrates both: it is a conceptual challenge to unify these two models and design a type system capable of ensuring their correct interaction. We present ConOpY, a programming language that integrates both data-centric and operation-centric consistency into the same design. The ConOpY type system guarantees the proper usage of consistency levels, preventing consistency violations resulting from an improper mix of consistency models. ConOpY is implemented as a Java extension based on annotations.},
 }
 
 @article{Zakhour:2023:TypeSafe,
@@ -251,6 +265,7 @@
 
 @inproceedings{Sokolowski:2023:Towards,
   acronym = {FIST},
+  projects = {ProTI},
   file = {papers/2023_Towards-Reliable-Infrastructure-as-Code.pdf},
   author = {Sokolowski, Daniel and Salvaneschi, Guido},
   title = {Towards Reliable Infrastructure as Code},
