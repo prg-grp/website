@@ -3,7 +3,7 @@ layout: page
 permalink: /team
 title: Team
 description: Members and close collaborators of the group.
-nav: false
+nav: true
 nav_rank: 2
 ---
 
@@ -36,6 +36,9 @@ nav_rank: 2
                     {% endif %}
                     {% if member.profile.orcid %}
                         <a href="https://orcid.org/{{ member.profile.orcid }}" class="card-link" target="_blank"><i class="fab fa-orcid"></i></a>
+                    {% endif %}
+                    {% if member.profile.linkedin %}
+                        <a href="https://www.linkedin.com/in/{{ member.profile.linkedin }}/" class="card-link" target="_blank"><i class="fab fa-linkedin"></i></a>
                     {% endif %}
                     {% if member.profile.twitter %}
                         <a href="https://twitter.com/{{ member.profile.twitter }}" class="card-link" target="_blank"><i class="fab fa-twitter"></i></a>

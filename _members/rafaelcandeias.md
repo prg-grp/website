@@ -2,11 +2,11 @@
 layout: about
 inline: false
 group: Student Researchers
-group_rank: 4
+group_rank: 7
 team_frontpage: true
 
 title: BSc Rafael Candeias
-description: Profile of BA Quentin Gigon, Student Researcher at the Programming Group.
+description: Profile of BA Rafael Candeias, Student Researcher at the FEELab Group.
 lastname: Candeias
 publications: 'author^=*Candeias'
 
@@ -21,9 +21,15 @@ profile:
     align: right
     image: rafael-candeias-profile.png
     role: Student Researcher
+    website:
+    email: rafaelmcandeias@tecnico.ulisboa.pt
+    phone:
+    twitter:
+    github:
+    orcid:
+    linkedin: rafael-candeias-7a897b1a4
     address: >
-        School of Computer Science<br />
-        Torstrasse 25<br />
+        IST <br />
         Lisboa, Portugal
 ---
 

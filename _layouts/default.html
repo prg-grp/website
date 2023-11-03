@@ -3,17 +3,17 @@
 
   <head>
     {% include head.html %}
+
+    <link rel="stylesheet" href="../assets/css/overlay.css">
   </head>
 
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-    <!-- Header -->
-
-    {% include header.html %}
+    <!-- {% include header.html %} -->
 
     <!-- Content -->
-
-    <div class="container mt-5" style="width:100%; text-align: center;">
+    <!-- Divs shown->hidden e hidden->shown -->
+    <div class="container mt-5 shown" style="width:100%; text-align: center;">
       <img style="width: 30%" src="/assets/img/feelab-logo-crop.png"/>
     <br/><br/>
     <p>This will be the future home of the <strong>Further Energy and Environment research Laboratory (FEELab) </strong>.
@@ -21,15 +21,11 @@
     <p>In the meantime, you can check: <a href="https://alspereira.info/research" target="_blank"> this website </a> for some details of our work.</p>
     </div>
 
-    <!-- Uncomment the div below to show the page -->
-
-    <!-- <div class="container mt-5">
+    <div class="container mt-5 hidden">
       {{ content }}
-    </div> -->
+    </div>
 
-    <!-- Footer -->
-
-    {% include footer.html %}
+    <!-- {% include footer.html %} -->
 
     {% minibundle js %}
     destination_path: 'assets/css/bundle'
