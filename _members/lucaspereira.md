@@ -4,8 +4,8 @@ inline: false
 group: Faculty
 group_rank: 1
 
-title: Prof. Dr. Lucas Pereira
-description: Profile of Prof. Dr. Lucas Pereira, Head of the FEELab Group.
+title: Dr. Lucas Pereira
+description: Profile of Dr. Lucas Pereira, Head of the FEELab Group.
 lastname: Pereira
 publications: 'author^=*Pereira'
 
@@ -24,8 +24,8 @@ profile:
     orcid: 0000-0002-9110-8775
     linkedin: alspereira
     address: >
-        ARDITI <br />
-        Madeira, Portugal
+        ITI/LARSyS <br />
+        Instituto Superior Técnico
 ---
 
 Lucas Pereira received a Ph.D. degree in computer science from the University of Madeira, Funchal, Portugal, in 2016.
