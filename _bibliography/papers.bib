@@ -24,6 +24,26 @@
   abstract = {Although the cloud has reached a state of robustness, the burden of using its resources falls on the shoulders of programmers who struggle to keep up with ever-growing cloud infrastructure services and abstractions. As a result, state management, scaling, operation, and failure management of scalable cloud applications, require disproportionately more effort than developing the applications’ actual business logic.\par Our vision aims to raise the abstraction level for programming scalable cloud applications by compiling \emph{stateful entities} -- a programming model enabling imperative transactional programs authored in Python -- into stateful streaming dataflows. We propose a compiler pipeline that analyzes the abstract syntax tree of stateful entities and transforms them into an intermediate representation based on stateful dataflow graphs. It then compiles that intermediate representation into different dataflow engines, leveraging their exactly-once message processing guarantees to prevent state or failure management primitives from ``leaking'' into the level of the programming model. Preliminary experiments with a proof of concept implementation show that despite program transformation and translation to dataflows, stateful entities can perform at sub-100ms latency even for transactional workloads.},
 }
 
+@inbook{Salvaneschi:2024:Bridging,
+  acronym = {LNCS},
+  projects = {ScalaLoci},
+  file = {papers/2024_Bridging-Between-Active-Objects-Multitier-Programming-for-Distributed-Concurrent-Systems.pdf},
+  author = {Salvaneschi, Guido and Weisenburger, Pascal},
+  title = {Bridging Between Active Objects: Multitier Programming for Distributed, Concurrent Systems},
+  booktitle = {Active Object Languages: Current Research Trends},
+  series = {Lecture Notes in Computer Science},
+  year = {2024},
+  month = jan,
+  volume = {14360},
+  pages = {92--122},
+  editor = {de Boer, Frank and Damiani, Ferruccio and Hähnle, Reiner and Broch Johnsen, Einar and Kamburjan, Eduard},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham, Switzerland},
+  isbn = {978-3-031-51060-1},
+  doi = {10.1007/978-3-031-51060-1_4},
+  abstract = {Programming distributed and concurrent systems is notoriously hard. Active objects, which encapsulate operations, state and control flow, have been investigated by researchers to alleviate this issue. In a distributed system, message exchange among active objects or actors often coincides with network boundaries, and determines a major modularization direction for the application. Yet, certain application functionalities naturally crosscut such modularization direction. For those, structuring the application architecture around network boundaries is purely accidental and does not help reasoning about programs.\par Recently, multitier programming has been proposed as a programming paradigm that enables code that belongs to different peers to be developed together, in the same compilation unit. The compiler then splits the code and generates the required deployment components.\par In this work we explore the relation between multitier programming and active objects. Multitier programming can be considered a programming paradigm based on active objects with a focus on application domains where functionalities span multiple active objects, and allows such functionalities to be encapsulated into a single object. The multitier approach keeps the asynchronous model of active objects and actors but provides a holistic view of distributed components and their interactions. Multitier programming addresses the use cases where separating components into different active objects or actors hinders encapsulation and modularization across functional boundaries. In such use cases, multitier programming can increase the level of abstraction, improve software design, simplify code maintenance, aid program comprehension and enable formal reasoning. A number of features of active objects are directly visible to programmers also in the multitier programming, resulting in an interesting combination of language abstractions available to developers.},
+}
+
 @misc{Sokolowski:2023:Creed,
   acronym = {CONFLANG},
   projects = {ProTI},
