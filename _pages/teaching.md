@@ -2,12 +2,12 @@
 layout: page
 permalink: /teaching
 title: Teaching
-description: Offered courses, theses and student jobs at HSG and TU Darmstadt.
+description: Offered courses, theses and student jobs at the University of St. Gallen.
 nav: true
 nav_rank: 3
 ---
 
-Teaching is one of our core contributions at the HSG and TU Darmstadt.
+Teaching is one of our core contributions at the University of St. Gallen.
 Besides sharing knowledge with new generations of computer scientists,
 we value the insights and view of the continuously renewing student body on our disciplines.
 Further, we enjoy close research collaboration with motivated students,
@@ -30,7 +30,7 @@ to write a [thesis](#theses) with us or to [join us as a HiWi or PhD student]({{
 ## Theses
 
 We offer Bachelor's and Master's theses
-for computer science students at HSG and TU Darmstadt.
+for computer science students at the University of St. Gallen.
 All topics are close to our ongoing research,
 allowing you to work on hot topics
 and to gain deeper insight into the field and our work.

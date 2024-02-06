@@ -6,5 +6,5 @@ title: Infrastructure as Code
 contact:
     member: sokolowski
     name: Daniel Sokolowski
-rank: 2
+rank: 3
 ---

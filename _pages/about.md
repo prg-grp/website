@@ -5,7 +5,7 @@ permalink: /
 nav: true
 nav_rank: 1
 sitetitle: true
-description: Welcome to the Programming Group at the University of St. Gallen and at the Technical University of Darmstadt. Team. Projects. Support.
+description: Welcome to the Programming Group at the University of St. Gallen. Team. Projects. Support.
 
 profile:
     name: Prof. Dr. Guido Salvaneschi
@@ -34,8 +34,7 @@ social: false  # includes social icons at the bottom of the page
 > —&nbsp;Lewis Carroll
 
 Welcome to the Programming Group!
-We are part of the [Institute of Computer Science (ICS)](https://ics.unisg.ch/){: target="_blank"} at the [University of St. Gallen (HSG)](https://www.unisg.ch/){: target="_blank"}
-and have a branch at the [Technical University of Darmstadt](https://www.tu-darmstadt.de/){: target="_blank"}. 
+We are part of the [Institute of Computer Science (ICS)](https://ics.unisg.ch/){: target="_blank"} at the [University of St. Gallen (HSG)](https://www.unisg.ch/){: target="_blank"}. 
 Together we enjoy working on **Programming Languages**
 and **Software Engineering**, including languages and architectures for
 **Distributed Systems**, **Reactive Programming**, **DevOps Organizations**, and **Secure Software Systems**.
@@ -43,7 +42,7 @@ and **Software Engineering**, including languages and architectures for
 [Talk to us](mailto:guido.salvaneschi@unisg.ch) or
 [join our group]({{ '/open-positions' | relative_url }})
 when you are interested in these topics or our work.
-Students at HSG or TU Darmstadt,
+Students at the University of St. Gallen,
 please find [our courses, theses, and jobs]({{ '/teaching' | relative_url }}).
 {: class="clearfix"}
 

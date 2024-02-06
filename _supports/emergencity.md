@@ -7,5 +7,5 @@ rank: 4
 img_contains_title: true
 img: support/emergencity.svg
 external_page: https://www.emergencity.de/
-past: false
+past: true
 ---
