@@ -1,9 +1,9 @@
 ---
 layout: about
 inline: false
-group: Doctoral Researchers
-group_rank: 3
-team_frontpage: true
+group: Alumni
+group_rank: 10
+team_frontpage: false
 
 title: MSc Mirko Köhler
 description: Profile of MSc Mirko Köhler, Doctoral Researcher at the Programming Group.
@@ -21,7 +21,6 @@ profile:
     align: right
     image: koehler-profile.jpg
     role: Doctoral Researcher
-    email: koehler@cs.tu-darmstadt.de
     orcid: 0000-0001-5497-9785
     address: >
         Hochschulstr. 10<br />
