@@ -1,10 +1,10 @@
 ---
 layout: post
-date: 2021-04-26
+date: 2024-04-26
 inline: true
 title: Infrastructure as Code
 contact:
-    member: sokolowski
-    name: Daniel Sokolowski
-rank: 3
+    member: spielmann
+    name: David Spielmann
+rank: 2
 ---
