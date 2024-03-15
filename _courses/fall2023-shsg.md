@@ -5,6 +5,6 @@ inline: true
 title: "Skills: SHSG Summer School"
 university: University of St. Gallen
 semester: Fall&nbsp;2023
-past: False
+past: true
 external_page: https://www.summerschool.shsg.ch/
 ---

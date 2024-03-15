@@ -5,6 +5,6 @@ inline: true
 title: "Programming Languages"
 university: University of St. Gallen
 semester: Fall&nbsp;2023
-past: false
+past: past
 external_page: https://tools.unisg.ch/url/07c6781b26
 ---
