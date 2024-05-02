@@ -11,10 +11,8 @@ lastname: Sokolowski
 publications: 'author^=*Sokolowski'
 
 teaser: >
-    I am interested in distributed systems and cloud technology
-    from a Programming Languages and Software Engineering perspective.
-    At the moment, I mainly focus on advanced solutions for DevOps
-    leveraging Infrastructure as Code.
+    I am enthusiastic about software engineering and programming language technology for modern distributed systems and cloud applications.
+    I focus on advancing Infrastructure as Code (IaC) to achieve reliable deployments for modern DevOps organizations. 
 
 profile:
     name: MSc Daniel Sokolowski
@@ -34,11 +32,12 @@ profile:
         9000 St. Gallen, Switzerland
 ---
 
-I am interested in distributed systems and cloud technology
-from a Programming Languages and Software Engineering perspective.
-Currently, I mainly focus on advancing Infrastructure as Code (IaC),
-aiming at robust deployments in modern DevOps organizations.
+I am enthusiastic about software engineering and programming language technology for modern distributed systems and cloud applications.
+I focus on advancing Infrastructure as Code (IaC) to achieve reliable deployments for modern DevOps organizations. 
 For more information, please consult my [private webpage](https://dsoko.de){: target="_blank" }.
 
-I recently moved to the University of St. Gallen.
+I joined the Programming Group at [TU Darmstadt](https://www.tu-darmstadt.de/){: target="_blank" }
+in Mai 2019 and
+moved to the [University of St. Gallen](https://www.unisg.ch/){: target="_blank" } in November 2021,
+where I graduate with a PhD in September 2024.
 Before I was part of the [Software Factory 4.0 project](https://www.software-factory-4-0.de/){: target="_blank" } at the Technical University of Darmstadt.
