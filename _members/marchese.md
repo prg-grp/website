@@ -1,9 +1,9 @@
 ---
 layout: about
 inline: false
-group: Student Researchers
-group_rank: 4
-team_frontpage: true
+group: Alumni
+group_rank: 10
+team_frontpage: false
 
 title: BA Alex Paolo Marchese
 description: Profile of BA Alex Marchese, Student Researcher at the Programming Group.
@@ -12,7 +12,7 @@ publications: 'author^=*Marchese'
 
 teaser: >
     I am an MBI student at the University of St. Gallen.
-    I joined the Programming Group in the Fall of 2023 to dive deep into the latest advances of large language models and their impact on software engineering.
+    I was in the Programming Group from Fall 2023 to Spring 2024 to dive deep into the latest advances of large language models and their impact on software engineering.
 
 profile:
     name: BA Alex Paolo Marchese
@@ -27,4 +27,4 @@ profile:
 ---
 
 I am an MBI student at the [University of St. Gallen](https://www.unisg.ch/){: target="_blank" }.
-I joined the Programming Group in the Fall of 2023 to dive deep into the latest advances of large language models and their impact on software engineering.
+I was in the Programming Group from Fall 2023 to Spring 2024 to dive deep into the latest advances of large language models and their impact on software engineering.
