@@ -20,7 +20,6 @@ profile:
     image: cesario-profile.jpg
     role: Doctoral Researcher
     website: https://jahrim.github.io
-    twitter: Soko2D
     github: jahrim
     linkedin: jahrim-gabriele-cesario-288a822b8
     address: >
