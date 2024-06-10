@@ -14,7 +14,8 @@ teaser: >
     I joined the Programming Group as a PhD student in May 2023.
     As part of my Master's thesis,
     I used to examine power side-channel attacks on remotely accessible FPGAs.
-    In my PhD studies, I focus on my research interests regarding software engineering and security.
+    My current research interests encompass software engineering and security, with a particular focus
+    on improving the reliability of Infrastructure as Code (IaC) to ensure robust and consistent cloud deployments.
 
 profile:
     name: MSc David Spielmann
@@ -36,4 +37,5 @@ I joined the Programming Group as a PhD student in May 2023.
 I obtained my Bachelor's degree in Computer Science from ETH Zurich and a joint Master's degree from ETH Zurich and EPF Lausanne with a focus on security and distributed systems.
 As part of my Master's thesis,
 I used to examine power side-channel attacks on remotely accessible FPGAs.
-In my PhD studies, I focus on my research interests which include software engineering and security.
+My current research interests encompass software engineering and security, with a particular focus
+on improving the reliability of Infrastructure as Code (IaC) to ensure robust and consistent cloud deployments.
