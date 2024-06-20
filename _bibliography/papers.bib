@@ -1,6 +1,36 @@
 ---
 ---
 
+@misc{Zakhour:2024:ExploringAlgebraicPlacement,
+  acronym = {CP},
+  projects = {ScalaLoci},
+  file = {papers/2024_Exploring-Algebraic-Placement-in-Multiparty-Languages.pdf},
+  author = {Zakhour, George and Weisenburger, Pascal and Salvaneschi, Guido},
+  title = {Exploring Algebraic Placement in Multiparty Languages},
+  booktitle = {Choreographic Programming},
+  series = {CP '24},
+  year = {2024},
+  month = jun,
+  location = {Copenhagen, Denmark},
+  howpublished = {Presentation at the CP 2024 workshop},
+  abstract = {This talk provides an overview of our ongoing research on the relationship between type systems and placement systems in programming languages for distributed systems. \par In distributed systems, the placement of data and computation plays a crucial role in ensuring protocol correctness, fault tolerance, security of information flow, and performance optimization.  Thus, researchers have explored various techniques to express and manage data placement. Type-based approaches have proven particularly effective in modeling places and their interactions. For example, choreographic programming ensures safe communication protocols across different locations by modeling these locations -- so-called roles -- types. Similarly, multiparty session types specify a communication protocol for message exchange over communication channels.  Recent languages for multitier programming -- a programming paradigm that provides language abstractions to specify the placement of data and computations on the different components of the distributed system -- also opted for expressing placement in the type system. \par Reification of placements into language-level concepts enables programmers to reason about which components perform computations and about the communication between them.}
+}
+
+@misc{Zakhour:2024:EGraphs,
+  acronym = {EGRAPHS},
+  projects = {Propel},
+  file = {papers/2024_Disequalities-in-E-Graphs-An-Experiment.pdf},
+  author = {Zakhour, George and Weisenburger, Pascal and Salvaneschi, Guido},
+  title = {Disequalities in E-Graphs: An Experiment},
+  booktitle = {EGRAPHS},
+  series = {EGRAPHS '24},
+  year = {2024},
+  month = jun,
+  location = {Copenhagen, Denmark},
+  howpublished = {Presentation at the EGRAPHS 2024 workshop},
+  abstract = {This talk explores the integration of disequalities into e-graphs for enhancing the efficiency of automated theorem provers. We discuss two existing approaches, which we implement in the egg e-graph library, presenting preliminary results on comparing their effectiveness. Our initial experiments demonstrate the feasibility of integrating disequalities into e-graphs implemented in egg, with promising results suggesting improved efficiency in the proof search algorithm.  We plan to refine this approach, integrate it into our Propel automated theorem prover, and make our extensions to egg available to the research community.}
+}
+
 %Preliminary
 @article{Sokolowski:2024:Automated,
   acronym = {TSE},
@@ -193,6 +223,21 @@
   code = {https://github.com/scala-loci},
   website = {https://scala-loci.github.io/},
   abstract = {Several distributed programming language solutions have been proposed to reason about the placement of data, computations, and peers interaction. Such solutions include, among the others, multitier programming, choreographic programming and various approaches based on behavioral types. These methods statically ensure safety properties thanks to a complete knowledge about placement of data and computation at compile time. In distributed systems, however, dynamic placement of computation and data is crucial to enable performance optimizations, e.g., driven by data locality or in presence of a number of other constraints such as security and compliance regarding data storage location. Unfortunately, in existing programming languages, dynamic placement conflicts with static reasoning about distributed programs: the flexibility required by dynamic placement hinders statically tracking the location of data and computation.\par In this paper we present Dyno, a programming language that enables static reasoning about dynamic placement. Dyno features a type system where values are explicitly placed, but in contrast to existing approaches, placed values are also first class, ensuring that they can be passed around and referred to from other locations. Building on top of this mechanism, we provide a novel interpretation of dynamic placement as unions of placement types. We formalize type soundness, placement correctness (as part of type soundness) and architecture conformance. In case studies and benchmarks, our evaluation shows that Dyno enables static reasoning about programs even in presence of dynamic placement, ensuring type safety and placement correctness of programs at negligible performance cost. We reimplement an Android app with 7K LOC in Dyno, find a bug in the existing implementation, and show that the app's approach is representative of a common way to implement dynamic placement found in over 100 apps in a large open-source app store.},
+}
+
+@misc{Zakhour:2023:TypeCheckingCRDTsWithPropel,
+  acronym = {PLF},
+  projects = {Propel},
+  file = {papers/2023_Type-Checking-CRDTs-with-Propel.pdf},
+  author = {Zakhour, George and Weisenburger, Pascal and Salvaneschi, Guido},
+  title = {Type-Checking CRDTs with Propel},
+  booktitle = {Programming Local-first Software},
+  series = {PLF '23},
+  year = {2023},
+  month = oct,
+  location = {Cascais, Portugal},
+  howpublished = {Presentation at the PLF 2023 workshop},
+  abstract = {Conflict-free Replicated Data Types (CRDTs) are modern distributed data types that allow replicating data to different devices in a distributed system and enable local copies to diverge until they are merged with other replicas ensuring eventual consistency. CRDTs play a vital role in building local-first applications, i.e., applications where devices can always progress their local state independently while also enabling seamless collaboration among devices without being blocked by devices that are (temporarily) unreachable on the network. CRDTs enable keeping replicated data consistent while guaranteeing the absence of conflicts among replicas. CRDTs come in two flavors: state-based and operation-based (op-based). For correct operation, state-based CRDTs rely on a merge function for two states that is commutative, associative and idempotent, while operation-based CRDTs rely on an application function for operations on the state that commutes with itself.  \par However ensuring that such algebraic properties are satisfied by implementations is left to the programmer, resulting in a process that is complex and error-prone. While techniques based on testing, automatic verification of models, and mechanized or handwritten proofs are available, we lack an approach that is able to verify such properties on concrete CRDT implementations.  \par In this talk the first author will present the first type system that captures the algebraic properties required by a correct CRDT implementation. The type system is designed in Propel, it can reason about programs and derive proofs of such properties with complex rules such as case analysis and induction: sum types guide the case analysis and algebraic properties in function types enable induction. Propel’s key feature is its capacity to reason about algebraic properties (a) in terms of rewrite rules and (b) to derive the equality or inequality of expressions from the properties.}
 }
 
 @article{Richter:2023:Prisma,
