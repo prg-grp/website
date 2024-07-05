@@ -1,12 +1,12 @@
 ---
 layout: about
 inline: false
-group: Doctoral Researchers
-group_rank: 3
-team_frontpage: true
+group: Alumni
+group_rank: 10
+team_frontpage: false
 
-title: MSc Daniel Sokolowski
-description: Profile of MSc Daniel Sokolowski, Doctoral Researcher at the Programming Group.
+title: PhD Daniel Sokolowski
+description: Profile of PhD Daniel Sokolowski, Doctoral Researcher at the Programming Group.
 lastname: Sokolowski
 publications: 'author^=*Sokolowski'
 
@@ -15,7 +15,7 @@ teaser: >
     I focus on advancing Infrastructure as Code (IaC) to achieve reliable deployments for modern DevOps organizations. 
 
 profile:
-    name: MSc Daniel Sokolowski
+    name: PhD Daniel Sokolowski
     align: right
     image: sokolowski-profile.jpg
     role: Doctoral Researcher
