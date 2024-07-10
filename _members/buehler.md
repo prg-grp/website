@@ -5,8 +5,8 @@ group: Student Researchers
 group_rank: 4
 team_frontpage: true
 
-title: MSc Chirstoph Bühler
-description: Profile of MSc Chirstoph Bühler, Student Researcher at the Programming Group.
+title: MSc Christoph Bühler
+description: Profile of MSc Christoph Bühler, Student Researcher at the Programming Group.
 lastname: Bühler
 publications: 'author^=*Bühler'
 
@@ -17,7 +17,7 @@ teaser: >
     My research interests regard software engineering and programming languages in general, software and system security, and infrastructure as code.
 
 profile:
-    name: MSc Chirstoph Bühler
+    name: MSc Christoph Bühler
     align: right
     image: buehler-profile.jpg
     role: Student Researcher
