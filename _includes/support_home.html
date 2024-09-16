@@ -1,0 +1,35 @@
+<div class="responsive-container-block outer-container">
+    <div class="responsive-container-block inner-container">
+      
+      <div class="responsive-container-block card-container"style="display: block; text-align: center">
+
+        <h2 id="projects" class="about-tiles" style="margin-bottom: 0;">Our Partners</h2>
+
+        <p class="text-blk">Our partners are key to our success. We are proud to work with the following organizations.</p>
+          
+      </div>
+
+        
+        <div class="swiper-container team-swiper">
+          <div class="swiper-wrapper">
+
+            {% for support in site.supports %}
+
+              <div class="swiper-slide">
+                <a href="{{ support.external_page}}">
+                  
+                  <div class="cardTeam">
+                    <img class="team-member-image" src="{{ '/assets/img/' | append: support.img | relative_url }}">
+                  </div>
+                </a>
+              </div>
+              
+            {% endfor %}
+          </div>
+          <div class="swiper-pagination" style="position: relative; --swiper-theme-color: #398378">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>

@@ -1,0 +1,40 @@
+<div class="responsive-container-block outer-container">
+    <div class="responsive-container-block inner-container">
+      <h2 id="projects" class="about-tiles">Our Team</h2>
+      <div class="responsive-container-block card-container">
+        <div class="btnTeam">
+          <div class="swiper-button-nexts">
+            <img class="arrow-right" src="assets/img/arrowRight.png">
+          </div>
+          <div class="swiper-button-prevs">
+            <img class="arrow-left" src="assets/img/arrowRight.png">
+          </div>
+        </div>
+        <div class="swiper-container team-swiper">
+          <div class="swiper-wrapper">
+            {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
+            {% for group in groups %}
+
+                {% assign members = site.members | sort: "lastname" | where: "group", group %}
+                {% for member in members %}
+
+                    <div class="swiper-slide">
+                    <div class="cardTeam">
+                        <img class="team-member-image" src="{{ '/assets/img/' | append: member.profile.image | relative_url }}">
+                        <p class="text-blk name">
+                        {{ member.profile.name }}
+                        </p>
+                        <p class="text-blk position">
+                        {{ member.profile.role }}
+                        </p>
+                    </div>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+          </div>
+          <div class="swiper-pagination" style="position: relative; --swiper-theme-color: #398378">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

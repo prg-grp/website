@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="../assets/css/mainetenance.css"
+
+</head>
+
+<body
+  class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+  {% include header.html %}
+
+  <!-- Content -->
+  <!-- Comment the div below to show the page -->
+  <!-- <div class="under-construction">
+    <img src="/assets/img/feelab-logo-crop.png" alt="Under Construction Image">
+    <p>This will be the future home of the <strong>Further Energy and Environment research Laboratory (FEELab)</p>
+    <p>The page is currently under construction. Stay tuned for updates!</p>
+    <p>In the meantime, you can check: <a href="https://alspereira.info/research" target="_blank"> this website </a> for
+      some details of our work.</p>
+  </div> -->
+
+  <style>
+
+    .hero-section {
+    background-image: url("assets/img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    min-height: 400px;
+
+
+    }
+
+    .typed-cursor {
+      display: none;
+    }
+    
+    .hero-quote {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #333;
+      margin-top: 50px;
+    }
+
+    .quote-container {
+      margin-top: 50px;
+    }
+
+    .quote-line {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .quote-text {
+      background-color: white;
+      color: #398378;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: "Montserrat";
+      padding: 6px 15px;
+      line-height: 1.5;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+    }
+    @media (max-width: 770px) {
+      .hero-image {
+        display: none;
+      }
+    }
+  </style>
+
+<div class="container-fluid hero-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="quote-container">
+          <div class="quote-line">
+            <span class="quote-text">Our mission is to</span>
+          </div>
+          <br>
+          <div class="quote-line" style="margin-left: 50px;">
+            <span class="quote-text" id="typed"></span>
+          </div>
+        </div>      
+      </div>
+      <div class="col-md-6">
+        <div class="hero-image">
+          <img src="assets/img/homePhotos/graphHome.jpg" style="width: 95%;" alt="">
+          <img src="assets/img/homePhotos/graphHome2.jpg" style="width: 65%;position: absolute; top: 105px; left: -30px;"alt="">
+          <img src="assets/img/homePhotos/graphHome3.png" style="width: 55%; position: absolute;top: -40px;left: 245px;" alt="">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  {% minibundle js %}
+  destination_path: 'assets/css/bundle'
+  baseurl: '{{ site.baseurl }}/'
+  assets:
+  - ../node_modules/mdbootstrap/js/jquery
+  - ../node_modules/mdbootstrap/js/bootstrap
+  - ../node_modules/mdbootstrap/js/popper
+  - ../node_modules/mdbootstrap/js/mdb
+  - js/common
+  {% endminibundle %}
+
+  <script src="assets/js/swipe.js"></script>
+
+  <script src="assets/js/typed.min.js"></script>
+
+  <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["explore further", "challenge what is known", "seek answers", "advance understanding" , "turn ideas into reality"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+  </script>
+
+</body>
+
+</html>

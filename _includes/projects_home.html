@@ -1,0 +1,54 @@
+<div id="projectCarousel" class="carousel slide mt-5" data-ride="carousel">
+    <div class="carousel-inner">
+        {% assign items = include.items | sort: 'rank' %}
+        {% for item in items %}
+
+        
+        <div class="carousel-item {% if forloop.first %}active{% endif %} project-carousel-item" style="background-color: #398378;" >
+        
+            <div class="project-content container">
+            <div class="pr-3 py-4" style="text-align: left;">
+                <h2 class="projectTitle ">{{ item.title }}</h2>
+                <p>{{ item.description }}</p>  
+            </div>
+            <img src="assets/img/{{ item.img }}" alt="SHIFT2DC Logo" class="project-logo">
+            </div>
+        </div>
+
+        {% endfor %}
+        
+        <!-- Add more carousel items for other projects as needed -->
+    
+        <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+  
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var carouselItems = document.querySelectorAll('.project-carousel-item');
+    var items = [
+        {
+            title: 'SHIFT2DC',
+            color: '#8CB53F'
+        },
+        {
+            title: 'AHEAD',
+            color: '#588ACC'
+        },
+        
+    ];
+    carouselItems.forEach(function(item, index) {
+        item.style.backgroundColor = items[index].color;
+    });
+    });
+
+
+  </script>

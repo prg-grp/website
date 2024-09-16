@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: aboutResearcher
 inline: false
 group: Faculty
 group_rank: 1
@@ -13,7 +13,7 @@ teaser: >
     Lucas Pereira received a Ph.D. degree in computer science from the University of Madeira, Funchal, Portugal, in 2016. Since 2019, he has been a Research Fellow with Técnico Lisboa.
 profile:
     name: Prof. Dr. Lucas Pereira
-    position: Head of the FEELab Group
+    role: Head of the FEELab Group
     align: right
     image: lucas-pereira-profile.jpg
     website: https://www.alspereira.info/
