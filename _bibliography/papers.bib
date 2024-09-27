@@ -1,6 +1,20 @@
 ---
 ---
 
+@article{Koehler:2024:Consistent,
+  acronym = {TSE},
+  file = {papers/2024_Consistent-Local-First-Software-Enforcing-Safety-and-Invariants-for-Local-First-Applications.pdf},
+  author = {Köhler, Mirko and Zakhour, George and Weisenburger, Pascal and Salvaneschi, Guido},
+  title = {Consistent Local-First Software: Enforcing Safety and Invariants for Local-First Applications},
+  journal={IEEE Transactions on Software Engineering},
+  year = {2024},
+  month = sept,
+  volume = {},
+  articleno = {},
+  numpages = {12},
+  abstract = {Local-first software embraces data replication as a means to achieve scalability and offline availability.  A crucial ingredient of local-first software are mergeable data types, like conflict-free replicated data types (CRDTs), which feature eventual consistency by enabling processes to access data locally and later merge it with other replicas in an asynchronous manner.  Notably, the merging process needs to adhere to application constraints for correctness. Ensuring such application-level invariants poses a challenge, as developers must reason about the replicated program state and resort to manual synchronization of specific application components to enforce the invariant. \par This paper introduces ConLoc (Consistent Local-First Software), a novel system designed to automatically enforce safety and maintain invariants in local-first applications. ConLoc effectively addresses the issue of preserving invariants in the execution of programs with replicated data types, including CRDTs. Our approach is able to verify the correctness of many CRDTs examined in the literature and in implementations, such the ones used in the Riak database. ConLoc ensures that applications are automatically synchronized correctly, resulting in substantial latency and throughput improvements when compared to sequential execution, while upholding the same set of invariants.}
+}
+
 @inproceedings{Richter:2024:Compiling,
   acronym = {ECOOP},
   file = {papers/2024_Compiling-with-Arrays.pdf},
@@ -353,6 +367,31 @@
   abstract = {Modeling sequential and parallel composition of effectful computations has been investigated in a variety of languages for a long time. In particular, the popular do-notation provides a lightweight effect embedding for any instance of a monad. Idiom bracket notation, on the other hand, provides an embedding for applicatives. First, while monads force effects to be executed sequentially, ignoring potential for parallelism, applicatives do not support sequential effects. Composing sequential with parallel effects remains an open problem. This is even more of an issue as real programs consist of a combination of both sequential and parallel segments. Second, common notations do not support invoking effects in direct-style, instead forcing a rigid structure upon the code.\par In this paper, we propose a mixed applicative/monadic notation that retains parallelism where possible, but allows sequentiality where necessary. We leverage a direct-style notation where sequentiality or parallelism is derived from the structure of the code. We provide a mechanisation of our effectful language in Coq and prove that our compilation approach retains the parallelism of the source program.},
   prggrp = {noGroupPublication},
 }
+
+@article{10.1145/3591276,
+author = {Zakhour, George and Weisenburger, Pascal and Salvaneschi, Guido},
+title = {Type-Checking CRDT Convergence},
+year = {2023},
+issue_date = {June 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {PLDI},
+url = {https://doi.org/10.1145/3591276},
+doi = {10.1145/3591276},
+abstract = {Conflict-Free Replicated Data Types (CRDTs) are a recent approach for keeping replicated data consistent while guaranteeing the absence of conflicts among replicas. For correct operation, CRDTs rely on a merge function that is commutative, associative and idempotent. Ensuring that such algebraic properties are satisfied by implementations, however, is left to the programmer, resulting in a process that is complex and error-prone. While techniques based on testing, automatic verification of a model, and mechanized or handwritten proofs are available, we lack an approach that is able to verify such properties on concrete CRDT implementations. \par  In this paper, we present Propel, a programming language with a type system that captures the algebraic properties required by a correct CRDT implementation. The Propel type system deduces such properties by case analysis and induction: sum types guide the case analysis and algebraic properties in function types enable induction for free. Propel’s key feature is its capacity to reason about algebraic properties (a) in terms of rewrite rules and (b) to derive the equality or inequality of expressions from the properties. We provide an implementation of Propel as a Scala embedding, we implement several CRDTs, verify them with Propel and compare the verification process with four state-of-the-art verification tools. Our evaluation shows that Propel is able to automatically deduce the properties that are relevant for common CRDT implementations found in open-source libraries even in cases in which competitors timeout.},
+journal = {Proc. ACM Program. Lang.},
+month = jun,
+articleno = {162},
+numpages = {24},
+keywords = {Conflict-Free Replicated Data Types, Type Systems, Verification},
+website = {https://propel-prover.github.io/},
+file = {papers/2023_Type-Checking-CRDT-Convergence.pdf},
+projects = {Propel},
+acronym = {PLDI},
+supp = {https://doi.org/10.5281/zenodo.7817421},
+}
+
 
 @inproceedings{Eskandani:2023:Lightweight,
   acronym = {ICPE},
