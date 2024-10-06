@@ -5,8 +5,8 @@ group: Alumni
 group_rank: 10
 team_frontpage: false
 
-title: Dr. des. Daniel Sokolowski
-description: Profile of Dr. des. Daniel Sokolowski, Doctoral Researcher at the Programming Group.
+title: Dr. Daniel Sokolowski
+description: Profile of Dr. Daniel Sokolowski, former Doctoral Researcher at the Programming Group.
 lastname: Sokolowski
 publications: 'author^=*Sokolowski'
 
@@ -15,21 +15,17 @@ teaser: >
     I focus on advancing Infrastructure as Code (IaC) to achieve reliable deployments for modern DevOps organizations. 
 
 profile:
-    name: Dr. des. Daniel Sokolowski
+    name: Dr. Daniel Sokolowski
     align: right
     image: sokolowski-profile.jpg
     role: Doctoral Researcher
     website: https://dsoko.de
-    email: daniel.sokolowski@unisg.ch
-    phone: +41 7122 47823
+    email: prg-grp@d.sokolowski.org
     twitter: Soko2D
     github: DSoko2
     linkedin: dsoko
     orcid: 0000-0003-2911-8304
-    address: >
-        School of Computer Science<br />
-        Torstrasse 25<br />
-        9000 St. Gallen, Switzerland
+    address: ''
 ---
 
 I am enthusiastic about software engineering and programming language technology for modern distributed systems and cloud applications.

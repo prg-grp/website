@@ -96,6 +96,8 @@
     {% endif %}
     {% if entry.doi %}
       <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+    {% elsif entry.urn %}
+      <a href="https://nbn-resolving.org/{{ entry.urn }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
     {% elsif entry.eprint and entry.eprinttype == "arXiv" %}
       <a href="https://arxiv.org/abs/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
     {% elsif entry.eprint and entry.eprinttype == "hdl" %}
