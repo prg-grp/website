@@ -1,10 +1,10 @@
 ---
 layout: post
-date: 2024-02-01
+date: 2023-02-01
 inline: true
 title: "Programming Methodology"
 university: University of St. Gallen
-semester: Spring&nbsp;2024
-past: false
+semester: Spring&nbsp;2023<br>Spring&nbsp;2024
+past: true
 external_page: https://tools.unisg.ch/url/1df69c9b92
 ---
