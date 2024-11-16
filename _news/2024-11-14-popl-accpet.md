@@ -4,4 +4,4 @@ date: 2024-11-14
 inline: true
 ---
 
-We have a paper accepted for POPL 2025 🎉
+Our paper 'Dis/Equality Graphs' accepted at POPL 2025, research track 🎉 Preprint coming soon.
