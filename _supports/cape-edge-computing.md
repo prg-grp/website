@@ -7,5 +7,6 @@ enterprises to keep control of the processing and management of their data and A
 create a seamless computing experience stretching from edge to cloud.'
 rank: 2
 img: support/cape.png
+external_page: https://cape-project.eu/
 past: false
 ---
