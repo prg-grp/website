@@ -31,5 +31,6 @@ profile:
 ---
 
 I am a PhD student in the Programming Group since May 2024, after a Master's degree in Computer Science and Engineering at the [University of Bologna](https://www.unibo.it/){: target="_blank" }.
+
 I am currently researching optimizations for formal verification methods in the field of Programming Languages. In my recent works, I have been focusing on e-graphs, a data structure for encoding
 equalities, widely used in SMT Solvers and theorem provers.
