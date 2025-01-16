@@ -12,7 +12,7 @@ publications: 'author^=*Cesario'
 
 teaser: >
     I am a PhD student in the Programming Group since May 2024.
-    My research interests are Programming Languages, particularly domain-specific languages, and Software Engineering, specifically for heterogeneous distributed systems.
+    I am currently researching optimizations for formal verification methods in the field of Programming Languages.
 
 profile:
     name: MSc Jahrim Gabriele Cesario
@@ -28,6 +28,6 @@ profile:
         9000 St. Gallen, Switzerland
 ---
 
-I am a PhD student in the Programming Group since May 2024.
-Before, I graduated with a Master's degree in Computer Science and Engineering at the [University of Bologna](https://www.unibo.it/){: target="_blank" }.
-My research interests are Programming Languages, particularly domain-specific languages, and Software Engineering, specifically for heterogeneous distributed systems.
+I am a PhD student in the Programming Group since May 2024, after a Master's degree in Computer Science and Engineering at the [University of Bologna](https://www.unibo.it/){: target="_blank" }.
+I am currently researching optimizations for formal verification methods in the field of Programming Languages. In my recent works, I have been focusing on e-graphs, a data structure for encoding
+equalities, widely used in SMT Solvers and theorem provers.
