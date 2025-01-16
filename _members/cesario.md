@@ -19,9 +19,11 @@ profile:
     align: right
     image: cesario-profile.jpg
     role: Doctoral Researcher
+    email: jahrimgabriele.cesario@unisg.ch
     website: https://jahrim.github.io
     github: jahrim
     linkedin: jahrim-gabriele-cesario-288a822b8
+    orcid: 0009-0000-1448-5676
     address: >
         School of Computer Science<br />
         Torstrasse 25<br />
