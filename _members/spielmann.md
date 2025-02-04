@@ -22,6 +22,7 @@ profile:
     align: right
     image: spielmann-profile.jpg
     role: Doctoral Researcher
+    website: https://david-spielmann.ch
     email: david.spielmann@unisg.ch
     twitter: DaSpielmann
     github: davidspielmann
