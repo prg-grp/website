@@ -8,7 +8,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-free": "^6.0.0",
     "academicons": "^1.8.6",
     "mdbootstrap": "^4.19.2",
     "uglify-js": "^3.13.9",
