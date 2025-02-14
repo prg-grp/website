@@ -5,8 +5,8 @@ group: Student Researchers
 group_rank: 4
 team_frontpage: true
 
-title: BA Paul-Philipp Luley
-description: Profile of BA Paul-Philipp Luley, Student Researcher at the Programming Group.
+title: MSc Paul-Philipp Luley (HiWi)
+description: Profile of MSc Paul-Philipp Luley, Student Researcher at the Programming Group.
 lastname: Luley
 publications: 'author^=*Luley'
 
@@ -14,7 +14,7 @@ teaser: >
     I am an MBI student at the University of St. Gallen.
 
 profile:
-    name: BA Paul-Philipp Luley
+    name: MSc Paul-Philipp Luley
     align: right
     image: luley-profile.jpg
     role: Student Researcher
