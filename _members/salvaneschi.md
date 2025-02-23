@@ -35,6 +35,10 @@ Before, I have been an assistant professor at TU Darmstadt, where I led the Reac
 
 ## Recent Committees (Selected)
 
+* [ICSE’26](https://conf.researchr.org/home/icse-2026){: target="_blank" } (PC)
+* [ISSTA’25](https://conf.researchr.org/home/issta-2025){: target="_blank" } (PC)
+* [ICSME’25]( https://conf.researchr.org/home/icsme-2025){: target="_blank" } (PC)
+* [ICSE’25 NIER](https://conf.researchr.org/home/icse-2025){: target="_blank" } (PC)
 * [ECOOP’24](https://conf.researchr.org/home/ecoop-2024){: target="_blank" } (Co-Chair)
 * [OOPSLA’24](https://2024.splashcon.org/){: target="_blank" } (PC)
 * [ISSTA’24](https://conf.researchr.org/home/issta-2024){: target="_blank" } (PC)
@@ -48,7 +52,6 @@ Before, I have been an assistant professor at TU Darmstadt, where I led the Reac
 * [ICSE’22](https://conf.researchr.org/home/icse-2022){: target="_blank" } (PC)
 * [ECOOP’22](https://conf.researchr.org/home/ecoop-2022){: target="_blank" } (PC)
 * [ESOP’21](https://etaps.org/2021/esop){: target="_blank" } (PC)  
-* [ACSOS'21](https://conf.researchr.org/home/acsos-2021){: target="_blank" } (PC)
 * [ECOOP’20](https://2020.ecoop.org/){: target="_blank" } (PC)
 * [ICFP’20](https://icfp20.sigplan.org/){: target="_blank" } (ERC)
 * [PROGRAMMING’20](https://2020.programming-conference.org/){: target="_blank" } (PC)
