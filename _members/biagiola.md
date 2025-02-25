@@ -11,9 +11,8 @@ lastname: Biagiola
 publications: 'author^=*Biagiola'
 
 teaser: >
-    I am a PostDoctoral researcher at the Software Institute at Università della Svizzera italiana (USI) in Lugano, Switzerland.
-    I am working under the supervision of Paolo Tonella on the Precrime ERC Advanced Grant project.
-    I obtained by Ph.D. from Università degli studi di Genova, Genova, Italy, in a joint collaboration with Fondazione Bruno Kessler in Trento, Italy, under the supervision of Paolo Tonella and Filippo Ricca.
+    I am a PostDoctoral researcher at the Programming Group at the University of St. Gallen, Switzerland.
+    Before that, I was a PostDoctoral researcher at the Software Institute at Università della Svizzera italiana (USI) in Lugano, Switzerland where I was working under the supervision of Paolo Tonella on the Precrime ERC Advanced Grant project.
 
 profile:
     name: Dr. Matteo Biagiola
@@ -30,6 +29,7 @@ profile:
         9000 St. Gallen, Switzerland
 ---
 
-I am a PostDoctoral researcher at the [Software Institute](https://www.si.usi.ch/) at Università della Svizzera italiana ([USI](https://www.usi.ch/)) in Lugano, Switzerland.
-I am working under the supervision of Paolo Tonella on the [Precrime](http://www.pre-crime.eu/) ERC Advanced Grant project.
+I am a PostDoctoral researcher at the Programming Group at the University of St. Gallen, Switzerland.
+Before that, I was a PostDoctoral researcher at the [Software Institute](https://www.si.usi.ch/) at Università della Svizzera italiana ([USI](https://www.usi.ch/)) in Lugano, Switzerland where I was working under the supervision of Paolo Tonella on the [Precrime](http://www.pre-crime.eu/) ERC Advanced Grant project.
+
 I obtained by Ph.D. from [Università degli studi di Genova](https://unige.it/), Genova, Italy, in a joint collaboration with [Fondazione Bruno Kessler](https://www.fbk.eu/) in Trento, Italy, under the supervision of Paolo Tonella and Filippo Ricca.
