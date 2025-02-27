@@ -2,6 +2,13 @@
 
 This is the website of the Programming Group at the University of St. Gallen. It is using Jekyll, hosted on GitHub, and was originally based on the [al-folio theme](https://github.com/alshedivat/al-folio), which is based on the [folio theme](https://github.com/bogoli/-folio).
 
+## Build Locally
+
+```
+npm install
+bundle install
+```
+
 ## Run Locally
 
 The key command is:
