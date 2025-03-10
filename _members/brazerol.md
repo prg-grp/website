@@ -11,7 +11,7 @@ lastname: Brazerol
 publications: 'author^=*Brazerol'
 
 teaser: >
-    I am an MBI student at the University of St. Gallen.
+ I am currently a master’s student at the University of Zurich, specializing in software systems.
 
 profile:
     name: BSc Alessio Fabio Brazerol
@@ -24,3 +24,6 @@ profile:
         9000 St. Gallen, Switzerland
 ---
 
+I am currently a master’s student at the University of Zurich, specializing in software systems. Since October 2022, I have been working as a full-stack junior developer, primarily focusing on building web applications for internal use.
+
+I am passionate about the intersection of software engineering and mathematics and have a strong interest in computer graphics, which I try to study and experiment with in my free time.
