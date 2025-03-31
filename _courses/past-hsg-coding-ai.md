@@ -5,6 +5,6 @@ inline: true
 title: "Coding with AI"
 university: University of St. Gallen
 semester: Fall 2024
-past: false
+past: true
 external_page: https://courses.unisg.ch/event/events/by-term/b6758836-d1d0-4731-a030-852322ebc880/14660192
 ---

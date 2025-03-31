@@ -4,7 +4,7 @@ date: 2024-02-06
 inline: true
 title: Programming Languages Theory
 contact:
-    member: spielmann
+    member: zakhour
     name: George Zakhour
 rank: 2
 ---
