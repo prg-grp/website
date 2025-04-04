@@ -11,7 +11,8 @@ lastname: Städing
 publications: 'author^=*Städing'
 
 teaser: >
-    I am a PhD student in the Programming Group since November 2024.
+    I joined the Programming Group as a PhD student in November 2024
+    after completing my Bachelor's and Master's degree in Computer Science at [TU Darmstadt](https://www.tu-darmstadt.de/).
 
 profile:
     name: MSc Alexander Städing
@@ -19,7 +20,8 @@ profile:
     image: staeding-profile.jpg
     role: Doctoral Researcher
     website:
-    github:
+    github: alexstaeding
+    orcid: 0009-0002-6459-7881
     linkedin:
     address: >
         School of Computer Science<br />
@@ -27,4 +29,8 @@ profile:
         9000 St. Gallen, Switzerland
 ---
 
-I am a PhD student in the Programming Group since November 2024.
+I joined the Programming Group as a PhD student in November 2024 after completing my Bachelor's and Master's degree in Computer Science at [TU Darmstadt](https://www.tu-darmstadt.de/).
+
+My research interest is at the intersection of programming language theory and distributed systems,
+with a current focus on the safety and efficiency of distributed systems with loose consistency guarantees.
+I am currently exploring formal frameworks for modular verification of Op-based CRDTs.
