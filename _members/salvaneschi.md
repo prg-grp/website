@@ -35,7 +35,9 @@ Before, I have been an assistant professor at TU Darmstadt, where I led the Reac
 
 ## Recent Committees (Selected)
 
+* [PLDI’26](https://conf.researchr.org/home/pldi-2026){: target="_blank" } (PC)
 * [ICSE’26](https://conf.researchr.org/home/icse-2026){: target="_blank" } (PC)
+* [ASE’25](https://https://conf.researchr.org/home/ase-2025){: target="_blank" } (PC)
 * [ISSTA’25](https://conf.researchr.org/home/issta-2025){: target="_blank" } (PC)
 * [ICSME’25]( https://conf.researchr.org/home/icsme-2025){: target="_blank" } (PC)
 * [ICSE’25 NIER](https://conf.researchr.org/home/icse-2025){: target="_blank" } (PC)
