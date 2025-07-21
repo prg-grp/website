@@ -1,9 +1,9 @@
 ---
 layout: about
 inline: false
-group: Alumni
-group_rank: 10
-team_frontpage: false
+group: Student Researchers
+group_rank: 4
+team_frontpage: true
 
 title: MSc Timo Streule (HiWi)
 description: Profile of MSc Timo Streule, Student Researcher at the Programming Group.
@@ -11,7 +11,7 @@ lastname: Streule
 publications: 'author^=*Streule'
 
 teaser: >
-    I was a student researcher on the CAPE project.
+    I am a student researcher on the CAPE project.
 
 profile:
     name: MSc Timo Streule
