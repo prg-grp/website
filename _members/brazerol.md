@@ -1,9 +1,9 @@
 ---
 layout: about
 inline: false
-group: Student Researchers
-group_rank: 4
-team_frontpage: true
+group: Alumni
+group_rank: 10
+team_frontpage: false
 
 title: BSc Alessio Fabio Brazerol (HiWi)
 description: Profile of BSc Alessio Fabio Brazerol, Student Researcher at the Programming Group.
