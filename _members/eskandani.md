@@ -1,9 +1,9 @@
 ---
 layout: about
 inline: false
-group: Doctoral Researchers
-group_rank: 3
-team_frontpage: true
+group: Alumni
+group_rank: 10
+team_frontpage: false
 
 title: MSc Nafise Eskandani
 description: Profile of MSc Nafise Eskandani, Doctoral Researcher at the Programming Group.

@@ -6,5 +6,5 @@ description: 'SNF project. Multitier programming for heterogeneous platforms and
 rank: 4
 img: support/snf.svg
 external_page: https://data.snf.ch/grants/grant/200429
-past: false
+past: true
 ---
