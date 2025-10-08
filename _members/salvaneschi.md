@@ -35,7 +35,10 @@ Before, I have been an assistant professor at TU Darmstadt, where I led the Reac
 
 ## Recent Committees (Selected)
 
-* [PLDI’26](https://conf.researchr.org/home/pldi-2026){: target="_blank" } (PC), [ICSE’26](https://conf.researchr.org/home/icse-2026){: target="_blank" } (PC), [POPL'26 SCR](https://popl26.sigplan.org/track/POPL-2026-student-research-competition){: target="_blank" } (PC)
+* [PLDI’26](https://conf.researchr.org/home/pldi-2026){: target="_blank" } (PC),
+[ICSE’26](https://conf.researchr.org/home/icse-2026){: target="_blank" } (PC),
+[ECOOP’26](https://2026.ecoop.org/){: target="_blank" } (PC),
+[POPL'26 SCR](https://popl26.sigplan.org/track/POPL-2026-student-research-competition){: target="_blank" } (PC)
 * [ASE’25](https://https://conf.researchr.org/home/ase-2025){: target="_blank" } (PC), [ISSTA’25](https://conf.researchr.org/home/issta-2025){: target="_blank" } (PC), [ICSME’25]( https://conf.researchr.org/home/icsme-2025){: target="_blank" } (PC), [ICSE’25 NIER](https://conf.researchr.org/home/icse-2025){: target="_blank" } (PC)
 * [ECOOP’24](https://conf.researchr.org/home/ecoop-2024){: target="_blank" } (Co-Chair), [OOPSLA’24](https://2024.splashcon.org/){: target="_blank" } (PC), [ISSTA’24](https://conf.researchr.org/home/issta-2024){: target="_blank" } (PC), [ICSE’24 NIER](https://conf.researchr.org/home/icse-2024){: target="_blank" } (PC), [PROGRAMMING’24](https://2024.programming-conference.org/){: target="_blank" } (PC)
 * [ECOOP’23](https://conf.researchr.org/home/ecoop-2022){: target="_blank" } (Co-Chair), [ICSME’23]( https://conf.researchr.org/home/icsme-2023){: target="_blank" } (PC), [ISSTA’23](https://conf.researchr.org/home/issta-2023){: target="_blank" } (PC), [OOPSLA’23](https://2023.splashcon.org/){: target="_blank" } (PC), [ICSE’23 NIER](https://conf.researchr.org/home/icse-2023){: target="_blank" } (PC)
