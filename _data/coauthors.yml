@@ -1,3 +1,7 @@
+"Biagiola":
+  - firstname: ["Matteo", "M.", "Matteo Biagiola"]
+    url: /members/biagiola
+
 "Bühler":
   - firstname: [ "Christoph", "C.", "Christoph Bühler" ]
     url: /members/buehler
@@ -13,6 +17,10 @@
 "Eskandani":
   - firstname: [ "Nafise", "N.", "Nafise Eskandani" ]
     url: /members/eskandani
+
+"DiGrazia":
+  - firstname: ["Grazia", "G.", "Luca Di Grazia"]
+    url: /members/digrazia
 
 "Köhler":
   - firstname: [ "Mirko", "M.", "Mirko Köhler" ]
@@ -33,6 +41,10 @@
 "Spielmann":
   - firstname: [ "David", "D.", "David Spielmann" ]
     url: /members/spielmann
+
+"Staeding":
+  - firstname: [ "Staeding", "A.", "Alexander Staeding"]
+    url: /members/staeding
 
 "Weisenburger":
   - firstname: [ "Pascal", "P.", "Pascal Weisenburger" ]
