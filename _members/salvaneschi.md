@@ -74,10 +74,11 @@ Before, I have been an assistant professor at TU Darmstadt, where I led the Reac
 
 ## Organization of Scientific Events
 
+* Swiss Verification Day 2026, University of St. Gallen, February 2026.
 * The ACM DEBS’19 conference (with Boris Koldehofe)
 * Dagstuhl Seminar "Programming Languages for Distributed Systems and Distributed Data Management" (19442), 2019
 * NII Shonan Meeting on "Programming Languages for Distributed Systems", 2019
-* REBLS workshop series at Splash: REBLS'21,'20,'19,’18,’17,’16,’15,’14,REM’13
+* REBLS workshop series at Splash (2024--2024, REM’13)
 * COP’16 workshop at ECOOP
 
 
