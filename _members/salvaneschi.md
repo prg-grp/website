@@ -10,8 +10,8 @@ lastname: Salvaneschi
 publications: 'author^=*Salvaneschi'
 
 teaser: >
-    I’m a (tenured) Associate Professor at the University of St.Gallen from September 2020.
-    Before, I have been an assistant professor at TU Darmstadt, where I led the Reactive Software Systems group.
+    I’m a Full Professor at the School of Computer Science and Director at the Institute of Computer Science at the University of St.Gallen.
+    Before, I was an assistant professor at TU Darmstadt, where I led the Reactive Software Systems group.
 
 profile:
     name: Prof. Dr. Guido Salvaneschi
@@ -35,6 +35,8 @@ Before, I have been an assistant professor at TU Darmstadt, where I led the Reac
 
 ## Recent Committees (Selected)
 
+* [POPL'27](https://conf.researchr.org/home/POPL-2027){: target="_blank" } (PC)
+[ICSE’27](https://conf.researchr.org/home/icse-2027){: target="_blank" } (PC),
 * [PLDI’26](https://conf.researchr.org/home/pldi-2026){: target="_blank" } (PC),
 [ICSE’26](https://conf.researchr.org/home/icse-2026){: target="_blank" } (PC),
 [ECOOP’26](https://2026.ecoop.org/){: target="_blank" } (PC),
