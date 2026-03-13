@@ -29,8 +29,8 @@ profile:
         9000 St. Gallen, Switzerland
 ---
 
-I’m a (tenured) Associate Professor at the University of St.Gallen from September 2020.
-Before, I have been an assistant professor at TU Darmstadt, where I led the Reactive Software Systems group.
+I’m a Full Professor at the University of St.Gallen.
+Until 2020, I was an assistant professor at TU Darmstadt, where I led the Reactive Software Systems group.
 
 
 ## Recent Committees (Selected)
