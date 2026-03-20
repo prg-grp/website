@@ -3,8 +3,8 @@ layout: post
 date: 2023-10-02
 inline: true
 title: "Advanced Programming"
-university: University of St. Gallen
-semester: Fall 2025
+university: University of Zurich
+semester: Spring 2026
 past: false
-external_page: https://courses.unisg.ch/event/events/by-term/4d90fc2e-5321-473f-84d5-498a70062b9d/14867798
+external_page: https://studentservices.uzh.ch/uzh/anonym/vvz/?sap-language=EN&sap-ui-language=EN#/details/2025/004/SM/51268781
 ---
