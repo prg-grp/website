@@ -35,8 +35,10 @@ Until 2020, I was an assistant professor at TU Darmstadt, where I led the Reacti
 
 ## Recent Committees (Selected)
 
-* [POPL'27](https://conf.researchr.org/home/POPL-2027){: target="_blank" } (PC)
+* [POPL'27](https://conf.researchr.org/home/POPL-2027){: target="_blank" } (PC),
+[CAV’27](https://conferences.i-cav.org/2027/){: target="_blank" } (PC),
 [ICSE’27](https://conf.researchr.org/home/icse-2027){: target="_blank" } (PC),
+[FSE’27](https://conf.researchr.org/home/fse-2027){: target="_blank" } (PC)
 * [PLDI’26](https://conf.researchr.org/home/pldi-2026){: target="_blank" } (PC),
 [ICSE’26](https://conf.researchr.org/home/icse-2026){: target="_blank" } (PC),
 [ECOOP’26](https://2026.ecoop.org/){: target="_blank" } (PC),
