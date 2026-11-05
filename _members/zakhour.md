@@ -11,13 +11,13 @@ lastname: Zakhour
 publications: 'author^=*Zakhour'
 
 teaser: >
-    I am a PhD student at the Programming Group since August 2021.
+    I was a PhD student at the Programming Group since August 2021.
+    In September 2026 I successfully defended my PhD thesis and I will be graduating summa cum laude in February 2027.
     Before I was an R&D software developer at Agilent Technologies.
     My research interests are
     the formal study of programming languages,
-    mathematical logic (and its relation to programming),
-    quantum computation from the perspective of computability and complexity, and
-    numerical simulations.
+    type systems, and
+    software verification.
 
 profile:
     name: MSc George Zakhour
@@ -33,10 +33,10 @@ profile:
         9000 St. Gallen, Switzerland
 ---
 
-I am a PhD student at the Programming Group since August 2021.
+I was a PhD student at the Programming Group since August 2021.
+In September 2026 I successfully defended my PhD thesis and I will be graduating summa cum laude in February 2027.
 Before I was an R&D software developer at [Agilent Technologies](https://www.agilent.com/){: target="_blank" }.
 My research interests are
 the formal study of programming languages,
-mathematical logic (and its relation to programming),
-quantum computation from the perspective of computability and complexity, and
-numerical simulations.
+type systems, and
+software verification.
